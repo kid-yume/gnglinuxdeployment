@@ -22,10 +22,10 @@ working deployment.
 *   A Google App Engine (GAE) application
 *   A Chrome App that runs on each Chrome OS device
 
-## Need to have programs; Mac, Linux, or a Windows machine is usable. The following  programs need to be installed:
+## Mac, Linux, or Windows machines need to have the following programs installed:
 
-*	Google SDK-[Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe),[MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac),[Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
-*	Git- [Windows](https://git-scm.com/download/win),[MAC](https://git-scm.com/download/mac),[Linux](https://git-scm.com/download/linux).
+*	Google SDK-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
+*	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
 *	
 *	
 

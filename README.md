@@ -16,13 +16,13 @@ returning, and monitoring these devices.
 Using this guide and the files provided in this repository will ensure a smooth and
 working deployment. 
 
-##Before attempting to Deploy GnG. Please make sure you have the following:
+## Before attempting to Deploy GnG. Please make sure you have the following:
 
 *   An enterprise G Suite domain
 *   A Google App Engine (GAE) application
 *   A Chrome App that runs on each Chrome OS device
 
-##Need to have programs; Mac, Linux, or a Windows machine is usable. The following  programs need to be installed:
+## Need to have programs; Mac, Linux, or a Windows machine is usable. The following  programs need to be installed:
 
 *	Google SDK-[Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe),[MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac),[Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
 *	Git- [Windows](https://git-scm.com/download/win),[MAC](https://git-scm.com/download/mac),[Linux](https://git-scm.com/download/linux).
@@ -32,7 +32,7 @@ working deployment.
 ## Deploying GnG 
 GnG Deployment can be done in 3 phases as long as the above pre-requisites have been met. 
 
-###Preparing our Google Cloud Backend
+### Preparing our Google Cloud Backend
 The heart of GnG is hosted on Google Cloud and where all the devices report and recieve 
 information from 
 

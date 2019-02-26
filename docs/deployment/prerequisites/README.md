@@ -23,7 +23,7 @@ The Prequisites are as follows that need to either be verified or installed:
 *	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
 
 We will go through how to do each of the above following throughout this guide. If you find yourself having difficulties a
-[YouTube] video has been uploaded showing how to properly go through each of these items. 
+[YouTube](google.com) video has been uploaded showing how to properly go through each of these items. 
 
 
 

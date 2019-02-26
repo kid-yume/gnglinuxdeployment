@@ -19,13 +19,15 @@ working deployment.
 ## Before attempting to Deploy GnG. Please make sure you have the following:
 
 *   An enterprise G Suite domain
-*   A Google App Engine (GAE) application
-*   A Chrome App that runs on each Chrome OS device
+*	Chrome OS compatible devices
 
-## Mac, Linux, or Windows machines need to have the following programs installed:
+## Mac, Linux, or Windows machines need to have the following prerequisites:
 
+*	Enable Google Cloud Billing
 *	Google SDK-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
 *	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
+*	Further help and youtube video for this can be found [here](https://github.com/kid-yume/gnglinuxdeployment/blob/dev/deployment/stageone/README.md)
+	if there is any confusion on any of the steps.
 
 ## Deploying GnG 
 GnG Deployment can be done in 3 phases, as long as the above pre-requisites have been met. If
@@ -34,12 +36,6 @@ the deployment process.
 -   [Phase 1](https://github.com/kid-yume/gnglinuxdeployment/blob/dev/deployment/stageone/README.md): Prepping the Google Cloud Backend
 -   Verifying neccessary service account permissions
 -   Deploying Service
-
-
-
-* To discuss this project send an email to loaner@googlegroups.com.
-* Read more about releases in our [release notes](docs/release_notes.md).
-* Please file bugs using the GitHub issue tracker.
 
 
 #### Reference Documentation
@@ -57,6 +53,11 @@ project throughout 2018. After this project reaches a 1.0 release, we will begin
 accepting external contributions. Please feel free to file bugs and feature
 requests using [GitHub's Issue
 Tracker](https://github.com/google/loaner/issues).
+
+* To discuss this project send an email to loaner@googlegroups.com.
+* Read more about releases in our [release notes](docs/release_notes.md).
+* Please file bugs using the GitHub issue tracker.
+
 
 ## Disclaimers
 

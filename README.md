@@ -35,20 +35,31 @@ GnG Deployment can be done in 3 phases, as long as the above pre-requisites have
 -   Verifying neccessary service account permissions
 -   Deploying Service
 
-### Preparing our Google Cloud Backend
+### Phase I: Preparing our Google Cloud Backend
 The heart of GnG is hosted on Google Cloud and where all the devices report and recieve 
 information from. In order to get started with this lets verify that you have properly installed
 the necessary software. You can verify that programs were installed correctly and learn how to open 
 either your command or Terminal window based on your machine here: [Windows](), [Mac](), or [Linux]() 
 
-*	After Verifying your software you may open a command window(Windows) or Terminal Window(Mac & Linux)
-	please type the following code to download the necessary folder in order to run a script file
+*	After Verifying your software you may open a command window(Windows) or Terminal Window(Mac & Linux).
+	If you do not know how to open these windows refer to the guide in the previous step found [here]()
+	please type the following code to download the folder needed to continue with this instruction set 
 	```
 	git clone -b dev https://github.com/kid-yume/gnglinuxdeployment.git 
 	```
-*	Following that lets change the directoryover to the folder we just downloaded 
+*	Following that lets change the directory over to the folder we just downloaded 
 	```
-	git clone -b dev https://github.com/kid-yume/gnglinuxdeployment.git 
+	cd gnglinuxdeployment
+	```
+*	Now that we have downloaded the folder and we are currently inside that folder. We can 
+	can now run the command to begin the deployment.
+	#### MAC/Linux 
+	```
+	cd gnglinuxdeployment
+	```
+	#### Windows 
+	```
+	cd gnglinuxdeployment
 	```
 
 If you see 

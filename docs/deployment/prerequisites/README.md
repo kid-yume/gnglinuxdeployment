@@ -83,12 +83,11 @@ Follow the below steps(click on the picture for a larger image):
 :-------------------------:|
 <a href="http://bit.ly/2TbQoXC"><img src="http://bit.ly/2IHzz1K" style="width:100%"/></a> | 
 
-<br></br>
+
 ### Installing Software
 Installing software is best showed. If you are having issues installing software please be sure 
 you are an administrator on your device and have the necessary permissions. If not please refer to the [YouTube]()
 video provided and see how to install the programs on all Operating Systems. 
-
 <br></br>
 ### Next Steps
 You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process!

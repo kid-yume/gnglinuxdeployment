@@ -90,7 +90,9 @@ you are an administrator on your device and have the necessary permissions. If n
 video provided and see how to install the programs on all Operating Systems. 
 <br></br>
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process!
+You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process. Please 
+make sure you have the super admin account login information, "Billing Account ID" recorded, and software 
+installed in order to move forward into Phase I.
   
 #### Reference Documentation
 

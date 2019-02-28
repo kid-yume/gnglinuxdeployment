@@ -16,11 +16,17 @@ returning, and monitoring these devices.
 
 ## Prequisites
 
-The Prequisites are as follows that need to either be verified or installed:
-*	Super Admin Access
-*	Enable Google Cloud Billing & retrieve "Billing Account ID"
-*	Google SDK-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
-*	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
+The Prequisites are as follows that need to either be verified or installed and
+further instructions can be found by clicking each link:
+
+*	[Verify Super Admin Access]()
+*	[Create GnG Organizational Units]()
+*	[Enable Google Cloud Billing & retrieve "Billing Account ID"]()
+*	[OAuth2.0 ID Creation]()
+*	[Service Account Creation]()
+*	[Google Groups Creation]()
+*	[Google SDK]()-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
+*	[Git]()- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
 
 We will go through how to do each of the above following throughout this guide. If you find yourself having difficulties a
 [YouTube](google.com) video has been uploaded showing how to properly go through each of these items. 
@@ -83,12 +89,17 @@ Follow the below steps(click on the picture for a larger image):
 :-------------------------:|
 <a href="http://bit.ly/2TbQoXC"><img src="http://bit.ly/2IHzz1K" style="width:100%"/></a> | 
 
+### Installing Software
+Installing software is best showed. If you are having issues installing software please be sure 
+you are an administrator on your device and have the necessary permissions. If not please refer to the [YouTube]()
+video provided and see how to install the programs on all Operating Systems. 
 
 ### Installing Software
 Installing software is best showed. If you are having issues installing software please be sure 
 you are an administrator on your device and have the necessary permissions. If not please refer to the [YouTube]()
 video provided and see how to install the programs on all Operating Systems. 
 <br></br>
+
 ### Next Steps
 You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process. Please 
 make sure you have the super admin account login information, "Billing Account ID" recorded, and software 

@@ -16,7 +16,7 @@ returning, and monitoring these devices.
 
 # Prequisites
 Please make sure you have the following prerquisites completed:
-*	Verifying Super Admin Access
+*	[Verifying Super Admin Access](docs/deployment/prerequisites/verifysuperadminaccess/README.md)
 
 ## Creating GnG Organizational Unitis
 *	Open a new chrome web browser and sign into Google with your Gsuite Super Admin Account;
@@ -49,6 +49,7 @@ Follow the below steps(click on the picture for a larger image):
  **9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2VqHvFW"><img src="http://bit.ly/2NAOZDT" style="width:100%"/></a> |  <a href="http://bit.ly/2XvUfNo"><img src="http://bit.ly/2EqrtVM" style="width:100%"/></a> 
+
 
 **11.**	Sign into [Google](https://Google.com)         |**12.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:

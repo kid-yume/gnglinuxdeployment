@@ -13,39 +13,6 @@ The Grab n Go (GnG) Loaner project is a fully automated loaner management suite
 that manages enterprise enrolled Chrome OS devices by automatically assigning,
 returning, and monitoring these devices.
 
-
-## Prequisites
-
-The Prequisites are as follows that need to either be verified or installed:
-*	Super Admin Access
-*	Enable Google Cloud Billing & retrieve "Billing Account ID"
-*	Google SDK-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
-*	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
-
-We will go through how to do each of the above following throughout this guide. If you find yourself having difficulties a
-[YouTube](google.com) video has been uploaded showing how to properly go through each of these items. 
-
-
-### Verifying Super Admin Access
-*	Open a new chrome web browser. Although, any web browser is compatible; using chrome is the recommened use. 
-Follow the below steps(click on the picture for a larger image):
-
-
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
-<a href="https://bit.ly/2TkzmW9"><img src="https://bit.ly/2tJjNsE" style="width:100%"/></a> |  <a href="https://bit.ly/2GOqthR"><img src="https://bit.ly/2T8wFbj" style="width:100%"/></a>
- 
- 
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
-<a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
-
-
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
-<a href="https://bit.ly/2H6LWSp"><img src="https://bit.ly/2BWOHCv" style="width:100%"/></a> |  <a href="https://bit.ly/2UbM07g"><img src="https://bit.ly/2GNO6Hj" style="width:100%"/></a>
-
-<br></br>
 ### Enable Google Cloud Billing
 *	In order to update the "Google Cloud Billing Information" We will need to first type in the following URL in our address bar
 [https://console.cloud.google.com/](https://console.cloud.google.com/)
@@ -77,29 +44,17 @@ Follow the below steps(click on the picture for a larger image):
 <a href="http://bit.ly/2UeaQmS"><img src="http://bit.ly/2HcxEzE" style="width:100%"/></a> |  <a href="https://bit.ly/2tGZqwg"><img src="https://bit.ly/2XuzFwQ" style="width:100%"/></a> 
 
 
-
-
 **9.**	Sign into [Google](https://Google.com)         |
 :-------------------------:|
 <a href="http://bit.ly/2TbQoXC"><img src="http://bit.ly/2IHzz1K" style="width:100%"/></a> | 
 
 
-### Installing Software
-Installing software is best showed. If you are having issues installing software please be sure 
-you are an administrator on your device and have the necessary permissions. If not please refer to the [YouTube]()
-video provided and see how to install the programs on all Operating Systems. 
 <br></br>
-### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process. Please 
-make sure you have the super admin account login information, "Billing Account ID" recorded, and software 
-installed in order to move forward into Phase I.
-  
-#### Reference Documentation
 
--   [Grab n Go APIs](docs/gng_apis.md)
--   [User Guide](docs/user_guide.md)
--   [Frequently Asked
-    Questions](docs/faq.md)
+### Next Steps
+You have fullfilled the first prequisite and ready to move on to [Creating GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits) 
+in the prerequisites process. Remember the information of the Super Admin and if you do not have access contact your 
+network administrator for further instruction. 
 
 ## Contributing
 

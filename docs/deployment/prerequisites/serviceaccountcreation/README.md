@@ -39,7 +39,7 @@ Follow the below steps(click on the picture for a larger image):
  
 **3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2H1HNAj"><img src="http://bit.ly/2Cc4NbN" style="width:100%"/></a> |  <a href="http://bit.ly/2IMDYk8"><img src="http://bit.ly/2NLPRWp" style="width:100%"/></a>
+<a href="http://bit.ly/2H1HNAj"><img src="http://bit.ly/2Cc4NbN" style="width:100%"/></a> |  <a href="http://bit.ly/2SGBEL4"><img src="http://bit.ly/2HcozqG" style="width:100%"/></a>
 
 
 **5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
@@ -55,7 +55,7 @@ Follow the below steps(click on the picture for a larger image):
 
 **9.**	Sign into [Google](https://Google.com)         |
 :-------------------------:|
-<a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2C1ZlYV" style="width:100%"/></a> | 
+<a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2TmwpEP" style="width:100%"/></a> | 
 
 
 <br></br>

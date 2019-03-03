@@ -50,11 +50,34 @@ Follow the below steps(click on the picture for a larger image):
 <a href="http://bit.ly/2VzklNP"><img src="http://bit.ly/2VyvLBg" style="width:100%"/></a> |  <a href="http://bit.ly/2EvYZdp"><img src="http://bit.ly/2HclE1c" style="width:100%"/></a> 
 
 
+**9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2ILv3PP"><img src="http://bit.ly/2UgsFBN" style="width:100%"/></a> |  <a href="http://bit.ly/2XwgZwN"><img src="http://bit.ly/2TwCYV8" style="width:100%"/></a> 
 
 
-**9.**	Sign into [Google](https://Google.com)         |
+**11.**	Sign into [Google](https://Google.com)         |**12.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2C0GlKm"><img src="http://bit.ly/2IXELyO" style="width:100%"/></a> |  <a href="http://bit.ly/2tN66cA"><img src="http://bit.ly/2VwdQLN" style="width:100%"/></a> 
+
+
+**13.**	Sign into [Google](https://Google.com)         |**14.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2tOk9hL"><img src="http://bit.ly/2GVklo3" style="width:100%"/></a> |  <a href="http://bit.ly/2SG03jM"><img src="http://bit.ly/2UicHHw" style="width:100%"/></a> 
+
+
+**15.**	Sign into [Google](https://Google.com)         |**16.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2EwjmXF"><img src="http://bit.ly/2GWnQKW" style="width:100%"/></a> |  <a href="http://bit.ly/2C2zTCt"><img src="http://bit.ly/2Tg4zL1" style="width:100%"/></a> 
+
+
+**17.**	Sign into [Google](https://Google.com)         |**18.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2Xy9zJv"><img src="http://bit.ly/2GSU7T6" style="width:100%"/></a> |  <a href="http://bit.ly/2Tx0RME"><img src="http://bit.ly/2Tx0JNa" style="width:100%"/></a> 
+
+
+**19.**	Sign into [Google](https://Google.com)         |
 :-------------------------:|
-<a href="http://bit.ly/2TbQoXC"><img src="http://bit.ly/2IHzz1K" style="width:100%"/></a> | 
+<a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2UiY2Mi" style="width:100%"/></a> | 
 
 
 <br></br>

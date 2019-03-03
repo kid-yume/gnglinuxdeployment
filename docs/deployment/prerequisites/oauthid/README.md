@@ -16,65 +16,38 @@ returning, and monitoring these devices.
 
 ## Prequisites
 
-The Prequisites are as follows that need to either be verified or installed:
-*	Super Admin Access
-*	Enable Google Cloud Billing & retrieve "Billing Account ID"
-*	Google SDK-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
-*	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
+The Prequisites are as follows that need to be completed before doing this step: 
+*	[Verify Super Admin Access](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/verifysuperadminaccess)
+*	[Create GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits)
+*	[Enable Google Cloud Billing & retrieve "Billing Account ID"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
 
 We will go through how to do each of the above following throughout this guide. If you find yourself having difficulties a
 [YouTube](google.com) video has been uploaded showing how to properly go through each of these items. 
 
 
-### Verifying Super Admin Access
+### Oauth2.0 ID Creation 
 *	Open a new chrome web browser. Although, any web browser is compatible; using chrome is the recommened use. 
 Follow the below steps(click on the picture for a larger image):
 
 
 **1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2TkzmW9"><img src="https://bit.ly/2tJjNsE" style="width:100%"/></a> |  <a href="https://bit.ly/2GOqthR"><img src="https://bit.ly/2T8wFbj" style="width:100%"/></a>
+<a href="http://bit.ly/2EI7Wla"><img src="http://bit.ly/2BVU05h" style="width:100%"/></a> |  <a href="http://bit.ly/2UkbWxy"><img src="http://bit.ly/2Tt3AXb" style="width:100%"/></a>
  
  
 **3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
+<a href="http://bit.ly/2EHz2ca"><img src="http://bit.ly/2SFuuqd" style="width:100%"/></a> |  <a href="http://bit.ly/2UiKWhQ"><img src="http://bit.ly/2SAJHcg" style="width:100%"/></a>
 
 
 **5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2H6LWSp"><img src="https://bit.ly/2BWOHCv" style="width:100%"/></a> |  <a href="https://bit.ly/2UbM07g"><img src="https://bit.ly/2GNO6Hj" style="width:100%"/></a>
-
-<br></br>
-### Enable Google Cloud Billing
-*	In order to update the "Google Cloud Billing Information" We will need to first type in the following URL in our address bar
-[https://console.cloud.google.com/](https://console.cloud.google.com/)
-
-
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
-<a href="https://bit.ly/2NynPNQ"><img src="https://bit.ly/2IF1rDO" style="width:100%"/></a> |  <a href="https://bit.ly/2GOqthR"><img src="https://bit.ly/2T8wFbj" style="width:100%"/></a>
-
- 
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
-<a href="https://bit.ly/2tGZqwg"><img src="https://bit.ly/2XuzFwQ" style="width:100%"/></a> |  <a href="http://bit.ly/2SxH62D"><img src="http://bit.ly/2XnivBk" style="width:100%"/></a>
-
-
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
- <a href="http://bit.ly/2XuP7JF"><img src="http://bit.ly/2H6YtFB" style="width:100%"/></a> |  <a href="http://bit.ly/2H9rq3x"><img src="http://bit.ly/2BSGZJt" style="width:100%"/></a>
- 
- 
- 
- **7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
-<a href="http://bit.ly/2UeaQmS"><img src="http://bit.ly/2HcxEzE" style="width:100%"/></a> |  <a href="https://bit.ly/2tGZqwg"><img src="https://bit.ly/2XuzFwQ" style="width:100%"/></a> 
+<a href="http://bit.ly/2EqxmT4"><img src="http://bit.ly/2Taby8c" style="width:100%"/></a> |  <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a>
 
 
 **7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2UeaQmS"><img src="http://bit.ly/2HcxEzE" style="width:100%"/></a> |  <a href="https://bit.ly/2tGZqwg"><img src="https://bit.ly/2XuzFwQ" style="width:100%"/></a> 
+<a href="http://bit.ly/2VzklNP"><img src="http://bit.ly/2VyvLBg" style="width:100%"/></a> |  <a href="http://bit.ly/2EvYZdp"><img src="http://bit.ly/2HclE1c" style="width:100%"/></a> 
 
 
 
@@ -82,6 +55,14 @@ Follow the below steps(click on the picture for a larger image):
 **9.**	Sign into [Google](https://Google.com)         |
 :-------------------------:|
 <a href="http://bit.ly/2TbQoXC"><img src="http://bit.ly/2IHzz1K" style="width:100%"/></a> | 
+
+
+<br></br>
+### Enable Google Cloud Billing
+*	In order to update the "Google Cloud Billing Information" We will need to first type in the following URL in our address bar
+[https://console.cloud.google.com/](https://console.cloud.google.com/)
+
+
 
 
 ### Installing Software

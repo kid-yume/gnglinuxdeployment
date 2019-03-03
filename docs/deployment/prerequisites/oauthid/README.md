@@ -81,23 +81,12 @@ Follow the below steps(click on the picture for a larger image):
 
 
 <br></br>
-### Enable Google Cloud Billing
-*	In order to update the "Google Cloud Billing Information" We will need to first type in the following URL in our address bar
-[https://console.cloud.google.com/](https://console.cloud.google.com/)
 
-
-
-
-### Installing Software
-Installing software is best showed. If you are having issues installing software please be sure 
-you are an administrator on your device and have the necessary permissions. If not please refer to the [YouTube]()
-video provided and see how to install the programs on all Operating Systems. 
-<br></br>
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process. Please 
-make sure you have the super admin account login information, "Billing Account ID" recorded, and software 
-installed in order to move forward into Phase I.
-  
+You have fullfilled the Prequisites and ready to move on to [Service Account Creation.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
+If you are not going to be using the automation script. Please follow the steps in [Enable Google Cloud Billing & retrieve "Billing Account ID"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
+and be sure that the Grab N Go Project is selected before following the steps. 
+
 #### Reference Documentation
 
 -   [Grab n Go APIs](docs/gng_apis.md)

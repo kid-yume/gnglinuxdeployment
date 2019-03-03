@@ -77,7 +77,7 @@ Follow the below steps(click on the picture for a larger image):
 
 **19.**	Sign into [Google](https://Google.com)         |
 :-------------------------:|
-<a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2UiY2Mi" style="width:100%"/></a> | 
+<a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2VxkJMG" style="width:100%"/></a> | 
 
 
 <br></br>

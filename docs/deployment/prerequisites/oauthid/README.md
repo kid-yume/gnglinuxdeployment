@@ -85,7 +85,7 @@ Follow the below steps(click on the picture for a larger image):
 ### Next Steps
 You have fullfilled the Prequisites and ready to move on to [Service Account Creation.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
 If you are not going to be using the automation script. Please follow the steps in [Enable Google Cloud Billing & retrieve "Billing Account ID"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
-and be sure that the Grab N Go Project is selected before following the steps. 
+and be sure that the Grab N Go Project that you created during step 1-4. 
 
 #### Reference Documentation
 

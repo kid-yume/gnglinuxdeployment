@@ -53,9 +53,14 @@ Follow the below steps(click on the picture for a larger image):
 
 
 
-**9.**	Sign into [Google](https://Google.com)         |
+**9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2C1ZlYV" style="width:100%"/></a> |  <a href="http://bit.ly/2C0KbmK"><img src="http://bit.ly/2C2U2rZ" style="width:100%"/></a> 
+
+
+**11.**	Sign into [Google](https://Google.com)         |
 :-------------------------:|
-<a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2TmwpEP" style="width:100%"/></a> | 
+<a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
 
 
 <br></br>

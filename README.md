@@ -39,8 +39,8 @@ Once all of the Prerequisites have been fullfiled. You may now begin the deploym
 type of machine you have will ultimately determine your next course of action. Please select the 
 tupe machine you are using to deploy GnG:
 
-*	[Windows Deployment](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),
-*	[MAC/LINUX Deployment]()
+*	[Windows Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/windows)
+*	[MAC/LINUX Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux)
 
 #### Reference Documentation
 

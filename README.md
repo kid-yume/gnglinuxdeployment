@@ -23,21 +23,24 @@ working deployment.
 
 ## Mac, Linux, or Windows machines need to have the following prerequisites:
 
-*	Enable Google Cloud Billing
 *	Super Admin Account Access 
-*	Google SDK-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
-*	Git- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
+*	Google Cloud Billing AccountID
+*	Oauth2 Web Client ID
+*	Service Account with Permissions Created
+*   Google Groups Created 
+*   Default Organizational Units Created
+*	Google SDK Installed-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
+*	Git Installed- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
 *	Further help and youtube video for this can be found [here](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites)
 	if there is any confusion on any of the steps.
 
 ## Deploying GnG 
-GnG Deployment can be done in 3 phases, as long as the above pre-requisites have been met. If
-Each Phased has been lined out in this Repository. Along with a Youtube Video to help you through
-the deployment process. 
--   [Phase 1](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/stageone): Prepping the Google Cloud Backend
--   Verifying neccessary service account permissions
--   Deploying Service
+Once all of the Prerequisites have been fullfiled. You may now begin the deployment process; The
+type of machine you have will ultimately determine your next course of action. Please select the 
+tupe machine you are using to deploy GnG:
 
+*	[Windows Deployment](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),
+*	[MAC/LINUX Deployment]()
 
 #### Reference Documentation
 

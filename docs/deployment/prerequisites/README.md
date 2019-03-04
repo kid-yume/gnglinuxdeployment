@@ -33,7 +33,7 @@ We will go through how to do each of the above following throughout this guide. 
 
 
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Deploying GnG!](). Please 
+Once you have fullfilled the Prequisites, you are now ready to move onto [Deploying GnG!](). Please 
 make sure you have the super admin account login information, "Billing Account ID" recorded,
 Oauth2ID, and software installed in order to move forward into deployment.
   

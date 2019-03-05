@@ -26,56 +26,58 @@ We will go through how to do each of the above following throughout this guide. 
 
 
 ### Oauth2.0 ID Creation 
-*	Open a new chrome web browser. Although, any web browser is compatible; using chrome is the recommened use. 
-Follow the below steps(click on the picture for a larger image):
+*	Open a new chrome web browser. Although, any web browser is compatible;
+using chrome is the recommened use.Go to [Google Cloud](https://console.clo
+ud.google.com) and login. We begin by creating a new project. Follow the 
+steps below(click on the picture for a larger image):
 
 
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
+**1.**	Click the currently selected project        |**2.**  Click the Button "New Project"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2EI7Wla"><img src="http://bit.ly/2BVU05h" style="width:100%"/></a> |  <a href="http://bit.ly/2UkbWxy"><img src="http://bit.ly/2Tt3AXb" style="width:100%"/></a>
  
  
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
+**3.**	Be sure to name your project and to remember this name       |**4.**  Await for the backend to complete the creation of your project
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2EHz2ca"><img src="http://bit.ly/2SFuuqd" style="width:100%"/></a> |  <a href="http://bit.ly/2UiKWhQ"><img src="http://bit.ly/2SAJHcg" style="width:100%"/></a>
 
 
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
+**5.**	Click the currently selected projet again(refer to step 1) and  click where you see the name of new project you just created. Also record the ID. You will need this throughout the deployment.        |**6.**  Now select the menu button button in the left-hand corner
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2EqxmT4"><img src="http://bit.ly/2Taby8c" style="width:100%"/></a> |  <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a>
 
 
-**7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
+**7.**	Click on "APIs & Services"         |**8.**  Click "Credentials"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2VzklNP"><img src="http://bit.ly/2VyvLBg" style="width:100%"/></a> |  <a href="http://bit.ly/2EvYZdp"><img src="http://bit.ly/2HclE1c" style="width:100%"/></a> 
 
 
-**9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+**9.**	Select "OAuth consent screen"        |**10.**  Make sure the public option is selected and fill out the information you see in the picture below. 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2ILv3PP"><img src="http://bit.ly/2UgsFBN" style="width:100%"/></a> |  <a href="http://bit.ly/2XwgZwN"><img src="http://bit.ly/2TwCYV8" style="width:100%"/></a> 
 
 
-**11.**	Sign into [Google](https://Google.com)         |**12.**  Check & Remember the name of the account you are logged into
+**11.**	You should add the domain your company is under and the default domain of the application once it is finished. Which will be :{project ID}.appspot.com(YOu can find Project ID from step 5) |**12.**  Fill out other required Information and select "Save"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2C0GlKm"><img src="http://bit.ly/2IXELyO" style="width:100%"/></a> |  <a href="http://bit.ly/2tN66cA"><img src="http://bit.ly/2VwdQLN" style="width:100%"/></a> 
 
 
-**13.**	Sign into [Google](https://Google.com)         |**14.**  Check & Remember the name of the account you are logged into
+**13.**	Scroll back to the top of page and select "credentials"         |**14.**  Click "Create Credentials"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2tOk9hL"><img src="http://bit.ly/2GVklo3" style="width:100%"/></a> |  <a href="http://bit.ly/2SG03jM"><img src="http://bit.ly/2UicHHw" style="width:100%"/></a> 
 
 
-**15.**	Sign into [Google](https://Google.com)         |**16.**  Check & Remember the name of the account you are logged into
+**15.**	Select "OAuth client ID"        |**16.**  Selet "Web Application" 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2EwjmXF"><img src="http://bit.ly/2GWnQKW" style="width:100%"/></a> |  <a href="http://bit.ly/2C2zTCt"><img src="http://bit.ly/2Tg4zL1" style="width:100%"/></a> 
 
 
-**17.**	Sign into [Google](https://Google.com)         |**18.**  Check & Remember the name of the account you are logged into
+**17.**	Be sure to fill out the name and add the same URLs that you added in step 11        |**18.**  CLick "Create"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2Xy9zJv"><img src="http://bit.ly/2GSU7T6" style="width:100%"/></a> |  <a href="http://bit.ly/2Tx0RME"><img src="http://bit.ly/2Tx0JNa" style="width:100%"/></a> 
 
 
-**19.**	Sign into [Google](https://Google.com)         |
+**19.**	Congrats! You know have a OAuth ID and secret. Hold on to this and record this information for later in deployment        |
 :-------------------------:|
 <a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2VxkJMG" style="width:100%"/></a> | 
 

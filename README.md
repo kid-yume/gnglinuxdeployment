@@ -30,8 +30,7 @@ working deployment.
 *	[Service Account Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
 *	[Google Groups Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
 *	[Linux Virtual Machine Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/virtualmachinecreation)
-*	[Google SDK]()-[ Windows](https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe), [MAC](https://cloud.google.com/sdk/docs/downloads-interactive#mac), [Linux](https://cloud.google.com/sdk/docs/downloads-interactive#linux).
-*	[Git]()- [ Windows](https://git-scm.com/download/win),[ MAC](https://git-scm.com/download/mac),[ Linux](https://git-scm.com/download/linux).
+
 *	Further help and youtube video for this can be found [here](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites)
 	if there is any confusion on any of the steps.
 
@@ -40,6 +39,12 @@ Once all of the Prerequisites have been fullfiled. You may now begin the deploym
 We recommend using the linux VM that was created when completing prerequisites for GnG:
 
 *	[LINUX Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux)
+
+## Future of Deployment
+Plan to make deployment done with the use of an executeable or a application for MAC machines. 
+
+*	[Windows Deployment](https://github.com/Microsoft/VanArsdel)
+*	[MAC/LINUX Deployment](https://www.sketchappsources.com/free-source/53-account-settings-ui.html)
 
 #### Reference Documentation
 

@@ -36,12 +36,10 @@ working deployment.
 	if there is any confusion on any of the steps.
 
 ## Deploying GnG 
-Once all of the Prerequisites have been fullfiled. You may now begin the deployment process; The
-type of machine you have will ultimately determine your next course of action. Please select the 
-tupe machine you are using to deploy GnG:
+Once all of the Prerequisites have been fullfiled. You may now begin the deployment process; 
+We recommend using the linux VM that was created when completing prerequisites for GnG:
 
-*	[Windows Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/windows)
-*	[MAC/LINUX Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux)
+*	[LINUX Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux)
 
 #### Reference Documentation
 

@@ -30,7 +30,7 @@ virtual Linux Machine, there will be an automation process involved with deployi
 process so that you may have knowledge on how the application is deployed. 
 
 
-### Creating & Prepping the Virtual Machine
+### Creating & Prepping the Virtual Machine(VM)
 *	Open a new chrome web browser. Although, any web browser is compatible; using chrome is the recommened use. 
 Follow the below steps(click on the picture for a larger image):
 
@@ -39,34 +39,32 @@ Follow the below steps(click on the picture for a larger image):
 
 **1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
- <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a> |  <a href="http://bit.ly/2Esh2B3"><img src="http://bit.ly/2tJVrzj" style="width:100%"/></a>
+ <a href="http://bit.ly/2tPSBbX"><img src="http://bit.ly/2SKdGib" style="width:100%"/></a> |  <a href="http://bit.ly/2XGwJxA"><img src="http://bit.ly/2C5G6NP" style="width:100%"/></a>
  
  
 **3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2H1HNAj"><img src="http://bit.ly/2Cc4NbN" style="width:100%"/></a> |  <a href="http://bit.ly/2SGBEL4"><img src="http://bit.ly/2HcozqG" style="width:100%"/></a>
+<a href="http://bit.ly/2NJ6BNT"><img src="http://bit.ly/2C8f6gG" style="width:100%"/></a> |  <a href="http://bit.ly/2EO54mR"><img src="http://bit.ly/2XD1C5I" style="width:100%"/></a>
 
 
 **5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Xzv7Wd"><img src="http://bit.ly/2NFX4ab" style="width:100%"/></a> |  <a href="http://bit.ly/2Xzwjc9"><img src="http://bit.ly/2Xzwjc9" style="width:100%"/></a>
+<a href="http://bit.ly/2IUw8om"><img src="http://bit.ly/2Ez3TX9" style="width:100%"/></a> |  <a href="http://bit.ly/2NIs4X1"><img src="http://bit.ly/2C7KTOX" style="width:100%"/></a>
 
 
 **7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2UhcWTf"><img src="http://bit.ly/2GXwhWx" style="width:100%"/></a> |  <a href="http://bit.ly/2Tqspmx"><img src="http://bit.ly/2VwSRZ5" style="width:100%"/></a> 
+<a href="http://bit.ly/2HfdbdD"><img src="http://bit.ly/2VAzZbH" style="width:100%"/></a> |  <a href="http://bit.ly/2tRKFH2"><img src="http://bit.ly/2NHipA2" style="width:100%"/></a> 
 
 
 
 **9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2C1ZlYV" style="width:100%"/></a> |  <a href="http://bit.ly/2C0KbmK"><img src="http://bit.ly/2C2U2rZ" style="width:100%"/></a> 
+<a href="http://bit.ly/2EFTYiC"><img src="http://bit.ly/2tSTalb" style="width:100%"/></a> |  <a href="http://bit.ly/2EOtTiz"><img src="http://bit.ly/2tSAiTz" style="width:100%"/></a> 
 
 
-**11.**	Sign into [Google](https://Google.com)         |
-:-------------------------:|
-<a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
 
+#### Prepping the VM
 
 <br></br>
 

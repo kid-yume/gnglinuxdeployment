@@ -1,0 +1,69 @@
+<button mat-icon-button>
+  <mat-icon matTooltip="More"
+            matTooltipPosition="above"
+            class="icon-more"
+            [matMenuTriggerFor]="actionsMenu">
+    more_vert
+  </mat-icon>
+</button>
+<mat-menu #actionsMenu="matMenu" class="actions-menu">
+  <span [matTooltip]="!device.canExtend ? 'This loan cannot be extended.' : ''">
+    <button mat-menu-item
+            [disabled]="!device.assignedUser || !device.canExtend"
+            (click)="extendDevice(device)"
+            class="button-extend">
+      <mat-icon>update</mat-icon>
+      Extend
+    </button>
+  </span>
+  <button mat-menu-item
+          [disabled]="device.pendingReturn || !device.assignedUser"
+          (click)="onReturned(device)"
+          class="button-return">
+     <mat-icon>exit_to_app</mat-icon>
+    Return
+  </button>
+  <button mat-menu-item
+          [disabled]="!device.guestAllowed || (device.guestAllowed && device.guestEnabled) ||
+                      !device.assignedUser || device.lost"
+          (click)="enableGuestMode(device)"
+          class="button-guest">
+    <mat-icon>account_circle</mat-icon>
+    Enable guest
+  </button>
+  <button *ngIf="!device.damaged"
+          mat-menu-item
+          (click)="onDamaged(device)"
+          class="button-damaged">
+    <mat-icon>build</mat-icon>
+    Mark as damaged
+  </button>
+  <button *ngIf="device.damaged"
+          mat-menu-item
+          (click)="onUndamaged(device)"
+          class="button-undamaged">
+    <mat-icon>check</mat-icon>
+    Mark as Repaired
+  </button>
+  <button *ngIf="!device.lost"
+          mat-menu-item
+          (click)="onLost(device)"
+          class="button-lost">
+    <mat-icon>gps_off</mat-icon>
+    Mark as lost
+  </button>
+  <button *ngIf="device.locked"
+          mat-menu-item
+          (click)="unlock(device)"
+          class="button-unlock">
+    <mat-icon>lock_open</mat-icon>
+    Unlock
+  </button>
+  <button mat-menu-item
+          class="remove-device"
+          (click)="openRemoveDeviceDialog()"
+          class="button-unenroll">
+    <mat-icon>phonelink_off</mat-icon>
+    Unenroll
+  </button>
+</mat-menu>

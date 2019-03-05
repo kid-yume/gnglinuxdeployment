@@ -1,0 +1,84 @@
+<mat-card class="loaner-table">
+    <mat-card-content>
+      <mat-table #table
+                 [dataSource]="dataSource"
+                 matSort
+                 matSortDisableClear="true"
+                 matSortActive="identifier"
+                 matSortDirection="asc">
+      <ng-container cdkColumnDef="id">
+        <mat-header-cell *cdkHeaderCellDef mat-sort-header>
+          Identifier
+        </mat-header-cell>
+        <mat-cell *cdkCellDef="let device">{{device.identifier}}</mat-cell>
+      </ng-container>
+      <ng-container cdkColumnDef="assigned_user">
+        <mat-header-cell *cdkHeaderCellDef mat-sort-header>
+          Assigned to
+        </mat-header-cell>
+        <mat-cell *cdkCellDef="let device">
+          {{device.assignedUser}}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container cdkColumnDef="due_date">
+        <mat-header-cell *cdkHeaderCellDef mat-sort-header>
+          Due date
+        </mat-header-cell>
+        <mat-cell *cdkCellDef="let device">
+          {{device.dueDate ? (device.dueDate | date) : ""}}
+        </mat-cell>
+      </ng-container>
+
+      <ng-container cdkColumnDef="device_model">
+        <mat-header-cell *cdkHeaderCellDef mat-sort-header>
+          Device Model
+        </mat-header-cell>
+        <mat-cell *cdkCellDef="let device"> {{device.deviceModel}} </mat-cell>
+      </ng-container>
+
+      <ng-container *ngIf="showStatus" cdkColumnDef="status">
+        <mat-header-cell *cdkHeaderCellDef mat-sort-header>
+          Status
+        </mat-header-cell>
+        <mat-cell *cdkCellDef="let device" class="chips-cell">
+          <mat-chip-list>
+            <mat-basic-chip *ngFor="let chip of device.chips"
+                            class="status {{ chip.color }}"
+                            [matTooltip]="chip.tooltip"
+                            (focus)="pauseLoading=true;"
+                            (blur)="pauseLoading=false;"
+                            [attr.aria-label]="chip.tooltip">
+              <mat-icon>{{chip.icon}}</mat-icon>
+              <span>{{chip.label}}</span>
+            </mat-basic-chip>
+          </mat-chip-list>
+        </mat-cell>
+      </ng-container>
+
+      <ng-container cdkColumnDef="icons">
+          <mat-header-cell *cdkHeaderCellDef></mat-header-cell>
+          <mat-cell *cdkCellDef="let device">
+    <loaner-device-actions-menu (focus)="pauseLoading=true;"
+                                (blur)="pauseLoading=false;"
+                                (click)="$event.stopPropagation(); pauseLoading=true;"
+                                [device]="device"
+                                (loading)="loading=$event"
+                                (refreshDevice)="getDeviceList()">
+    </loaner-device-actions-menu>
+          </mat-cell>
+      </ng-container>
+
+      <mat-header-row *cdkHeaderRowDef="displayedColumns"></mat-header-row>
+      <mat-row *cdkRowDef="let device; columns: displayedColumns;"
+               [routerLink]="['/device', device.identifier]"
+               (focus)="pauseLoading=true;"
+               (blur)="pauseLoading=false;">
+      </mat-row>
+    </mat-table>
+    <mat-paginator #paginator
+                   [length]="totalResults"
+                   [pageSizeOptions]="[10, 20, 50, 100]">
+    </mat-paginator>
+  </mat-card-content>
+</mat-card>

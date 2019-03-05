@@ -1,0 +1,52 @@
+<div fxLayout="column" fxLayoutAlign="center center">
+  <div fxFlex>
+    <ng-container>
+      <mat-card *ngIf="isImitatingUser">
+        <mat-card-title>
+          You are viewing devices on behalf of {{ userToDisplay }}
+        </mat-card-title>
+        <mat-card-actions>
+          <button mat-button
+                  color="warn"
+                  (click)="stopImitatingUser()">
+            SWITCH BACK TO YOURSELF
+          </button>
+        </mat-card-actions>
+      </mat-card>
+      <loaner-greetings-card [userDisplayName]="userToDisplay"
+                             [hasDevices]="hasDevices"
+                             *ngIf="!isImitatingUser">
+      </loaner-greetings-card>
+      <mat-tab-group [selectedIndex]="selectedTab" *ngIf="hasDevices">
+        <mat-tab *ngFor="let device of loanedDevices">
+          <ng-template mat-tab-label>
+            <mat-icon *ngIf="device.isOverdue"
+                      matBadge=""
+                      matBadgeSize="small"
+                      matBadgePosition="above before"
+                      matBadgeColor="warn">
+              laptop_chromebook
+            </mat-icon>
+            <mat-icon *ngIf="!device.isOverdue">
+              laptop_chromebook
+            </mat-icon>
+            {{ device.identifier }}
+          </ng-template>
+          <div fxLayout="column" fxLayoutAlign="center center">
+            <loaner-loan-actions-card [device]="device">
+              <loan-button extendButton
+                           (done)="onExtended(device, $event)"></loan-button>
+              <loan-button guestButton
+                           (done)="onGuestModeEnabled(device)"></loan-button>
+              <loan-button returnButton
+                           (done)="onReturned(device)"></loan-button>
+              <loan-button damagedButton
+                           (done)="onDamaged(device, $event)"></loan-button>
+              <loan-button lostButton (done)="onLost(device)"></loan-button>
+            </loaner-loan-actions-card>
+          </div>
+        </mat-tab>
+      </mat-tab-group>
+    </ng-container>
+  </div>
+</div>

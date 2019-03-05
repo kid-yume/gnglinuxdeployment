@@ -1,0 +1,11 @@
+<mat-card tabindex="0">
+  <p class="mat-headline">
+      Hi {{ userDisplayName }}!
+  </p>
+  <p class="mat-subheading-2" *ngIf="hasDevices">
+    You can manage your loan using the button(s) below.
+  </p>
+  <p class="mat-subheading-2" *ngIf="!hasDevices">
+    You currently have no devices assigned to you.
+  </p>
+</mat-card>

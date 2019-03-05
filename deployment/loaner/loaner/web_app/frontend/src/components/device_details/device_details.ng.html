@@ -1,0 +1,85 @@
+<mat-card class="loaner-table">
+  <mat-card-title>
+    <button (click)="back()" class="button-back" mat-icon-button>
+      <mat-icon matTooltip="Back" matTooltipPosition="above">
+          arrow_back
+      </mat-icon>
+    </button>
+    <span>Serial No: {{device.serialNumber}} </span>
+    <div fxFlex></div>
+    <loaner-device-actions-menu [device]="device"
+                                (refreshDevice)="refreshDevice($event)"
+                                (unenrolled)="back()">
+    </loaner-device-actions-menu>
+  </mat-card-title>
+  <mat-card-content>
+      <mat-list>
+        <section fxLayout="row" fxLayout.xs="column">
+          <mat-list-item fxFlex>
+            <p mat-line>Device model</p>
+            <p mat-line class="secondary-text">{{device.deviceModel}}</p>
+          </mat-list-item>
+          <mat-list-item fxFlex>
+            <p mat-line>Asset tag</p>
+            <p mat-line class="secondary-text">{{device.assetTag}}</p>
+          </mat-list-item>
+          <mat-list-item fxFlex>
+            <p mat-line>Assigned to</p>
+            <p mat-line class="secondary-text">{{device.assignedUser}}</p>
+          </mat-list-item>
+        </section>
+        <section fxLayout="row" fxLayout.xs="column">
+          <mat-list-item fxFlex>
+            <p mat-line>Current Shelf</p>
+            <p mat-line class="secondary-text">{{device.shelf.name}}</p>
+          </mat-list-item>
+          <mat-list-item fxFlex>
+            <p mat-line>Due date</p>
+            <p *ngIf="device.assignedUser"
+               mat-line class="secondary-text">{{device.dueDate ? (device.dueDate | date) : ""}}</p>
+          </mat-list-item>
+          <mat-list-item fxFlex>
+            <p mat-line>Status</p>
+            <p mat-line class="secondary-text">
+              {{device.assignedUser ? 'Assigned' : 'Unassigned'}}</p>
+            <p *ngIf="device.overdue"
+               mat-line class="secondary-text">Overdue</p>
+            <p *ngIf="device.pendingReturn"
+               mat-line class="secondary-text">Pending return</p>
+            <p *ngIf="device.guestEnabled"
+               mat-line class="secondary-text">Guest Enabled</p>
+            <p *ngIf="device.damaged"
+               mat-line class="secondary-text">Marked as damaged</p>
+            <p *ngIf="device.lost"
+               mat-line class="secondary-text">Marked as lost</p>
+          </mat-list-item>
+        </section>
+        <section fxLayout="row" fxLayout.xs="column">
+          <mat-list-item class="lastKnownHealthy" fxFlex>
+            <p mat-line>Last known healthy</p>
+            <p mat-line class="secondary-text">
+              {{device.lastKnownHealthy | date}}
+            </p>
+          </mat-list-item>
+          <mat-list-item class="assignment-date" *ngIf="device.assignedUser" fxFlex>
+            <p mat-line>Assignment date</p>
+            <p mat-line class="secondary-text">
+              {{device.assignmentDate ? (device.assignmentDate | date) : ""}}
+            </p>
+          </mat-list-item>
+          <span fxFlex></span>
+        </section>
+        <mat-divider *ngIf="device.damaged"></mat-divider>
+        <section *ngIf="device.damaged" fxLayout="row" fxLayout.xs="column">
+          <mat-list-item class="damagedReason" fxflex>
+            <p mat-line>Damaged reason</p>
+            <p mat-line class="secondary-text wrap-text">
+              {{device.damagedReason}}
+            </p>
+          </mat-list-item>
+        </section>
+      </mat-list>
+  </mat-card-content>
+</mat-card>
+
+

@@ -1,0 +1,391 @@
+<ng-container *ngIf="config">
+
+  <form #configurationForm="ngForm" (ngSubmit)="save(configurationForm)">
+    <!-- Loan device -->
+    <mat-card>
+      <mat-card-title>Devices</mat-card-title>
+      <mat-card-subtitle>Configure device settings</mat-card-subtitle>
+      <mat-card-content>
+        <section class="control-set">
+          <div class="label">
+            Allow guest mode
+            <div class="sublabel">Allow users to use guest mode on devices.</div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="allow_guest_mode_boolean" [(ngModel)]="config.allowGuestMode"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Timeout guest mode
+            <div class="sublabel">
+              Specify that a deferred task should be created to time out guest mode.
+            </div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="timeout_guest_mode_number" [(ngModel)]="config.timeoutGuestMode"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Guest mode timeout
+            <div class="sublabel">The number of hours to allow guest mode to be in use.</div>
+          </div>
+          <div class="control loan-duration">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="guest_mode_timeout_in_hours_number" type="number" [(ngModel)]="config.guestModeTimeoutInHours">
+              <span matSuffix>hour(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Default loan duration
+            <div class="sublabel">The default length of time for new loans to be borrowed.</div>
+          </div>
+          <div class="control loan-duration">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="loan_duration_number" type="number" [(ngModel)]="config.loanDuration">
+              <span matSuffix>day(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Maximum loan duration
+            <div class="sublabel">The maximum length of time a loan can be borrowed.</div>
+          </div>
+          <div class="control loan-duration">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="maximum_loan_duration_number" type="number" [(ngModel)]="config.maximumLoanDuration">
+              <span matSuffix>day(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Loan duration reminder email
+            <div class="sublabel">
+              Send a reminder email when the current date approaches the due date.
+            </div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="loan_duration_email_boolean" [(ngModel)]="config.loanDurationReminderEmail"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Reminder email delay
+            <div class="sublabel">
+              A "grace period" after the due date is reached before sending a reminder email.
+            </div>
+          </div>
+          <div class="control loan-duration">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="reminder_delay_number" type="number" [(ngModel)]="config.reminderDelay">
+              <span matSuffix>hour(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Return grace period
+            <div class="sublabel">
+              The grace period (in minutes) between a user marking a device as pending return and when we reopen the existing loan.
+            </div>
+          </div>
+          <div class="control loan-duration">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="return_grace_period_number" type="number" [(ngModel)]="config.returnGracePeriod">
+              <span matSuffix>minute(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Silent onboarding
+            <div class="sublabel">
+              Silently onboard users when they login to Chrome devices. They'll still be able to
+              manage and return their loan, but there will be no onboarding flow.
+            </div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="silent_onboarding_boolean" [(ngModel)]="config.silentOnboarding"></mat-slide-toggle>
+          </div>
+        </section>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Shelf config -->
+    <mat-card>
+      <mat-card-title>Shelves</mat-card-title>
+      <mat-card-subtitle>Configure shelf settings</mat-card-subtitle>
+      <mat-card-content>
+        <section class="control-set">
+          <div class="label">Enable shelf auditing</div>
+          <div class="control">
+            <mat-slide-toggle name="shelf_audit_boolean" [(ngModel)]="config.shelfAudit"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Enable shelf audit email
+            <div class="sublabel">Send an email reminder if a shelf needs to be audited.</div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="shelf_audit_email_boolean" [(ngModel)]="config.shelfAuditEmail"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Shelf audit interval
+            <div class="sublabel">
+              The number of hours to allow a shelf to remain unaudited. Can be overwritten via the
+              <em>audit interval override</em>
+              property on a shelf.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="shelf_audit_interval_number" type="number" [(ngModel)]="config.shelfAuditInterval">
+              <span matSuffix>hour(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Shelf audit email recipients
+            <div class="sublabel">Recipients to send a shelf audit email reminder.</div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <textarea matInput
+                        [(ngModel)]="shelfAuditEmailToList"
+                        name="shelf_audit_email_to_list"
+                        placeholder="Comma or line separated"></textarea>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Group responsible for audit
+            <div class="sublabel">
+              Group that is responsible for performing an audit
+                  on a shelf.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <input matInput name="responsible_for_audit_list" email type="email" [(ngModel)]="config.responsibleForAudit">
+            </mat-form-field>
+          </div>
+        </section>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Organization -->
+    <mat-card>
+      <mat-card-title>Organization</mat-card-title>
+      <mat-card-subtitle>Configure org settings</mat-card-subtitle>
+      <mat-card-content>
+        <section class="control-set">
+          <div class="label">
+            Support contact
+            <div class="sublabel">The text shown as the support contact.</div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <input matInput name="support_contact_string" type="text" [(ngModel)]="config.supportContact">
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Org unit prefix
+            <div class="sublabel">
+              The organizational unit to be the root for the GnG
+                  child organizational units.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <input matInput name="org_unit_prefix_string" type="text" [(ngModel)]="config.orgUnitPrefix">
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Audit interval (threshold)
+            <div class="sublabel">The shelf audit threshold in hours.</div>
+          </div>
+          <div class="control">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="audit_interval_number" type="number" [(ngModel)]="config.auditInterval">
+              <span matSuffix>hour(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Sync roles query size
+            <div class="sublabel">
+              The number of users for whom to query and synchronize roles.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="loan-duration-value">
+              <input matInput name="sync_roles_user_query_size_number" type="number" [(ngModel)]="config.syncRolesUserQuerySize">
+              <span matSuffix>user(s)</span>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Anonymous surveys
+            <div class="sublabel">Record surveys anonymously.</div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="anonymous_surveys_boolean" [(ngModel)]="config.anonymousSurveys"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Require surveys
+            <div class="sublabel">Require users to answer the surveys they are presented.</div>
+          </div>
+          <div class="control">
+            <mat-slide-toggle name="require_surveys_boolean" [(ngModel)]="config.requireSurveys"></mat-slide-toggle>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Device identifier mode
+            <div class="sublabel">
+              Defines the primary type of identification to be used when enrolling/unenrolling a device.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field>
+              <mat-select name="device_identifier_mode_string"
+                          [(ngModel)]="config.deviceIdentifierMode">
+                <mat-option [value]="deviceIdentifierModeType.ASSET_TAG">
+                  Asset Tag
+                </mat-option>
+                <mat-option [value]="deviceIdentifierModeType.SERIAL_NUMBER">
+                  Serial Number
+                </mat-option>
+                <mat-option [value]="deviceIdentifierModeType.BOTH_REQUIRED">
+                  Both
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Banner image
+            <div class="sublabel">
+              The banner is a custom image used in the reminder emails sent to users. Use the URL of an image you have stored in your GCP Storage.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <input matInput name="img_banner_primary_string" type="text" [(ngModel)]="config.imgBannerPrimary">
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Manage button image
+            <div class="sublabel">
+              The button image is a custom image used for reminder emails sent to users. Use the URL of an image you have stored in your GCP Storage.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <input matInput name="img_button_manage_string" type="text" [(ngModel)]="config.imgButtonManage">
+            </mat-form-field>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Unenroll OU
+            <div class="sublabel">
+              The organizational unit into which to move devices as they leave the GnG program. This value defaults to the root organizational unit.
+            </div>
+          </div>
+          <div class="control">
+            <mat-form-field class="email-value">
+              <input matInput name="unenroll_ou_string" type="text" [(ngModel)]="config.unenrollOU">
+            </mat-form-field>
+          </div>
+        </section>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Search indexing -->
+    <mat-card>
+      <mat-card-title>Search indexing</mat-card-title>
+      <mat-card-subtitle>
+        Reindex and clear indexes for searches.
+      </mat-card-subtitle>
+      <mat-card-content>
+        <section class="control-set">
+          <div class="label">
+            Clear device, shelf, or user search index
+            <div class="sublabel">Clears the device, shelf, or user search index.</div>
+          </div>
+          <div class="control">
+            <button mat-button
+                    type="button"
+                    name="clear-index-devices"
+                    (click)="searchService.clearIndex(searchIndexType.Device)">
+              Devices
+            </button>
+            <button mat-button
+                    type="button"
+                    name="clear-index-shelves"
+                    (click)="searchService.clearIndex(searchIndexType.Shelf)">
+              Shelves
+            </button>
+            <button mat-button
+                    type="button"
+                    name="clear-index-users"
+                    (click)="searchService.clearIndex(searchIndexType.User)">
+              Users
+            </button>
+          </div>
+        </section>
+        <section class="control-set">
+          <div class="label">
+            Reindex device, shelf, or user search
+            <div class="sublabel">Reindexes the devices, shelves, or users for searching.</div>
+          </div>
+          <div class="control">
+            <button mat-button
+                    type="button"
+                    name="reindex-devices"
+                    (click)="searchService.reindex(searchIndexType.Device)">
+              Devices
+            </button>
+            <button mat-button
+                    type="button"
+                    name="reindex-shelves"
+                    (click)="searchService.reindex(searchIndexType.Shelf)">
+              Shelves
+            </button>
+            <button mat-button
+                    type="button"
+                    name="reindex-users"
+                    (click)="searchService.reindex(searchIndexType.User)">
+              Users
+            </button>
+          </div>
+        </section>
+      </mat-card-content>
+    </mat-card>
+    <div class="submit-section">
+      <button mat-raised-button [disabled]="!configurationForm.dirty" type="submit">Save changes</button>
+    </div>
+  </form>
+</ng-container>

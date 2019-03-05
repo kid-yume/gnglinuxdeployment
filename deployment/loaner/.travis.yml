@@ -1,0 +1,46 @@
+dist: trusty
+addons:
+  chrome: stable
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - bc
+      - google-chrome-stable
+      - wget
+
+matrix:
+  include:
+    - language: python
+      python:
+        - "2.7"
+      before_install:
+        # Install bazel.
+        - wget https://github.com/bazelbuild/bazel/releases/download/0.11.1/bazel_0.11.1-linux-x86_64.deb
+        - echo f3df344b16a40d4233a7606cce38869d4df3bb35296ac2f4e18838566ae3cb48 bazel_0.11.1-linux-x86_64.deb | sha256sum -c
+        - sudo dpkg -i bazel_0.11.1-linux-x86_64.deb
+        - rm bazel_0.11.1-linux-x86_64.deb
+      script:
+        - ./backend_tests.sh $GROUP $TOTAL_GROUPS
+      env:
+        - GROUP=0
+        - GROUP=1
+        - GROUP=2
+        - GROUP=3
+        - GROUP=4
+    - language: node_js
+      node_js:
+        - "8.11.0"
+      before_install:
+        # Enabled Google Chrome Headless.
+        - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 http://localhost &
+      before_script:
+        # This is due to https://github.com/travis-ci/travis-ci/issues/9024
+        - "sudo chown root /opt/google/chrome/chrome-sandbox"
+        - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
+      script:
+        - ./angular_tests.sh
+
+env:
+  global:
+    - TOTAL_GROUPS=5

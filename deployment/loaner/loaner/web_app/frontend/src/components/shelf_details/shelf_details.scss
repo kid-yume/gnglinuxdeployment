@@ -1,0 +1,23 @@
+@import '../../scss_mixins/loaner-table';
+
+button {
+  margin-top: 10px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.mat-card {
+  margin-bottom: 40px;
+}
+
+.mat-card-content {
+  padding: 24px;
+}
+
+.icon-more {
+  direction: left;
+  color: $white;
+}
+

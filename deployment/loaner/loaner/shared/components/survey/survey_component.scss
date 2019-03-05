@@ -1,0 +1,24 @@
+@import '../../themes/standard';
+
+
+.full-width {
+  width: 100%;
+}
+
+// Survey card class for the Chrome App
+.survey-card-chrome {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.question {
+  line-height: 300%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-1 {
+  flex: 1;
+}

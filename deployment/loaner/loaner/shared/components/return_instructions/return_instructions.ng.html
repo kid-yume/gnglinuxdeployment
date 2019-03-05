@@ -1,0 +1,69 @@
+<div *ngIf="animationEnabled"
+     [ngClass]="{'return-animation': !chromeApp, 'return-animation-chrome': chromeApp}">
+  <button mat-icon-button
+          [ngClass]="{'animation-menu-icon': !chromeApp, 'animation-menu-icon-chrome': chromeApp}"
+          aria-label="Open the animation menu."
+          i18n-aria-label="Open the animation menu.">
+    <mat-icon matTooltip="Animation settings"
+              (click)="openAnimationMenu()">
+      dvr
+    </mat-icon>
+  </button>
+  <video autoplay loop width="600" height="400"
+         matTooltip="Click to play/pause the animation."
+         [playbackRate]="playbackRate"
+         #returnAnimation [attr.aria-label]="returnAnimationAltText"
+         (click)="playPauseAnimation()" tabindex="0" loaner-focus>
+    <source [src]="animationURL" type="video/mp4">
+  </video>
+</div>
+
+<div *ngIf="!animationEnabled && flow === flows.ONBOARDING"
+     [ngClass]="{'return-card': !chromeApp, 'return-card-chrome': chromeApp}">
+  <mat-card tabindex="0" loaner-focus>
+    <h1 class="card-title">
+      Before you go!
+    </h1>
+    <p class="card-description">
+      Below are some quick reminders about what to do when returning this
+      device.
+    </p>
+    <p class="return-text">
+      <mat-icon color="primary" class="return-icon">usb</mat-icon>
+      Remove any devices you may have connected while using this device.
+    </p>
+    <p class="return-text">
+      <mat-icon color="primary" class="return-icon">question_answer</mat-icon>
+      Ready to return this device? Use the app on the drawer/shelf below.
+    </p>
+    <p class="return-text">
+      <mat-icon color="primary" class="return-icon">done</mat-icon>
+      Follows the steps to return this device.
+    </p>
+  </mat-card>
+</div>
+
+<div *ngIf="!animationEnabled && flow === flows.OFFBOARDING"
+     [ngClass]="{'return-card': !chromeApp, 'return-card-chrome': chromeApp}">
+  <mat-card tabindex="0" loaner-focus>
+    <h1 class="card-title">
+      Thanks for using {{ programName }}!
+    </h1>
+    <p class="card-description">
+      We hope you enjoyed using your {{  programName }} loaner. Below is an
+      overview of some of the final steps to take before returning your device.
+    </p>
+    <p class="return-text">
+      <mat-icon color="primary" class="return-icon">usb</mat-icon>
+      Remove any devices you may have connected while using this device.
+    </p>
+    <p class="return-text">
+      <mat-icon color="primary" class="return-icon">question_answer</mat-icon>
+      Answer a quick question about your experience with this device.
+    </p>
+    <p class="return-text">
+      <mat-icon color="primary" class="return-icon">done</mat-icon>
+      Follow the remaining steps and we'll mark the device as pending return!
+    </p>
+  </mat-card>
+</div>

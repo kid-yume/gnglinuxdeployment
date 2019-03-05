@@ -1,0 +1,21 @@
+<div>
+  <p matDialogTitle>{{title}}</p>
+  <div mat-dialog-content>
+    <p>
+      {{message}}
+    </p>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button color="primary" (click)="dialogRef.close(true)"
+            id="yes"
+            class="action-button">
+      Yes
+    </button>
+    <button mat-button (click)="dialogRef.close()"
+            id="cancel"
+            class="action-button"
+            matTooltip="This will take you back to the management screen.">
+      Cancel
+    </button>
+  </div>
+</div>

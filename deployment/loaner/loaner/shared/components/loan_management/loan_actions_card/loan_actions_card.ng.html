@@ -1,0 +1,42 @@
+<mat-card>
+  <div>
+    <mat-card-title>
+      Maintain your loan
+    </mat-card-title>
+    <p>
+      <ng-container *ngIf="device.pendingReturn">
+        This device is marked as being returned. If you would like to resume
+        your loan, please click the button below.
+      </ng-container>
+
+      <ng-container *ngIf="!device.pendingReturn && !device.overdue && device.dueDate">
+        <div class="mat-small">Please return this device by:</div>
+        <span class="mat-title">{{ device.dueDate | date: 'fullDate' }}</span>
+      </ng-container>
+
+      <ng-container *ngIf="device.overdue">
+    <mat-basic-chip *ngFor="let chip of device.chips"
+                    class="status {{chip.color}}"
+                    [matTooltip]="chip.tooltip"
+                    [attr.aria-label]="chip.tooltip">
+      <mat-icon>{{chip.icon}}</mat-icon>
+      <span>{{chip.label}}</span>
+    </mat-basic-chip>
+        <div class="mat-small">This device should have been returned on:</div>
+        <span class="mat-title">{{ device.dueDate | date: 'fullDate' }}</span>
+      </ng-container>
+    </p>
+    <div *ngIf="!device.pendingReturn">
+      <ng-content select="loan-button[extendButton]"></ng-content>
+      <ng-content select="loan-button[guestButton]"></ng-content>
+      <ng-content select="loan-button[returnButton]"></ng-content>
+    </div>
+  </div>
+  <div *ngIf="device.pendingReturn">
+    <ng-content select="loan-button[resumeButton]"></ng-content>
+  </div>
+  <div>
+    <ng-content select="loan-button[damagedButton]"></ng-content>
+    <ng-content select="loan-button[lostButton]"></ng-content>
+  </div>
+</mat-card>

@@ -23,19 +23,21 @@ Follow the below steps(click on the picture for a larger image):
 <a href="https://bit.ly/2TkzmW9"><img src="https://bit.ly/2tJjNsE" style="width:100%"/></a> |  <a href="https://bit.ly/2GOqthR"><img src="https://bit.ly/2T8wFbj" style="width:100%"/></a>
  
  
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
+**3.**	Click "Google Apps" button         |**4.**  Click the "Admin" App
 :-------------------------:|:-------------------------:
 <a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
 
 
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
+**5.**	Click "Users"       |**6.**  Scroll to "Admin Roles and Priviliges" and verify you see "Super Admin"
 :-------------------------:|:-------------------------:
 <a href="https://bit.ly/2H6LWSp"><img src="https://bit.ly/2BWOHCv" style="width:100%"/></a> |  <a href="https://bit.ly/2UbM07g"><img src="https://bit.ly/2GNO6Hj" style="width:100%"/></a>
+
 
 <br></br>
 
 ### Next Steps
-You have fullfilled the first prequisite and ready to move on to [Creating GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits) 
+As long as the account you are using has the "Super Admin Role". You have fullfilled the first prequisite 
+and ready to move on to [Creating GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits) 
 in the prerequisites process. Remember the information of the Super Admin and if you do not have access contact your 
 network administrator for further instruction. 
 

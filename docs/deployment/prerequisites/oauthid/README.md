@@ -27,8 +27,8 @@ We will go through how to do each of the above following throughout this guide. 
 
 ### Oauth2.0 ID Creation 
 *	Open a new chrome web browser. Although, any web browser is compatible;
-using chrome is the recommened use.Go to [Google Cloud](https://console.clo
-ud.google.com) and login. We begin by creating a new project. Follow the 
+using chrome is the recommened use.Go to [Google Cloud](https://console.cloud.google.com)
+and login. We begin by creating a new project. Follow the 
 steps below(click on the picture for a larger image):
 
 

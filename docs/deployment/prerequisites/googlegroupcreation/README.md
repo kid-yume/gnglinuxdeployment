@@ -25,38 +25,40 @@ We will go through how to do each of the above following throughout this guide. 
 
 
 ### Creating GnG Google Groups
-*	Open a new chrome web browser. Although, any web browser is compatible; using chrome is the recommened use. 
+*	 There will be three groups you will need to add for GnG deployment.
+Open a new chrome web browser. Although, any web browser is compatible;
+using chrome is the recommened use. Sign into Google() and 
 Follow the below steps(click on the picture for a larger image):
 
 
  
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
+**1.**	Click the Apps button       |**2.**  Select the "Admin" app
 :-------------------------:|:-------------------------:
 <a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
 
 
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
+**3.**	Select "Groups"       |**4.**  Select the "Add New" Button
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2TkqjWo"><img src="http://bit.ly/2VBMwM5" style="width:100%"/></a> |  <a href="http://bit.ly/2VCWXzc"><img src="http://bit.ly/2VyGH23" style="width:100%"/></a>
 
 
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
+**5.**	The name of the Group is not important. However, the email must be *technical-admin@your-domain.com*       |**6.**  Default settings are ok. Click "Create"
 :-------------------------:|:-------------------------:
  <a href="http://bit.ly/2Hd4T6c"><img src="http://bit.ly/2SIu9mW" style="width:100%"/></a> |  <a href="http://bit.ly/2UmzqSI"><img src="http://bit.ly/2C09tRK" style="width:100%"/></a>
  
  
  
- **7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
+ **7.**	Under "Members" Setion. Click "Add  Memebers"        |**8.**  Click the yellow "Add" Button
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2Tz4QrI"><img src="http://bit.ly/2VAwbY2" style="width:100%"/></a> |  <a href="http://bit.ly/2tPvEFZ"><img src="http://bit.ly/2VAwiTs" style="width:100%"/></a> 
 
 
-**9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+**9.**	Click "Add Members". Select and add the Super Admin        |**10.**  Click "Groups" to go back to main page. 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2VGx4hZ"><img src="http://bit.ly/2UmzCBq" style="width:100%"/></a> |  <a href="http://bit.ly/2IRMoGV"><img src="http://bit.ly/2VC1guw" style="width:100%"/></a> 
 
 
-**11.**	Sign into [Google](https://Google.com)         |
+**11.**	Follow steps 1-5 to create *operations-admins@yourdomain.com* & *tehnicians@your-domain.com*  You do not have to add the super admin to these groups. Your group page should look the one below after completion   |
 :-------------------------:|
 <a href="http://bit.ly/2Tc3IuZ"><img src="http://bit.ly/2Tc3IuZ" style="width:100%"/></a> | 
 
@@ -64,9 +66,9 @@ Follow the below steps(click on the picture for a larger image):
 <br></br>
 
 ### Next Steps
-Once you have completed creating the groups. Please make sure you have the [Google SDK]
-and [Git] installed. Also please be sure that the rest of the [Prequisites] 
-have been fullfilled. 
+Once you have completed creating the groups.  You are now ready 
+to create a [Linux Virtual](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/virtualmachinecreation)
+ for deployment  
   
 #### Reference Documentation
 

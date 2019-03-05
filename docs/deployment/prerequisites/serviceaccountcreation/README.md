@@ -27,38 +27,39 @@ We will go through how to do each of the above following throughout this guide. 
 [YouTube](google.com) video has been uploaded showing how to properly go through each of these items. 
 
 
-### Oauth2.0 ID Creation 
-*	Open a new chrome web browser. Although, any web browser is compatible; using chrome is the recommened use. 
-Follow the below steps(click on the picture for a larger image):
+### Service Account Creation 
+*	Open a new chrome web browser. Although, any web browser is compatible;
+using chrome is the recommened use.Go to [Google Cloud](https://console.cloud.google.com)
+and login. We begin by creating a new project. Follow the 
+steps below(click on the picture for a larger image):
 
-
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
+**1.**	Click the menu button in upper left-hand corner       |**2.**  Click "IAM & Admin"
 :-------------------------:|:-------------------------:
  <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a> |  <a href="http://bit.ly/2Esh2B3"><img src="http://bit.ly/2tJVrzj" style="width:100%"/></a>
  
  
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
+**3.**	Click "Service Accounts"        |**4.**  Click "Create Service Account"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2H1HNAj"><img src="http://bit.ly/2Cc4NbN" style="width:100%"/></a> |  <a href="http://bit.ly/2SGBEL4"><img src="http://bit.ly/2HcozqG" style="width:100%"/></a>
 
 
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
+**5.**	Be sure to name the account and record this ID as well. You will need this later in deployment.        |**6.**  Default values are fine here. No change necessary. Click "Continue"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Xzv7Wd"><img src="http://bit.ly/2NFX4ab" style="width:100%"/></a> |  <a href="http://bit.ly/2Xzwjc9"><img src="http://bit.ly/2Xzwjc9" style="width:100%"/></a>
+<a href="http://bit.ly/2Xzv7Wd"><img src="http://bit.ly/2NFX4ab" style="width:100%"/></a> |  <a href="http://bit.ly/2GWGbHV"><img src="http://bit.ly/2Xzwjc9" style="width:100%"/></a>
 
 
-**7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
+**7.**	Defaults are fine here. Click "Done"         |**8.**  Click on the Service account you just created
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2UhcWTf"><img src="http://bit.ly/2GXwhWx" style="width:100%"/></a> |  <a href="http://bit.ly/2Tqspmx"><img src="http://bit.ly/2VwSRZ5" style="width:100%"/></a> 
 
 
 
-**9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+**9.**	Click "Edit"         |**10.**  If you do not see the checkbox, Be sure to click the "Show Domain-Wide Delegation" link
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2C1ZlYV" style="width:100%"/></a> |  <a href="http://bit.ly/2C0KbmK"><img src="http://bit.ly/2C2U2rZ" style="width:100%"/></a> 
 
 
-**11.**	Sign into [Google](https://Google.com)         |
+**11.**	Click " Save"        |
 :-------------------------:|
 <a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
 
@@ -66,9 +67,8 @@ Follow the below steps(click on the picture for a larger image):
 <br></br>
 
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Service Account Creation.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
-If you are not going to be using the automation script. Please follow the steps in [Enable Google Cloud Billing & retrieve "Billing Account ID"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
-and be sure that the Grab N Go Project that you created during step 1-4. 
+You have fullfilled the Prequisite and ready to move on to	[Google Groups Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
+
 
 #### Reference Documentation
 

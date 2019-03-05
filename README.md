@@ -16,12 +16,12 @@ returning, and monitoring these devices.
 Using this guide and the files provided in this repository will ensure a smooth and
 working deployment. 
 
-## Before attempting to Deploy GnG. Please make sure you have the following:
+## In order to deploy GnG you must have:
 
 *   An enterprise G Suite domain
 *	Chrome OS compatible devices
 
-## Mac, Linux, or Windows machines need to have the following prerequisites:
+## Before you deploy; Complete the following:
 
 *	[Verify Super Admin Access](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/verifysuperadminaccess)
 *	[Create GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits)

@@ -58,7 +58,7 @@ Follow the below steps(click on the picture for a larger image):
 
 
 
-**9.**	Sefaults are ok here. Click "Create"         |**10.**  After the machine is ready. You will the Green Checkmark. 
+**9.**	Defaults are ok here. Click "Create"         |**10.**  After the machine is ready. You will see the Green Checkmark. 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2EFTYiC"><img src="http://bit.ly/2tSTalb" style="width:100%"/></a> |  <a href="http://bit.ly/2EOtTiz"><img src="http://bit.ly/2tSAiTz" style="width:100%"/></a> 
 

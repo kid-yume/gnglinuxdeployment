@@ -37,28 +37,28 @@ Follow the below steps(click on the picture for a larger image):
 #### Creating the VM
 
 
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
+**1.**	Sign into [Google Cloud](https://console.cloud.google.com) and make sure to select your Grab N Go Project       |**2.**  Click the menu button in top-left corner of machine
 :-------------------------:|:-------------------------:
  <a href="http://bit.ly/2SKdGib"><img src="http://bit.ly/2tPSBbX" style="width:100%"/></a> |  <a href="http://bit.ly/2XGwJxA"><img src="http://bit.ly/2C5G6NP" style="width:100%"/></a>
  
  
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
+**3.**	Click "Compute Engine"        |**4.**  Click "VM Instances"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2NJ6BNT"><img src="http://bit.ly/2C8f6gG" style="width:100%"/></a> |  <a href="http://bit.ly/2EO54mR"><img src="http://bit.ly/2XD1C5I" style="width:100%"/></a>
 
 
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
+**5.**	Click "Create"         |**6.**  Give your VM a name and select Edit 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2IUw8om"><img src="http://bit.ly/2Ez3TX9" style="width:100%"/></a> |  <a href="http://bit.ly/2NIs4X1"><img src="http://bit.ly/2C7KTOX" style="width:100%"/></a>
 
 
-**7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
+**7.**	Be sure "Debian" is selected and you start off with 30GB         |**8.**  Click "Select"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2HfdbdD"><img src="http://bit.ly/2VAzZbH" style="width:100%"/></a> |  <a href="http://bit.ly/2tRKFH2"><img src="http://bit.ly/2NHipA2" style="width:100%"/></a> 
 
 
 
-**9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+**9.**	Sefaults are ok here. Click "Create"         |**10.**  After the machine is ready. You will the Green Checkmark. 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2EFTYiC"><img src="http://bit.ly/2tSTalb" style="width:100%"/></a> |  <a href="http://bit.ly/2EOtTiz"><img src="http://bit.ly/2tSAiTz" style="width:100%"/></a> 
 
@@ -69,9 +69,9 @@ Follow the below steps(click on the picture for a larger image):
 <br></br>
 
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Service Account Creation.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
-If you are not going to be using the automation script. Please follow the steps in [Enable Google Cloud Billing & retrieve "Billing Account ID"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
-and be sure that the Grab N Go Project that you created during step 1-4. 
+You have fullfilled the Prequisites and ready to move on to
+[deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux) 
+using this Virtual Machine you have created. 
 
 #### Reference Documentation
 

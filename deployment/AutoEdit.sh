@@ -3,7 +3,7 @@
 # This is the auto fix component to update documents. to compile and deploy web application
 
 
-gcloud init 
+#gcloud init 
 #Afterwards lets start collecting the information we need from user input used https://stackoverflow.com/questions/18544359/how-to-read-user-input-into-a-variable-in-bash
 #Will redplace {PROD}
 read -p 'Enter Project ID: ' projectID
@@ -22,5 +22,5 @@ read -p 'OAUTHID:  ' oauthID
 
 echo "Project ID: $projectID | Service Account Name: $serviceAcct | Domain: $domainName | Admin Email: $adminEmail"
 
-file1=`cat UpdateMe.sh`
+file1=`cat ~/gnglinuxdeployment/deployment/UpdateMe.sh`
 echo $file1

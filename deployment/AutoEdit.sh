@@ -22,5 +22,10 @@ read -p 'OAUTHID:  ' oauthID
 
 echo "Project ID: $projectID | Service Account Name: $serviceAcct | Domain: $domainName | Admin Email: $adminEmail"
 
+#TEsting file replacement. 
 file1=`cat ~/gnglinuxdeployment/deployment/UpdateMe.sh`
 echo $file1
+#replace string
+strings = 'Google'
+repalceMe = "TEst"
+echo ${file1//strings/repalceMe}

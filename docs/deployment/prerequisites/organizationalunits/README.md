@@ -53,18 +53,13 @@ Follow the below steps(click on the picture for a larger image):
 
 **11.**	Sign into [Google](https://Google.com)         |**12.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Ti6tuN"><img src="http://bit.ly/2EHwvNK" style="width:100%"/></a> |  <a href="http://bit.ly/2EDCu6l"><img src="http://bit.ly/2H4po5J" style="width:100%"/></a> 
+<a href="http://bit.ly/2Ti6tuN"><img src="http://bit.ly/2EHwvNK" style="width:100%"/></a> |  <a href="http://bit.ly/2XAdiGq"><img src="http://bit.ly/2NKtssi" style="width:100%"/></a> 
 
 
 **13.**	Sign into [Google](https://Google.com)         |**14.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Tmg1ET"><img src="http://bit.ly/2SMKW88" style="width:100%"/></a> |  <a href="http://bit.ly/2XAdiGq"><img src="http://bit.ly/2NKtssi" style="width:100%"/></a> 
-
-
-
-**15.**	Sign into [Google](https://Google.com)         |**16.**  Check & Remember the name of the account you are logged into
-:-------------------------:|:-------------------------:
 <a href="http://bit.ly/2VD8kH7"><img src="http://bit.ly/2XILNuC" style="width:100%"/></a> |  <a href="http://bit.ly/2HioxgX"><img src="http://bit.ly/2XHNLLC" style="width:100%"/></a> 
+
 
 
 

@@ -24,39 +24,39 @@ Although, any web browser is compatible; using chrome is the recommened browser.
 Follow the below steps(click on the picture for a larger image):
 
 
-**1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
+**1.**	Clickt the "Google Apps" Button         |**2.**  Click the "Admin" App 
 :-------------------------:|:-------------------------:
 <a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
  
  
-**3.**	Sign into [Google](https://Google.com)         |**4.**  Check & Remember the name of the account you are logged into
+**3.**	Click the "Menu" button in the left-hand corner        |**4.**  Click "Directory"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2HgTzpN"><img src="http://bit.ly/2UgZOxc" style="width:100%"/></a> |  <a href="http://bit.ly/2Equ0zr"><img src="http://bit.ly/2IKSZCX" style="width:100%"/></a>
 
 
-**5.**	Sign into [Google](https://Google.com)         |**6.**  Check & Remember the name of the account you are logged into
+**5.**	Click "Originizational Units"       |**6.**  lick the "Add OU" Button on the Top-Most OU(typically your domain name)
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2ILTXPk"><img src="http://bit.ly/2BVuOeX" style="width:100%"/></a> |  <a href="http://bit.ly/2EGBBLn"><img src="http://bit.ly/2C20dwv" style="width:100%"/></a>
 
 
 
- **7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
+ **7.**	Name this unit "Grab n Go" (Case Sensitive! Type the name as you see it. Description does not matter)         |**8.**  Click " Add OU" on the "Grab N Go" OU that you just created
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2NKunsI"><img src="http://bit.ly/2IWBBv9" style="width:100%"/></a> |  <a href="http://bit.ly/2TAgIdg"><img src="http://bit.ly/2EQiezM" style="width:100%"/></a> 
 
 
 
- **9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
+ **9.**	Name this OU "Prod"         |**10.**  Click "Add OU" on the "Prod" OU that is now a child of "Grab n Go" 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2Tw2HNH"><img src="http://bit.ly/2XEhDZe" style="width:100%"/></a> |  <a href="http://bit.ly/2H55MhF"><img src="http://bit.ly/2UqMyGs" style="width:100%"/></a> 
 
 
-**11.**	Sign into [Google](https://Google.com)         |**12.**  Check & Remember the name of the account you are logged into
+**11.**	Name this OU "Default"      |**12.**  Click "Add OU" on the "Prod" OU again to add another child
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2Ti6tuN"><img src="http://bit.ly/2EHwvNK" style="width:100%"/></a> |  <a href="http://bit.ly/2XAdiGq"><img src="http://bit.ly/2NKtssi" style="width:100%"/></a> 
 
 
-**13.**	Sign into [Google](https://Google.com)         |**14.**  Check & Remember the name of the account you are logged into
+**13.**	Name this OU "Guest Enabled"         |**14.**  Your "Grab n Go" Structure should look like this once completed
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2VD8kH7"><img src="http://bit.ly/2XILNuC" style="width:100%"/></a> |  <a href="http://bit.ly/2HioxgX"><img src="http://bit.ly/2XHNLLC" style="width:100%"/></a> 
 

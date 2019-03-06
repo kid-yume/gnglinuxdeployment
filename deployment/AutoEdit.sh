@@ -25,7 +25,8 @@ read -p 'OAUTHID:  ' oauthID
 #TEsting file replacement. 
 file1=`cat ~/gnglinuxdeployment/deployment/UpdateMe.sh`
 echo $file1
+file2 = "$file1"
 #replace string
 strings = 'Google'
 repalceMe = "TEst"
-echo ${file1//Google/test}
+echo ${file2//Google/testing}

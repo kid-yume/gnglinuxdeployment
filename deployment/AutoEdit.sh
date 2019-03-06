@@ -20,4 +20,7 @@ sag = ""
 read -p 'OAUTHID:  ' oauthID 
 
 
-echo "Project ID: $projectID | Service Account Name: $serviceAcct | Domain: $domainName | Admin Email: $"
+echo "Project ID: $projectID | Service Account Name: $serviceAcct | Domain: $domainName | Admin Email: $adminEmail"
+
+file1=`cat UpdateMe.sh`
+echo $file1

@@ -29,5 +29,5 @@ file2="$file1"
 #replace string
 strings='Google'
 repalceMe="TEst"
-echo ${file2//strings/replaceMe}
+echo ${file2//$strings/$replaceMe}
 #worked!

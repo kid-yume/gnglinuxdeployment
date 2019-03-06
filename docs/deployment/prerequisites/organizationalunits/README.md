@@ -42,18 +42,34 @@ Follow the below steps(click on the picture for a larger image):
 
  **7.**	Sign into [Google](https://Google.com)         |**8.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2SEGngt"><img src="http://bit.ly/2UaUaN8" style="width:100%"/></a> |  <a href="http://bit.ly/2T8Tn2N"><img src="http://bit.ly/2tLgvp2" style="width:100%"/></a> 
+<a href="http://bit.ly/2NKunsI"><img src="http://bit.ly/2IWBBv9" style="width:100%"/></a> |  <a href="http://bit.ly/2TAgIdg"><img src="http://bit.ly/2EQiezM" style="width:100%"/></a> 
 
 
 
  **9.**	Sign into [Google](https://Google.com)         |**10.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2VqHvFW"><img src="http://bit.ly/2NAOZDT" style="width:100%"/></a> |  <a href="http://bit.ly/2XvUfNo"><img src="http://bit.ly/2EqrtVM" style="width:100%"/></a> 
+<a href="http://bit.ly/2Tw2HNH"><img src="http://bit.ly/2XEhDZe" style="width:100%"/></a> |  <a href="http://bit.ly/2H55MhF"><img src="http://bit.ly/2UqMyGs" style="width:100%"/></a> 
 
 
 **11.**	Sign into [Google](https://Google.com)         |**12.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2NCIdxj"><img src="http://bit.ly/2EnGxDI" style="width:100%"/></a> |  <a href="http://bit.ly/2H6K24t"><img src="http://bit.ly/2BZZa02" style="width:100%"/></a> 
+<a href="http://bit.ly/2Ti6tuN"><img src="http://bit.ly/2EHwvNK" style="width:100%"/></a> |  <a href="http://bit.ly/2EDCu6l"><img src="http://bit.ly/2H4po5J" style="width:100%"/></a> 
+
+
+**13.**	Sign into [Google](https://Google.com)         |**14.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2Tmg1ET"><img src="http://bit.ly/2SMKW88" style="width:100%"/></a> |  <a href="http://bit.ly/2XAdiGq"><img src="http://bit.ly/2NKtssi" style="width:100%"/></a> 
+
+
+
+**15.**	Sign into [Google](https://Google.com)         |**16.**  Check & Remember the name of the account you are logged into
+:-------------------------:|:-------------------------:
+<a href="http://bit.ly/2VD8kH7"><img src="http://bit.ly/2XILNuC" style="width:100%"/></a> |  <a href="http://bit.ly/2HioxgX"><img src="http://bit.ly/2XHNLLC" style="width:100%"/></a> 
+
+
+
+
+
 
 <br></br>
 

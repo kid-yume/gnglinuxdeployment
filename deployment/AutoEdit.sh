@@ -28,6 +28,6 @@ file1=`cat ~/gnglinuxdeployment/deployment/UpdateMe.sh`
 file2="$file1"
 #replace string
 strings='Google'
-repalceMe="TEst"
+replaceMe='TEsting '
 echo ${file2//$strings/$replaceMe}
 #worked!

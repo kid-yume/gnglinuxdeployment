@@ -52,7 +52,7 @@ ON_GAE = (
 APP_NAME = 'Grab n Go'
 
 # The top level domain for the GSuite accounts used in this application.
-APP_DOMAINS = ['example.com']
+APP_DOMAINS = ['{APP_DOMAINS}']
 
 # The GSuite Customer ID this application will interact with, if nothing is
 # provided it will default to the helper string 'my_customer'.
@@ -72,7 +72,7 @@ JINJA = jinja2.Environment(
 # Project ID for each environment on the appropriate line.
 # NOTE: These must match the Google Cloud Project ID's in the
 # //loaner/deployments/deploy.sh file for DEV, QA, and PROD respectively.
-ON_PROD = ON_GAE and ('prod-app-engine-project' in APPLICATION_ID)
+ON_PROD = ON_GAE and ('{PRODID}' in APPLICATION_ID)
 
 # If you are using a QA server fill out the Google Cloud Project ID below.
 ON_QA = ON_GAE and ('qa-app-engine-project' in APPLICATION_ID)
@@ -90,22 +90,22 @@ MAINTENANCE = False
 ADMIN_EMAIL = '{ADMIN_EMAIL}'
 
 # The email address application emails will come from.
-SEND_EMAIL_AS = 'noreply@example.com'
+SEND_EMAIL_AS = '{SEA}'
 
 # superadmins_group: str, The name of the Google Group that governs who is
-# a superadmin. Superadmins have all permissions by default.
-SUPERADMINS_GROUP = 'technical-admins@example.com'
+# a superadmin. Superadins have all permissions by default.
+SUPERADMINS_GROUP = '{SUPERADMINS_GROUP}'
 
 # The PROD server specific configurations.
 if ON_PROD:
   # The OAuth2 Client ID for the Chrome Application.
   CHROME_CLIENT_ID = ''
   # The OAuth2 Client ID for the Web Application Frontend.
-  WEB_CLIENT_ID = ''
+  WEB_CLIENT_ID = '{OAUTH2ID}'
   # The location of the Client Secrets file relative to the Bazel WORKSPACE for
   # the Directory API Service Account with Domain Wide Delegated privilage.
   # i.e. loaner/web_app/client-secret.json
-  SECRETS_FILE = ''
+  SECRETS_FILE = 'loaner/web_app/client-secret.json'
   # The parent Org Unit this application will use to move devices within. This
   # Org Unit should contain the configuration specific to ALL Grab n Go Loaner
   # devices.

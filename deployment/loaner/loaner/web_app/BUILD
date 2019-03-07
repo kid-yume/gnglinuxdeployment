@@ -76,6 +76,7 @@ loaner_appengine_library(
 
 loaner_appengine_library(
     name = "loaner",
+    data = ["client-secret.json"],
     deps = [
         ":chrome_api",
         ":endpoints_api",

@@ -51,11 +51,11 @@ export enum ENVIRONMENTS {
  */
 export const DEV = 'dev-app-engine-project';
 export const QA = 'qa-app-engine-project';
-export const PROD = 'prod-app-engine-project';
+export const PROD = '{PRODID}';
 
 /** The url for the Google Cloud Endpoints API for your application. */
 export const WEB_CLIENT_IDS: EnvironmentsVariable = {
-  prod: `{PROD_WEB_ID}`,
+  prod: `{OAUTH2ID}`,
   qa: `{QA_WEB_ID}`,
   dev: `{DEV_WEB_ID}`,
 };
@@ -63,8 +63,8 @@ export const WEB_CLIENT_IDS: EnvironmentsVariable = {
 /** The url for the Google Cloud Endpoints API for your application. */
 export const STANDARD_ENDPOINTS: EnvironmentsVariable = {
   prod: `https://endpoints-dot-${PROD}.appspot.com`,
-  qa: `https://endpoints-dot-${QA}.appspot.com`,
-  dev: `https://endpoints-dot-${DEV}.appspot.com`,
+  qa: `https://endpoints-dot-${PROD}.appspot.com`,
+  dev: `https://endpoints-dot-${PROD}.appspot.com`,
 };
 
 export const CHROME_ENDPOINTS: EnvironmentsVariable = {

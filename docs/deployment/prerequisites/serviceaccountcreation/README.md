@@ -59,15 +59,25 @@ steps below(click on the picture for a larger image):
 <a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2C1ZlYV" style="width:100%"/></a> |  <a href="http://bit.ly/2C0KbmK"><img src="http://bit.ly/2C2U2rZ" style="width:100%"/></a> 
 
 
+
+**10-5**	**BEFORE YOU CLICK SAVE!** Record the Email Address you see on this page in your [Google Keep](https://keep.google.com/u/0/)(or text document of choice). Should have the following information so far:   |
+:-------------------------:|
+<a href="http://bit.ly/2H388hn"><img src="http://bit.ly/2H388hn" style="width:100%"/></a> | 
+
+
+
 **11.**	Click " Save"        |
 :-------------------------:|
 <a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
 
 
+
+
+
 <br></br>
 
 ### Next Steps
-You have fullfilled the Prequisite and ready to move on to	[Google Groups Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
+You have fullfilled the Prequisite and ready to move on to [Google Groups Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
 
 
 #### Reference Documentation

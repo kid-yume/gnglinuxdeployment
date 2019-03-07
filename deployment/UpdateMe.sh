@@ -22,11 +22,21 @@ sudo apt-get install nodejs
 #testing npm 
 sudo npm install npm@latest -g
 #
-sudo export CLOUD_SDK_REPO="cloud-sdk-$(lsb_release -c -s)"
+
+
+#sudo bash -c "export CLOUD_SDK_REPO=\"cloud-sdk-$(lsb_release -c -s)\""
 #Adding the Cloud SDK distrubution URI as a package source
-echo "deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+#echo "deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
 # Import the Google Cloud Platform public key
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - 
+#curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - 
 #update the package list and install the Cloud SDK 
+
+#An insteractive installaer for Cloud SDK
+curl https://sdk.cloud.google.com | bash
+exec -l $SHELL
+
+
 sudo apt-get update && sudo apt-get install google-cloud-sdk 
+
+
 #Rjun initiaal configuration and walk users through this 

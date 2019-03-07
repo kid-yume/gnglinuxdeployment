@@ -47,6 +47,15 @@ steps below(click on the picture for a larger image):
 <a href="http://bit.ly/2EqxmT4"><img src="http://bit.ly/2Taby8c" style="width:100%"/></a> |  <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a>
 
 
+
+
+**6-5.**	**MAKE A NOTE** record the project ID in your notes!Should have the following recorded so far      |
+:-------------------------:|
+<a href="http://bit.ly/2SR8toy"><img src="http://bit.ly/2SR8toy" style="width:100%"/></a> | 
+
+
+
+
 **7.**	Click on "APIs & Services"         |**8.**  Click "Credentials"
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2VzklNP"><img src="http://bit.ly/2VyvLBg" style="width:100%"/></a> |  <a href="http://bit.ly/2EvYZdp"><img src="http://bit.ly/2HclE1c" style="width:100%"/></a> 
@@ -76,10 +85,17 @@ steps below(click on the picture for a larger image):
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2Xy9zJv"><img src="http://bit.ly/2GSU7T6" style="width:100%"/></a> |  <a href="http://bit.ly/2Tx0RME"><img src="http://bit.ly/2Tx0JNa" style="width:100%"/></a> 
 
+**20.**	**MAKE A NOTE** record the OAuthID in the [Google Keep](https://keep.google.com/u/0/)(or text document of choice). Should have following data recorded so far.      |
+:-------------------------:|
+<a href="http://bit.ly/2SM4gCB"><img src="http://bit.ly/2SM4gCB" style="width:100%"/></a> | 
 
 **19.**	Congrats! You know have a OAuth ID and secret. Hold on to this and record this information for later in deployment        |
 :-------------------------:|
 <a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2VxkJMG" style="width:100%"/></a> | 
+
+
+
+
 
 
 <br></br>

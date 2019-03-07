@@ -33,8 +33,7 @@ Follow the below steps(click on the picture for a larger image):
 <a href="https://bit.ly/2H6LWSp"><img src="https://bit.ly/2BWOHCv" style="width:100%"/></a> |  <a href="https://bit.ly/2UbM07g"><img src="https://bit.ly/2GNO6Hj" style="width:100%"/></a>
 
 
-**9.**	**Before You Continue**Go to [Google Keep](https://keep.google.com/u/0/)(or text document of choice) and add the email address  as a note. Like so:
-        |
+**9.**	**Before You Continue** Go to [Google Keep](https://keep.google.com/u/0/)(or text document of choice) and add the email address  as a note. Like so: |
 :-------------------------:|
 <a href="http://bit.ly/2tTqhFB"><img src="http://bit.ly/2tTqhFB" style="width:100%"/></a> | 
 

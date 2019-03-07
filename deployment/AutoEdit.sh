@@ -9,6 +9,7 @@ using_git_()
 	git init 
 	git commit -m "Checking if flip worked"
 	git remote add orginin $1
+	git -config user.email
 	git push -u origin master
 
 
@@ -32,28 +33,29 @@ gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/l
 
 read -p 'Domain with Chrome Enterprised Enabled(example.com): ' domainName
 
-sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
  #THIS WILL REPLACE {ADMIN_EMAIL}
 read -p 'Admin Email: ' adminEmail
-sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 #This will repalce {SEA} (send emails as )
 sea="no-reply@$domainName"
-sed -i "s/{SEA}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+sed -i "s/{SEA}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 
 #this will replace {SUPERADMINS_GROUP}technical-admins@example.com
 sag="technical-admins@$domainName"
-sed -i "s/{SUPERADMINS_GROUP}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+sed -i "s/{SUPERADMINS_GROUP}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 #THIS WILL REPLACE {OAUTH2ID}
 read -p 'OAUTHID:  ' oauthID 
-sed -i "s/{OAUTH2ID}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
-
+sed -i "s/{OAUTH2ID}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+sed -i "s/{OAUTH2ID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 #starting the Git Repository upload option
 read -p 'Do you have a git Repository you are using? *Highly Recommended (Y/N)' response
 
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 then
-    read -p 'Paste in the Repository URL' gitUrl
-    using_git_ "$gitUrl"
+    read -p 'Paste in the Repository URL:/n ' gitUrl
+    read -p 'Github Username:/n ' gitUn
+    using_git_ "$gitUrl" "$gitUn"
 else
 	cp -r gnglinuxdeployment/deployment/loaner ~/
    

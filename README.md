@@ -20,6 +20,7 @@ working deployment.
 
 *   An enterprise G Suite domain
 *	Chrome OS compatible devices
+* 	[Google Keep](https://chrome.google.com/webstore/detail/google-keep-chrome-extens/lpcaedmchfhocbbapmcbpinfpgnhiddi/related?utm_source=chrome-ntp-icon)(some kind of text editor document)
 
 ## Before you deploy; Complete the following:
 

@@ -35,6 +35,6 @@ exec -l $SHELL
 
 sudo apt-get update && sudo apt-get install google-cloud-sdk 
 clear
-echo "Google Cloud SDK installed"
+echo "Google Cloud SDK Installed"
 
 #Rjun initiaal configuration and walk users through this 

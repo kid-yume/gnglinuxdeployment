@@ -76,7 +76,7 @@ steps below(click on the picture for a larger image):
 <br></br>
 
 ### Next Steps
-You have fullfilled the Prequisite and ready to creating ["Google Groups"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
+You have fullfilled the Prequisite and ready to creating ["Google Groups"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
 
 
 

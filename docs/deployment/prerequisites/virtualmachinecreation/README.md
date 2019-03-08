@@ -80,7 +80,7 @@ that shows you how.
 :-------------------------:|:-------------------------:
  <a href="http://bit.ly/2XIsrpr"><img src="http://bit.ly/2UrOuP1" style="width:100%"/></a>  | <a href="http://bit.ly/2UsV33I"><img src="http://bit.ly/2tV1CQT" style="width:100%"/></a> 
  
-**13.**	Your Screen should know look like so with your super-admin account as the username       |**14.**  After it comes up type the command<br> `sudo apt-get install git` 
+**13.**	Your Screen should know look like so, with your super-admin account as the username       |**14.**  After it comes up type the command<br> `sudo apt-get install git` 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2XMBdm4"><img src="http://bit.ly/2EObi4X" style="width:100%"/></a> |  <a href="http://bit.ly/2EJtexG"><img src="http://bit.ly/2C9z3E4" style="width:100%"/></a>
 
@@ -96,7 +96,7 @@ that shows you how.
 
 
 
-**19.**	Now Type or Copy/Paste<br> `gnglinuxdeployment/deployment/InitialSetUp.sh`  **Reminder** Enter `Y` whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd> . Leave it blank
+**19.**	Now Type or Copy/Paste<br> `gnglinuxdeployment/deployment/InitialSetUp.sh` <br> **Reminder** Enter `Y` whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd> . Leave it blank
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2tVjpYl"><img src="http://bit.ly/2VNftF4" style="width:100%"/></a> |  <a href="http://bit.ly/2HdR1JR"><img src="http://bit.ly/2XNKIBq" style="width:100%"/></a> 
 
@@ -109,7 +109,6 @@ that shows you how.
 
 
 
-gcloud<br></br>
 
 ### Next Steps
 You have fullfilled the Prequisites and ready to move on to

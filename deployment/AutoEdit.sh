@@ -6,13 +6,14 @@ using_git_()
 {
 	cp -r gnglinuxdeployment/deployment/loaner ~/
 	cd ~/loaner
-	echo "$1 and the thing $2"
 	gbUrl=$1
 	email=$2
 	git init 
+	git add .
 	git commit -m "Checking if flip worked"
-	git remote add orgin gbUrl
-	git config user.email email
+	git remote add origin $1
+	git config --global user.name "Grab N Go"
+	git config --global  user.email $2
 	git push -u origin master
 
 

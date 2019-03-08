@@ -89,7 +89,7 @@ steps below(click on the picture for a larger image):
 :-------------------------:|
 <a href="http://bit.ly/2SM4gCB"><img src="http://bit.ly/2SM4gCB" style="width:100%"/></a> | 
 
-**19.**	Congrats! You know have a OAuth ID and secret. Hold on to this and record this information for later in deployment        |
+**19.**	Congrats! You know have a OAuth ID and secret be sure to put this in your Google Keep or Text document.      |
 :-------------------------:|
 <a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2VxkJMG" style="width:100%"/></a> | 
 
@@ -102,8 +102,7 @@ steps below(click on the picture for a larger image):
 
 ### Next Steps
 You have completed this Prequisite and ready to move on to [Service Account Creation.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
-If you are not going to be using the automation script. Please follow the steps in [Enable Google Cloud Billing & retrieve "Billing Account ID"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
-and be sure that the Grab N Go Project that you created during step 1-4. 
+
 
 #### Reference Documentation
 

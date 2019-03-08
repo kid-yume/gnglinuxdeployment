@@ -52,7 +52,7 @@ returning, and monitoring these devices.
 <br></br>
 
 ### Next Steps
-You have fullfilled the first prequisite and ready to move on to [Creating GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits) 
+You have successfully activated billing and ready to move on to [Creating a Service Account.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
 in the prerequisites process. Remember the information of the Super Admin and if you do not have access contact your 
 network administrator for further instruction. 
 

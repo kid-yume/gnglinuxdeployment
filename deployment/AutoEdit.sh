@@ -9,7 +9,7 @@ using_git_()
 	git init 
 	git commit -m "Checking if flip worked"
 	git remote add orgin $1
-	git -config user.email $2
+	git config user.email $2
 	git push -u origin master
 
 

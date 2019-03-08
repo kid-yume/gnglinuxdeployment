@@ -6,10 +6,13 @@ using_git_()
 {
 	cp -r gnglinuxdeployment/deployment/loaner ~/
 	cd ~/loaner
+	echo "$1 and the thing $2"
+	gbUrl=$1
+	email=$2
 	git init 
 	git commit -m "Checking if flip worked"
-	git remote add orgin $1
-	git config user.email $2
+	git remote add orgin gbUrl
+	git config user.email email
 	git push -u origin master
 
 
@@ -55,7 +58,7 @@ if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 then
     read -p 'Paste in the Repository URL:\n ' gitUrl
     read -p 'Github Username:\n ' gitUn
-    using_git_ "$gitUrl" "$gitUn"
+    using_git_ $gitUrl $gitUn
 else
 	cp -r gnglinuxdeployment/deployment/loaner ~/
    

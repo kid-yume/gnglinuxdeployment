@@ -72,7 +72,7 @@ Your Virtual Linux Machine will need the following dependecies installed:
 -   Install NPM
 You may install these on your own but for the sake of this tutorial. a script has been provided that 
 will do the initial installions for you. Follow the below steps to run the script. Continuing from 
-the previous step of initially creating the VM. *ALL COMMANDS CASE-SENSITIVE* might be easier to 
+the previous step of initially creating the VM. **ALL COMMANDS CASE-SENSITIVE** might be easier to 
 copy and paste the commands. To do so an article can be found [here](https://cloud.google.com/compute/docs/ssh-in-browser?hl=en#copypaste)
 that shows you how. 
 
@@ -80,30 +80,30 @@ that shows you how.
 :-------------------------:|:-------------------------:
  <a href="http://bit.ly/2XIsrpr"><img src="http://bit.ly/2UrOuP1" style="width:100%"/></a>  | <a href="http://bit.ly/2UsV33I"><img src="http://bit.ly/2tV1CQT" style="width:100%"/></a> 
  
-**13.**	Your Screen should know look like so with your super-admin account as the username       |**14.**  After it comes up type the command `sudo apt-get install git` 
+**13.**	Your Screen should know look like so with your super-admin account as the username       |**14.**  After it comes up type the command&nbsp; `sudo apt-get install git` 
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2XMBdm4"><img src="http://bit.ly/2EObi4X" style="width:100%"/></a> |  <a href="http://bit.ly/2EJtexG"><img src="http://bit.ly/2C9z3E4" style="width:100%"/></a>
 
 
-**15.**	Press Enter, When prompted: Enter `Y`       |**16.**  Type `Clear` and hit <kbd>`Enter`</kbd>kbd> . Lets clear the screen
+**15.**	Press Enter, When prompted:&nbsp; Enter `Y`       |**16.**  Type `Clear`&nbsp; and hit <kbd>`Enter`</kbd>. Lets clear the screen
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2XNJYfC"><img src="http://bit.ly/2H8YhXo" style="width:100%"/></a> |  <a href="http://bit.ly/2TvFQ5O"><img src="http://bit.ly/2HmBUNc" style="width:100%"/></a>
 
 
-**17.**	Start Typing to bring the prompt back and copy/paste `git clone https://github.com/kid-yume/gnglinuxdeployment.git --branch dev --single-branch`.Press <kbd>`Enter`</kbd>kbd>         |**18.**  Now Type or Copy/Paste `sudo chmod +x gnglinuxdeployment/deployment/InitialSetUp.sh`
+**17.**	Start Typing to bring the prompt back and copy/paste&nbsp; `git clone https://github.com/kid-yume/gnglinuxdeployment.git --branch dev --single-branch`.Press <kbd>`Enter`</kbd>        |**18.**  Now Type or Copy/Paste&nbsp; `sudo chmod +x gnglinuxdeployment/deployment/InitialSetUp.sh`
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2NNDlW6"><img src="http://bit.ly/2H9JFqp" style="width:100%"/></a> |  <a href="http://bit.ly/2EOA3xF"><img src="http://bit.ly/2IZBGy3" style="width:100%"/></a>
 
 
 
-**19.**	Now Type or Copy/Paste `gnglinuxdeployment/deployment/InitialSetUp.sh`  *Reminder* Enter `Y` whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd>kbd> . Leave it blank
+**19.**	Now Type or Copy/Paste&nbsp; `gnglinuxdeployment/deployment/InitialSetUp.sh`  *Reminder* Enter `Y` whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd> . Leave it blank
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2tVjpYl"><img src="http://bit.ly/2VNftF4" style="width:100%"/></a> |  <a href="http://bit.ly/2HdR1JR"><img src="http://bit.ly/2XNKIBq" style="width:100%"/></a> 
 
 
 
 
-**11.**	At this Screen, when it asks for another path just hit <kbd>`Enter`</kbd>kbd>  and leave it blanke    |
+**11.**	At this Screen, when it asks for another path just hit <kbd>`Enter`</kbd>  and leave it blanke    |
 :-------------------------:|
 <a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
 

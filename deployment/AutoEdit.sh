@@ -8,8 +8,8 @@ using_git_()
 	cd ~/loaner
 	git init 
 	git commit -m "Checking if flip worked"
-	git remote add orginin $1
-	git -config user.email
+	git remote add orgin $1
+	git -config user.email $2
 	git push -u origin master
 
 
@@ -53,8 +53,8 @@ read -p 'Do you have a git Repository you are using? *Highly Recommended (Y/N)' 
 
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 then
-    read -p 'Paste in the Repository URL:/n ' gitUrl
-    read -p 'Github Username:/n ' gitUn
+    read -p 'Paste in the Repository URL:\n ' gitUrl
+    read -p 'Github Username:\n ' gitUn
     using_git_ "$gitUrl" "$gitUn"
 else
 	cp -r gnglinuxdeployment/deployment/loaner ~/

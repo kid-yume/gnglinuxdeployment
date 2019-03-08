@@ -70,9 +70,7 @@ Follow the below steps(click on the picture for a larger image):
 
 
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to [Phase I]() of the deployment process. Please 
-make sure you have the super admin account login information, "Billing Account ID" recorded, and software 
-installed in order to move forward into Phase I.
+You have fullfilled the Prequisites and ready to move on to creating an [OAuth2.0 ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/oauthid)
 
 
 ## Contributing

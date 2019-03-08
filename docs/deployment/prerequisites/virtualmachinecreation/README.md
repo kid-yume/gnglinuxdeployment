@@ -98,7 +98,7 @@ that shows you how.
 
 **19.**	Now Type or Copy/Paste<br> `gnglinuxdeployment/deployment/InitialSetUp.sh`  **Reminder** Enter `Y` whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd> . Leave it blank
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2tVjpYl"><img src="http://bit.ly/2VNftF4" style="width:100%"/></a> |  <a href="http://bit.ly/2HdR1JR"><img src="http://bit.ly/2XNKIBq" style="width:100%"/></a> 
+<a href="http://bit.ly/2tVjpYl"><img src="http://bit.ly/2tVjpYl" style="width:100%"/></a> |  <a href="http://bit.ly/2HdR1JR"><img src="http://bit.ly/2XNKIBq" style="width:100%"/></a> 
 
 
 

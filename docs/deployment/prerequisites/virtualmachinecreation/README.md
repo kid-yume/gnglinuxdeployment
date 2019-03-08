@@ -105,7 +105,7 @@ that shows you how.
 
 **20.**	At this Screen, when it asks for another path just hit <kbd>`Enter`</kbd>  and leave it blanke    |
 :-------------------------:|
-<a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
+<a href="http://bit.ly/2XKlQdX"><img src="http://bit.ly/2XKlQdX" style="width:100%"/></a> | 
 
 
 

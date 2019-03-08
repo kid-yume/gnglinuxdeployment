@@ -90,7 +90,7 @@ that shows you how.
 <a href="http://bit.ly/2XNJYfC"><img src="http://bit.ly/2H8YhXo" style="width:100%"/></a> |  <a href="http://bit.ly/2TvFQ5O"><img src="http://bit.ly/2HmBUNc" style="width:100%"/></a>
 
 
-**17.**	Start Typing to bring the prompt back and copy/paste&nbsp; `git clone https://github.com/kid-yume/gnglinuxdeployment.git --branch dev --single-branch`.Press <kbd>`Enter`</kbd>        |**18.**  Now Type or Copy/Paste&nbsp; `sudo chmod +x gnglinuxdeployment/deployment/InitialSetUp.sh`
+**17.**	<p>Start Typing to bring the prompt back and copy/paste&nbsp<br> `git clone https://github.com/kid-yume/gnglinuxdeployment.git --branch dev --single-branch`.Press <kbd>`Enter`</kbd>        |**18.**  Now Type or Copy/Paste&nbsp; `sudo chmod +x gnglinuxdeployment/deployment/InitialSetUp.sh`</p>
 :-------------------------:|:-------------------------:
 <a href="http://bit.ly/2NNDlW6"><img src="http://bit.ly/2H9JFqp" style="width:100%"/></a> |  <a href="http://bit.ly/2EOA3xF"><img src="http://bit.ly/2IZBGy3" style="width:100%"/></a>
 

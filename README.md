@@ -11,7 +11,7 @@ Grab n Go Loaners Recommended Best Practice Guides
 
 The Grab n Go (GnG) Loaner project is a fully automated loaner management suite
 that manages enterprise enrolled Chrome OS devices by automatically assigning,
-returning, and monitoring these devices.
+returning, and monitoring these devices..
 
 Using this guide and the files provided in this repository will ensure a smooth and
 working deployment. 

@@ -20,22 +20,22 @@ Follow the below steps(click on the picture for a larger image):
 
 **1.**	Sign into [Google](https://Google.com)         |**2.**  Check & Remember the name of the account you are logged into
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2TkzmW9"><img src="https://bit.ly/2tJjNsE" style="width:100%"/></a> |  <a href="https://bit.ly/2GOqthR"><img src="https://bit.ly/2T8wFbj" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic1-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic2-50%25.jpg" style="width:100%"/></a>
  
  
 **3.**	Click "Google Apps" button         |**4.**  Click the "Admin" App
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3-2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3-2.50%25.jpg" style="width:100%"/></a>
 
 
 **5.**	Click "Users"       |**6.**  Scroll to "Admin Roles and Priviliges" and verify you see "Super Admin"
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2H6LWSp"><img src="https://bit.ly/2BWOHCv" style="width:100%"/></a> |  <a href="https://bit.ly/2UbM07g"><img src="https://bit.ly/2GNO6Hj" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic4-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic6-50%25.jpg" style="width:100%"/></a>
 
 
 **9.**	**Before You Continue** Go to [Google Keep](https://keep.google.com/u/0/)(or text document of choice) and add the email address along with the domain as a note. Like so:(Domain is just the information to the right of the "@" symbol in the email) |
 :-------------------------:|
-<a href="http://bit.ly/2tTqhFB"><img src="http://bit.ly/2tTqhFB" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/Screen%20Shot%202019-03-06%20at%209.29.41%20PM.png"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/Screen%20Shot%202019-03-06%20at%209.29.41%20PM.png" style="width:100%"/></a> | 
 
 
 <br></br>

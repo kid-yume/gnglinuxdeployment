@@ -1,5 +1,5 @@
 <!-- mdformat off(GitHub header) -->
-Gng Recommended Best Practice Guides Prequisites
+Grab n Go Loaners Comprehensive Example Guide
 ======
 <!-- mdformat on -->
 
@@ -24,7 +24,6 @@ The Prequisites are as follows that need to be completed before doing this step:
 *	[Service Account Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
 *	[Google Groups Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
 
-
 We highly recommend creating this virtual machine, so that you may deploy GnG through means of this 
 virtual Linux Machine, there will be an automation process involved with deploying GnG and a manual 
 process so that you may have knowledge on how the application is deployed. 
@@ -39,28 +38,28 @@ Follow the below steps(click on the picture for a larger image):
 
 **1.**	Sign into [Google Cloud](https://console.cloud.google.com) and make sure to select your Grab N Go Project       |**2.**  Click the menu button in top-left corner of machine
 :-------------------------:|:-------------------------:
- <a href="http://bit.ly/2SKdGib"><img src="http://bit.ly/2tPSBbX" style="width:100%"/></a> |  <a href="http://bit.ly/2XGwJxA"><img src="http://bit.ly/2C5G6NP" style="width:100%"/></a>
+ <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/GEp1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/GEp1%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic2%4050%25.jpg" style="width:100%"/></a>
  
  
 **3.**	Click "Compute Engine"        |**4.**  Click "VM Instances"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2NJ6BNT"><img src="http://bit.ly/2C8f6gG" style="width:100%"/></a> |  <a href="http://bit.ly/2EO54mR"><img src="http://bit.ly/2XD1C5I" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic4%4050%25.jpg" style="width:100%"/></a>
 
 
 **5.**	Click "Create"         |**6.**  Give your VM a name and select Edit 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2IUw8om"><img src="http://bit.ly/2Ez3TX9" style="width:100%"/></a> |  <a href="http://bit.ly/2NIs4X1"><img src="http://bit.ly/2C7KTOX" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic5.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic5%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic6%4050%25.jpg" style="width:100%"/></a>
 
 
 **7.**	Be sure "Debian" is selected and you start off with 30GB         |**8.**  Click "Select"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2HfdbdD"><img src="http://bit.ly/2VAzZbH" style="width:100%"/></a> |  <a href="http://bit.ly/2tRKFH2"><img src="http://bit.ly/2NHipA2" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic8%4050%25.jpg" style="width:100%"/></a> 
 
 
 
 **9.**	Defaults are ok here. Click "Create"         |**10.**  After the machine is ready. You will see the Green Checkmark. 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2EFTYiC"><img src="http://bit.ly/2tSTalb" style="width:100%"/></a> |  <a href="http://bit.ly/2EOtTiz"><img src="http://bit.ly/2tSAiTz" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Create/JPG/pic10%4050%25.jpg" style="width:100%"/></a> 
 
 
 
@@ -78,42 +77,40 @@ that shows you how.
 
 **11.**	Click the SSH button on the VM you created    |**12.**  Click the "Open in Browser Window" option
 :-------------------------:|:-------------------------:
- <a href="http://bit.ly/2XIsrpr"><img src="http://bit.ly/2UrOuP1" style="width:100%"/></a>  | <a href="http://bit.ly/2UsV33I"><img src="http://bit.ly/2tV1CQT" style="width:100%"/></a> 
+ <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic1%4050%25.jpg" style="width:100%"/></a>  | <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic2%4050%25.jpg" style="width:100%"/></a> 
  
-**13.**	Your Screen should know look like so, with your super-admin account as the username       |**14.**  After it comes up type the command<br> `sudo apt-get install git` 
+**13.**	Your Screen should know look like so with your super-admin account as the username       |**14.**  After it comes up type the command<br> `sudo apt-get install git` 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2XMBdm4"><img src="http://bit.ly/2EObi4X" style="width:100%"/></a> |  <a href="http://bit.ly/2EJtexG"><img src="http://bit.ly/2C9z3E4" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic4%4050%25.jpg" style="width:100%"/></a>
 
 
 **15.**	Press Enter, When prompted:<br> Enter `Y`       |**16.**  Type `Clear`;<br> and hit <kbd>`Enter`</kbd>. Lets clear the screen
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2XNJYfC"><img src="http://bit.ly/2H8YhXo" style="width:100%"/></a> |  <a href="http://bit.ly/2TvFQ5O"><img src="http://bit.ly/2HmBUNc" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic5.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic5%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic6%4050%25.jpg" style="width:100%"/></a>
 
 
 **17.**	Start Typing to bring the prompt back and copy/paste<br> `git clone https://github.com/kid-yume/gnglinuxdeployment.git --branch dev --single-branch`.Press <kbd>`Enter`</kbd>      |**18.**  Now Type or Copy/Paste<br> `sudo chmod +x gnglinuxdeployment/deployment/InitialSetUp.sh`
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2NNDlW6"><img src="http://bit.ly/2H9JFqp" style="width:100%"/></a> |  <a href="http://bit.ly/2EOA3xF"><img src="http://bit.ly/2IZBGy3" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic8%4050%25.jpg" style="width:100%"/></a>
 
 
 
-**19.**	Now Type or Copy/Paste<br> `gnglinuxdeployment/deployment/InitialSetUp.sh` <br> **Reminder** Enter `Y` whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd> . Leave it blank
+**19.**	Now Type or Copy/Paste<br> `gnglinuxdeployment/deployment/InitialSetUp.sh`  <br>**REMINDER** Press <kbd>Y</kbd>  whenever prompted and allow full installation      |**20.**  At the following prompt just press <kbd>`Enter`</kbd> . Leave it blank
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2tVjpYl"><img src="http://bit.ly/2VNftF4" style="width:100%"/></a> |  <a href="http://bit.ly/2HdR1JR"><img src="http://bit.ly/2XNKIBq" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic10%4050%25.jpg" style="width:100%"/></a> 
 
 
 
 
 **20.**	At this Screen, when it asks for another path just hit <kbd>`Enter`</kbd>  and leave it blanke    |
 :-------------------------:|
-<a href="http://bit.ly/2XKlQdX"><img src="http://bit.ly/2XKlQdX" style="width:100%"/></a> | 
-
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic11.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic11.jpg" style="width:100%"/></a> | 
 
 
 
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to
-[deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux) 
-using this Virtual Machine you have created. 
+You have fullfilled the Prequisites and ready to move on to creating your
+[Github Repository](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/gitrepositorycreated)
 
 #### Reference Documentation
 

@@ -131,7 +131,8 @@ else:
 # When set to True the Application will Bootstrap, performing initialization of
 # the application. On first deployment this should be set to True, for all
 # following deployments this should be set to False.
-BOOTSTRAP_ENABLED = True
+
+BOOTSTRAP_ENABLED = {BOOTSTRAP}
 ################################################################################
 
 if ON_LOCAL:

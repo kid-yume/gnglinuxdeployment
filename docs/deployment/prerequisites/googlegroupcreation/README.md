@@ -34,33 +34,33 @@ Follow the below steps(click on the picture for a larger image):
  
 **1.**	Click the Apps button       |**2.**  Select the "Admin" app
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic1%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic2%4050%25.jpg" style="width:100%"/></a>
 
 
 **3.**	Select "Groups"       |**4.**  Select the "Add New" Button
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2TkqjWo"><img src="http://bit.ly/2VBMwM5" style="width:100%"/></a> |  <a href="http://bit.ly/2VCWXzc"><img src="http://bit.ly/2VyGH23" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic4%4050%25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic4.jpg" style="width:100%"/></a>
 
 
 **5.**	The name of the Group is not important. However, the email must be *technical-admin@your-domain.com*       |**6.**  Default settings are ok. Click "Create"
 :-------------------------:|:-------------------------:
- <a href="http://bit.ly/2Hd4T6c"><img src="http://bit.ly/2SIu9mW" style="width:100%"/></a> |  <a href="http://bit.ly/2UmzqSI"><img src="http://bit.ly/2C09tRK" style="width:100%"/></a>
+ <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic5.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic5%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic6%4050%25.jpg" style="width:100%"/></a>
  
  
  
  **7.**	Under "Members" Setion. Click "Add  Memebers"        |**8.**  Click the yellow "Add" Button
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Tz4QrI"><img src="http://bit.ly/2VAwbY2" style="width:100%"/></a> |  <a href="http://bit.ly/2tPvEFZ"><img src="http://bit.ly/2VAwiTs" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic8%4050%25.jpg" style="width:100%"/></a> 
 
 
 **9.**	Click "Add Members". Select and add the Super Admin        |**10.**  Click "Groups" to go back to main page. 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2VGx4hZ"><img src="http://bit.ly/2UmzCBq" style="width:100%"/></a> |  <a href="http://bit.ly/2IRMoGV"><img src="http://bit.ly/2VC1guw" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10%4050%25.jpg" style="width:100%"/></a> 
 
 
-**11.**	Follow steps 1-5 to create *operations-admins@yourdomain.com* & *tehnicians@your-domain.com*  You do not have to add the super admin to these groups. Your group page should look the one below after completion   |
+**11.**	Follow steps 1-5 to create *operations-admins@yourdomain.com* & *tehnicians@your-domain.com*  You do not have to add the super admin to these groups. Your group page should look LIKE the one below after completion   |
 :-------------------------:|
-<a href="http://bit.ly/2Tc3IuZ"><img src="http://bit.ly/2Tc3IuZ" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10.jpg" style="width:100%"/></a> | 
 
 
 <br></br>

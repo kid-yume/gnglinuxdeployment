@@ -2,9 +2,10 @@
 # Google Automator 
 # 
 
-using_git_first_time()
+using_git_()
 {
-	
+	cp -r gnglinuxdeployment/deployment/loaner ~/
+	cd ~/loaner
 	gbUrl=$1
 	email=$2
 	git config --global user.name "GNG Deployment"
@@ -270,7 +271,7 @@ DEPLOY_SCRIPT()
 	goto_loaner_dir
 
 	info_message "Initiating the build of the python deployment script..."
-	bazel build //loaner/deployments:deploy_impl --incompatible_disallow_filetype=false
+	bazel build //loaner/deployments:deploy_impl
 
 	../bazel-out/k8-py3-fastbuild/bin/loaner/deployments/deploy_impl \
 	--loaner_path "$(pwd -P)" \
@@ -342,7 +343,7 @@ done
 printf "\033c"
 echo ""
 read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
-sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+#sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
 domainName=''$changed_val''
 printf "\033c"
@@ -362,7 +363,6 @@ sed -i "s/{SUPERADMINS_GROUP}/$sag/g" ~/gnglinuxdeployment/deployment/loaner/loa
 #THIS WILL REPLACE {OAUTH2ID}
 printf "\033c"
 sleep 1
-echo ""
 read -p 'Enter the recorded Oauth ID:  ' oauthID 
 sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
@@ -379,77 +379,29 @@ gcloud beta billing projects link $projectID --billing-account $billingID
 #Github
 printf "\033c"
 sleep 1
-echo "Upload Completed. Now preparring to deploy Grab n Go!...Please wait."
+
+using_git_ $gitUrl "$gitEmail"
+echo "Completed Upload. Now preparring to deploy Grab n Go!...Please wait."
 sleep 5
 printf "\033c"
-cp -r gnglinuxdeployment/deployment/loaner ~/
-cd ~/loaner
 cd ~/loaner/loaner
 sudo npm install --unsafe-perm node-sass@latest
 gcloud services enable appengine.googleapis.com
 gcloud services enable admin.googleapis.com
 #gcloud services enable console
 gcloud services enable cloudbuild.googleapis.com
-## COULD NOT CALL A SCRIPT WITHIN A SCRIPT AND SEND THE PERMISSIONS OVER. HAD TO CONVERT TO FUNCTIION
-DEPLOY_SCRIPT web prod $projectID
+## COULD NOT CALL A SCRIPT WITHIN A SCRIPT AND SEND THE PERMISSIONS OVER.
+#DEPLOY_SCRIPT web prod $projectID
+chmod a+wrx deployments/deploy.sh
+bash deployments/deploy.sh web prod
+read -p 'Enter the recorded Github URL:  ' gitUrl
+read -p 'Enter the recorded Github Email:  ' gitEmail
+
 #sudo bash deployments/deploy.sh web prod
 cd ~/loaner/loaner
 sudo npm install
 sudo npm install --unsafe-perm node-sass@latest
 npm run build:chromeapp:once
-printf "\033c"
-echo "Completed! Please refer back to the Guide for next steps. Finishing configurations and loading next prompt..."
-sleep 5
-read -p 'Are you ready for the next steps? Enter Y   ' ready
-
-gcloud app browse --launch-browser
-
-read -p 'Did the bootstrap complete? Press (Y)/(N) to continue ' responded
-#copying and deleting client-secret before upload to cloud!
-cp -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ~/
-sudo rm -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json
-
-case "$responded" in 
-    [yY][eE][sS]|[yY]) 
-        sed -i "s/{BOOTSTRAP}/False/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        DEPLOY_SCRIPT web prod $projectID
-        ;;
-    *)
-		sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        echo "Please refer to the Example Guid for further assitance!"
-		sleep 5
-		exit 1
-        ;;
-esac
-printf "\033c"
-read -p 'Enter the recorded Github URL:  ' gitUrl
-read -p 'Enter the recorded Github Email:  ' gitEmail
-using_git_first_time $gitUrl "$gitEmail"
-gitNumber=1
-while [ $gitNumber != 0]
-do
-read -p 'Was Upload Succesful? (Y)/(N)  ' gitAnswer
-case "$gitAnswer" in 
-    [yY][eE][sS]|[yY]) 
-        gitNumber=0
-        ;;
-    *)
-		echo "Try login again. Make sure repository is completely blank along with URL is properly spelled. "
-		read -p 'Enter the recorded Github URL:  ' gitUrl
-		read -p 'Enter the recorded Github Email:  ' gitEmail
-		using_git_first_time $gitUrl "$gitEmail"
-		gitNumber=1
-		exit 1
-        ;
-esac
-done
-
-read -p 'Please refer to gng original documentation for next steps and you may access your directory via your github url now $gitUrl ' ready
-
-
-
-
-
 
 
 

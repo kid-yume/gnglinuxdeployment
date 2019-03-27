@@ -308,7 +308,8 @@ class AppEngineServerConfig(LoanerConfig):
   def _DeleteAppEngExtDepDir(self):
     """Deletes the GAE external dependencies directory."""
     if os.path.isdir(self.app_engine_deps_path):
-      logging.info('Removing the local copy of the App Engine dependencies.')
+      logging.info('Removing the local copy of the App Engine dependencies. and changing permission')
+      _ExecuteCommand(['chmod','777', self.app_engine_deps_path]) #<-------Permission issues when putting deplo.sh as a function. 
       shutil.rmtree(self.app_engine_deps_path)
 
   def _DeleteNodeModulesDir(self):
@@ -324,8 +325,14 @@ class AppEngineServerConfig(LoanerConfig):
     if os.path.isdir(self.frontend_bundle_path):
       logging.info(
           'The bundled frontend exists, we are replacing it with a new build.')
+      #_ExecuteCommand(['sudo','chmod','777', self.frontend_bundle_path])
       shutil.rmtree(self.frontend_bundle_path)
-    logging.debug('Moving the frontend bundle into the web app bundle.')
+   # _ExecuteCommand(['sudo','chmod','777', os.path.join(os.path.join(self.frontend_src_path, 'dist'),'application.js') ])
+    logging.info(
+          'The bundled frontend exists, we are replacing it with a new build3.')
+    _ExecuteCommand(['sudo','chmod','-R','a+wr', self.frontend_src_path])
+    logging.info(
+          " The path: "+self.frontend_src_path)
     shutil.move(
         os.path.join(self.frontend_src_path, 'dist'), self.frontend_bundle_path)
 
@@ -340,7 +347,7 @@ class AppEngineServerConfig(LoanerConfig):
     logging.debug('Building the backend using Bazel...')
     _ExecuteCommand([
         'bazel', 'build', '//{}:{}'.format(
-            self._web_app_dir, self._build_target)])
+            self._web_app_dir, self._build_target),'--incompatible_disallow_filetype=false'])
     if not self.on_local:
       self._DeleteAppEngExtDepDir()
 
@@ -348,8 +355,8 @@ class AppEngineServerConfig(LoanerConfig):
     """Build the Web Application's frontend services."""
     logging.debug('Building the frontend using npm...')
     os.chdir(self.npm_path)
-    _ExecuteCommand(['npm', 'install'])
-    _ExecuteCommand(['npm', 'run', 'build:frontend'])
+    _ExecuteCommand(['sudo','npm', 'install'])
+    _ExecuteCommand(['sudo','npm', 'run', 'build:frontend'])
     if self.on_google_cloud_shell:
       self._DeleteNodeModulesDir()
 
@@ -378,15 +385,16 @@ class AppEngineServerConfig(LoanerConfig):
       print('Run locally...')
     else:
       cmds = [
-          'gcloud', 'app', 'deploy', '--no-promote', '--project={}'.format(
+          'gcloud', 'app', 'deploy','--no-promote', '--project={}'.format(
               self.project_id), '--version={}'.format(self.version)]
       for yaml_filename in self._yaml_files:
         cmds.append(self._GetYamlFile(yaml_filename))
       logging.info(
           'Deploying to the Google Cloud project: %s using gcloud...',
           self.project_id)
+      #_ExecuteCommand(cmds1)
       _ExecuteCommand(cmds)
-
+      #'--log-http', '--verbosity=debug' use to debug
     if self.on_google_cloud_shell:
       self._CleanWebAppBackend()
 

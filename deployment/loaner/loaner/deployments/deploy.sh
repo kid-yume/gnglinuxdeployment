@@ -27,7 +27,7 @@ if [[ -z "${DEPLOY_SH__}" ]]; then
   LOCAL="local=dev"
   DEV="dev=loaner-dev"
   QA="qa=loaner-qa"
-  PROD="prod=loaner-prod"
+  PROD="prod={PRODID}"
 
   # The app server definitions in a comma separated list.
   # NOTE: All of the deployment environments defined above need to be in this
@@ -175,12 +175,12 @@ version."
   # Check that the gcloud SDK has been configured with an authenticated account.
   function check_gcloud_auth() {
     info_message "Checking gcloud authentication..."
-    [[ -n $(gcloud info --format="value(config.account)") ]] || error_message \
+    [[ -n $(sudo gcloud info --format="value(config.account)") ]] || error_message \
 "gcloud does not have an account configured, please run gcloud init or gcloud \
 auth login"
   }
 
-  # Check that the script was executed from within the loaner directory and goto
+  # Check that the script was executed from within th`e loaner directory and goto
   # the loaner directory. Also, make sure the bazel BUILD files exist to build
   # deploy_impl.py.
   function goto_loaner_dir() {

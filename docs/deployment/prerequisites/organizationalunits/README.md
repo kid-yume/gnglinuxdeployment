@@ -26,39 +26,39 @@ Follow the below steps(click on the picture for a larger image):
 
 **1.**	Clickt the "Google Apps" Button         |**2.**  Click the "Admin" App 
 :-------------------------:|:-------------------------:
-<a href="https://bit.ly/2EDMaiB"><img src="https://bit.ly/2NBdNM4" style="width:100%"/></a> |  <a href="https://bit.ly/2H6tWaW"><img src="https://bit.ly/2EDMaiB" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3-2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/User%20Verification/JPG/pic3-2.50%25.jpg" style="width:100%"/></a>
  
  
 **3.**	Click the "Menu" button in the left-hand corner        |**4.**  Click "Directory"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2HgTzpN"><img src="http://bit.ly/2UgZOxc" style="width:100%"/></a> |  <a href="http://bit.ly/2Equ0zr"><img src="http://bit.ly/2IKSZCX" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic3-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic4-50%25.jpg" style="width:100%"/></a>
 
 
 **5.**	Click "Originizational Units"       |**6.**  lick the "Add OU" Button on the Top-Most OU(typically your domain name)
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2ILTXPk"><img src="http://bit.ly/2BVuOeX" style="width:100%"/></a> |  <a href="http://bit.ly/2EGBBLn"><img src="http://bit.ly/2C20dwv" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic6-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/JPG/pic7-50%25.jpg" style="width:100%"/></a>
 
 
 
  **7.**	Name this unit "Grab n Go" (Case Sensitive! Type the name as you see it. Description does not matter)         |**8.**  Click " Add OU" on the "Grab N Go" OU that you just created
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2NKunsI"><img src="http://bit.ly/2IWBBv9" style="width:100%"/></a> |  <a href="http://bit.ly/2TAgIdg"><img src="http://bit.ly/2EQiezM" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic8%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic9%4050%25.jpg" style="width:100%"/></a> 
 
 
 
  **9.**	Name this OU "Prod"         |**10.**  Click "Add OU" on the "Prod" OU that is now a child of "Grab n Go" 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Tw2HNH"><img src="http://bit.ly/2XEhDZe" style="width:100%"/></a> |  <a href="http://bit.ly/2H55MhF"><img src="http://bit.ly/2UqMyGs" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic10%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic11.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic11%4050%25.jpg" style="width:100%"/></a> 
 
 
 **11.**	Name this OU "Default"      |**12.**  Click "Add OU" on the "Prod" OU again to add another child
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Ti6tuN"><img src="http://bit.ly/2EHwvNK" style="width:100%"/></a> |  <a href="http://bit.ly/2XAdiGq"><img src="http://bit.ly/2NKtssi" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic12.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic12%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic13%4050%25.jpg" style="width:100%"/></a> 
 
 
 **13.**	Name this OU "Guest Enabled"         |**14.**  Your "Grab n Go" Structure should look like this once completed
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2VD8kH7"><img src="http://bit.ly/2XILNuC" style="width:100%"/></a> |  <a href="http://bit.ly/2HioxgX"><img src="http://bit.ly/2XHNLLC" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic14.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic14%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic15.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic15%4050%25.jpg" style="width:100%"/></a> 
 
 
 
@@ -70,7 +70,7 @@ Follow the below steps(click on the picture for a larger image):
 
 
 ### Next Steps
-You have fullfilled the Prequisites and ready to move on to creating an [OAuth2.0 ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/oauthid)
+You have fullfilled the Prequisites and ready to move on to [Enabling Google Cloud Billing](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
 
 
 ## Contributing

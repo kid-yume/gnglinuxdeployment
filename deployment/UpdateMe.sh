@@ -3,40 +3,44 @@
 #  Update Portion to test for? 
 
 
-#system updates, installed package updates, and secuirty fixes
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install pkg-config zip g++ zlib1g-dev unzip python python-dev
-sudo apt-get wget 
-#Installing Bazel 
-sudo wget https://github.com/bazelbuild/bazel/releases/download/0.23.1/bazel-0.23.1-installer-darwin-x86_64.sh
-sudo chmod +x bazel-0.23.1-installer-darwin-x86_64.sh
-sudo ./bazel-0.23.1-installer-darwin-x86_64.sh --user
-sudo export PATH="$PATH:$HOME/bin"
-#Installing Nodejs 
-sudo apt-get -y nodejs
-#setting Nodejs source
-sudo apt-get install curl software-properties-common
-curl -sL https://deb.nodesource.com/setup_11.x | sudo bash -
-sudo apt-get install nodejs
-#testing npm 
-sudo npm install npm@latest -g
-#
+#COMBINATION WITH UNDERSTAINDING REMOVING LEADING AND TRAILING HERE https://stackoverflow.com/questions/369758/how-to-trim-whitespace-from-a-bash-variable
+#AND SETTING VARIABLES SENT INTO FUCNTION HERE: https://stackoverflow.com/questions/3236871/how-to-return-a-string-value-from-a-bash-function
+Remove_LEAD_SPACE()
+{
+	local variables=$1
+	local FOOS=$1
+	VALUE_WITH_NO_LEAD_SPACE="$(echo -e "${variables}" | sed -e 's/^[[:space:]]*//')"
+	eval "$1=$(echo -e "${variables}" | sed -e 's/^[[:space:]]*//')"
+	
+	FOO_NO_TRAIL_SPACE="$(echo -e "${FOOS}" | sed -e 's/[[:space:]]*$//')"
+	echo -e "${FOO_NO_TRAIL_SPACE}"
 
 
-#sudo bash -c "export CLOUD_SDK_REPO=\"cloud-sdk-$(lsb_release -c -s)\""
-#Adding the Cloud SDK distrubution URI as a package source
-#echo "deb http://packages.cloud.google.com/apt $CLOUD_SDK_REPO main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-# Import the Google Cloud Platform public key
-#curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add - 
-#update the package list and install the Cloud SDK 
+}
 
-#An insteractive installaer for Cloud SDK
-curl https://sdk.cloud.google.com | bash
-exec -l $SHELL
+Remove_LEAVE_AND_TRAIL_SPACE()
+{
+	local FOOS=$1
+	FOO_NO_EXTERNAL_SPACE="$(echo -e "${FOOS}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
+	echo -e "${FOO_NO_EXTERNAL_SPACE}"
 
 
-sudo apt-get update && sudo apt-get install google-cloud-sdk 
+}
 
 
-#Rjun initiaal configuration and walk users through this 
+
+FOO=' test test test '
+UNTOUCHED_FOO=' DunTImes '
+FOO_NO_LEAD_SPACE="$(echo -e "${FOO}" | sed -e 's/^[[:space:]]*//')"
+
+
+echo -e "FOO='${FOO}'"
+Remove_LEAD_SPACE $FOO
+echo -e "FOO AFTER LEAD='${FOO}'"
+Foo="${VALUE_WITH_NO_LEAD_SPACE}"
+echo -e "FOO AFTER LEAD FUNCTION 2='${Foo}'"
+return_val=$(Remove_LEAD_SPACE $UNTOUCHED_FOO)
+FOOS=${return_val}
+echo -e "FOO AFTER TRAIL =${return_val}"
+return_val2=$(Remove_LEAVE_AND_TRAIL_SPACE $UNTOUCHED_FOO)
+echo -e "FOO AFTER TRAIL =${return_val2}"

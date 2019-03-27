@@ -34,64 +34,64 @@ steps below(click on the picture for a larger image):
 
 **1.**	Click the currently selected project        |**2.**  Click the Button "New Project"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2EI7Wla"><img src="http://bit.ly/2BVU05h" style="width:100%"/></a> |  <a href="http://bit.ly/2UkbWxy"><img src="http://bit.ly/2Tt3AXb" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic1.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic2%4050%25.jpg" style="width:100%"/></a>
  
  
 **3.**	Be sure to name your project and to remember this name       |**4.**  Await for the backend to complete the creation of your project
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2EHz2ca"><img src="http://bit.ly/2SFuuqd" style="width:100%"/></a> |  <a href="http://bit.ly/2UiKWhQ"><img src="http://bit.ly/2SAJHcg" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic4%4050%25.jpg" style="width:100%"/></a>
 
 
 **5.**	Click the currently selected projet again(refer to step 1) and  click where you see the name of new project you just created. Also record the ID. You will need this throughout the deployment.        |**6.**  Now select the menu button button in the left-hand corner
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2EqxmT4"><img src="http://bit.ly/2Taby8c" style="width:100%"/></a> |  <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic5.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic5%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic6%4050%25.jpg" style="width:100%"/></a>
 
 
 
 
 **6-5.**	**MAKE A NOTE** record the project ID in your notes!Should have the following recorded so far      |
 :-------------------------:|
-<a href="http://bit.ly/2SR8toy"><img src="http://bit.ly/2SR8toy" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/ProjectName.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/ProjectName.jpg" style="width:100%"/></a> | 
 
 
 
 
 **7.**	Click on "APIs & Services"         |**8.**  Click "Credentials"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2VzklNP"><img src="http://bit.ly/2VyvLBg" style="width:100%"/></a> |  <a href="http://bit.ly/2EvYZdp"><img src="http://bit.ly/2HclE1c" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic8%4050%25.jpg" style="width:100%"/></a> 
 
 
 **9.**	Select "OAuth consent screen"        |**10.**  Make sure the public option is selected and fill out the information you see in the picture below. 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2ILv3PP"><img src="http://bit.ly/2UgsFBN" style="width:100%"/></a> |  <a href="http://bit.ly/2XwgZwN"><img src="http://bit.ly/2TwCYV8" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic10%4050%25.jpg" style="width:100%"/></a> 
 
 
 **11.**	You should add the domain your company is under and the default domain of the application once it is finished. Which will be :{project ID}.appspot.com(YOu can find Project ID from step 5) |**12.**  Fill out other required Information and select "Save"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2C0GlKm"><img src="http://bit.ly/2IXELyO" style="width:100%"/></a> |  <a href="http://bit.ly/2tN66cA"><img src="http://bit.ly/2VwdQLN" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic11.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic11%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic12.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic12%4050%25.jpg" style="width:100%"/></a> 
 
 
 **13.**	Scroll back to the top of page and select "credentials"         |**14.**  Click "Create Credentials"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2tOk9hL"><img src="http://bit.ly/2GVklo3" style="width:100%"/></a> |  <a href="http://bit.ly/2SG03jM"><img src="http://bit.ly/2UicHHw" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic13%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic14.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic14%4050%25.jpg" style="width:100%"/></a> 
 
 
 **15.**	Select "OAuth client ID"        |**16.**  Selet "Web Application" 
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2EwjmXF"><img src="http://bit.ly/2GWnQKW" style="width:100%"/></a> |  <a href="http://bit.ly/2C2zTCt"><img src="http://bit.ly/2Tg4zL1" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic15.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/PIC15%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic16.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic16%4050%25.jpg" style="width:100%"/></a> 
 
 
 **17.**	Be sure to fill out the name and add the same URLs that you added in step 11        |**18.**  CLick "Create"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Xy9zJv"><img src="http://bit.ly/2GSU7T6" style="width:100%"/></a> |  <a href="http://bit.ly/2Tx0RME"><img src="http://bit.ly/2Tx0JNa" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic17.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic17%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic18.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic18%4050%25.jpg" style="width:100%"/></a> 
 
 **20.**	**MAKE A NOTE** record the OAuthID in the [Google Keep](https://keep.google.com/u/0/)(or text document of choice). Should have following data recorded so far.      |
 :-------------------------:|
-<a href="http://bit.ly/2SM4gCB"><img src="http://bit.ly/2SM4gCB" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/OauthID.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/OauthID.jpg" style="width:100%"/></a> | 
 
 **19.**	Congrats! You know have a OAuth ID and secret be sure to put this in your Google Keep or Text document.      |
 :-------------------------:|
-<a href="http://bit.ly/2VxkJMG"><img src="http://bit.ly/2VxkJMG" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic19.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OAUTH/JPG/pic19%4050%25.jpg" style="width:100%"/></a> | 
 
 
 
@@ -100,7 +100,8 @@ steps below(click on the picture for a larger image):
 
 <br></br>
 
-### Next Steps
+### Next Steps 
+
 You have completed this Prequisite and ready to move on to [Service Account Creation.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
 
 

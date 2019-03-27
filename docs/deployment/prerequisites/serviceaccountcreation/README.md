@@ -34,49 +34,74 @@ steps below(click on the picture for a larger image):
 
 **1.**	Click the menu button in upper left-hand corner       |**2.**  Click "IAM & Admin"
 :-------------------------:|:-------------------------:
- <a href="http://bit.ly/2HdclhM"><img src="http://bit.ly/2UkdszK" style="width:100%"/></a> |  <a href="http://bit.ly/2Esh2B3"><img src="http://bit.ly/2tJVrzj" style="width:100%"/></a>
+ <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic1-50%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic2-50%25.jpg" style="width:100%"/></a>
  
  
 **3.**	Click "Service Accounts"        |**4.**  Click "Create Service Account"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2H1HNAj"><img src="http://bit.ly/2Cc4NbN" style="width:100%"/></a> |  <a href="http://bit.ly/2SGBEL4"><img src="http://bit.ly/2HcozqG" style="width:100%"/></a>
+<a href=https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/createAccount.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/createAccount%4050%25.jpg" style="width:100%"/></a>
 
 
 **5.**	Be sure to name the account and record this ID as well. You will need this later in deployment.        |**6.**  Default values are fine here. No change necessary. Click "Continue"
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2Xzv7Wd"><img src="http://bit.ly/2NFX4ab" style="width:100%"/></a> |  <a href="http://bit.ly/2GWGbHV"><img src="http://bit.ly/2Xzwjc9" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic5.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic5%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic6%4050%25.jpg" style="width:100%"/></a>
 
 
 **7.**	Defaults are fine here. Click "Done"         |**8.**  Click on the Service account you just created
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2UhcWTf"><img src="http://bit.ly/2GXwhWx" style="width:100%"/></a> |  <a href="http://bit.ly/2Tqspmx"><img src="http://bit.ly/2VwSRZ5" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic8%4050%25.jpg" style="width:100%"/></a> 
 
 
 
 **9.**	Click "Edit"         |**10.**  If you do not see the checkbox, Be sure to click the "Show Domain-Wide Delegation" link
 :-------------------------:|:-------------------------:
-<a href="http://bit.ly/2TmwpEP"><img src="http://bit.ly/2C1ZlYV" style="width:100%"/></a> |  <a href="http://bit.ly/2C0KbmK"><img src="http://bit.ly/2C2U2rZ" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic10%4050%25.jpg" style="width:100%"/></a> 
 
 
 
 **10-5**	**BEFORE YOU CLICK SAVE!** Record the Email Address you see on this page in your [Google Keep](https://keep.google.com/u/0/)(or text document of choice). Should have the following information so far:   |
 :-------------------------:|
-<a href="http://bit.ly/2H388hn"><img src="http://bit.ly/2H388hn" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/ServiceAccount.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/ServiceAccount.jpg" style="width:100%"/></a> | 
 
 
 
 **11.**	Click " Save"        |
 :-------------------------:|
-<a href="http://bit.ly/2Hd37So"><img src="http://bit.ly/2Hd37So" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic11.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic11.jpg" style="width:100%"/></a> | 
+
+<br></br>
+#### Assigning Roles to the Service Account 
+*	This is a **CRUCIAL** step in the this process. You will **HAVE** to provide your service 
+account with the proper roles in order for GnG to interact with the backend. 
+
+**1.**	Start off by going back to [Google](https://Google.com) home page and click the apps button      |**2.**  Click "Admin"
+:-------------------------:|:-------------------------:
+ <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic1%10%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic2%20%4050%25.jpg" style="width:100%"/></a>
+ 
+ 
+**3.**	Click "Menu" in left hand corner        |**4.**  Click "Security"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic4%4050%25.jpg" style="width:100%"/></a>
 
 
+**5.**	Scroll down until you see **"Advanced Settings"**  and click it      |**6.**  Click the **"Manage API client access"** link 
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic5.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic5%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic6%4050%25.jpg" style="width:100%"/></a>
+
+
+**7.**	Go ahead and shoot over to your [Google Keeps] documented or Text File. Copy the Service Account ID          |**8.**  Go back to your Settings page we opened in Step 6 and paste Service Account ID in "Client Name"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic8%4050%25.jpg" style="width:100%"/></a> 
+
+**9.**	Copy the following text <br> `https://www.googleapis.com/auth/admin.directory.device.chromeos,https://www.googleapis.com/auth/admin.directory.group.member.readonly,https://www.googleapis.com/auth/admin.directory.orgunit,https://www.googleapis.com/auth/admin.directory.user.readonly,`   <br> paste into the **"One or More API Scopes"** box     |**10.**  Click **"Authorize"**
+:-------------------------|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic10%4050%25.jpg" style="width:100%"/></a> 
 
 
 
 <br></br>
-
 ### Next Steps
-You have fullfilled the Prequisite and ready to creating ["Google Groups"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
+You have fullfilled the Prequisite and ready to create ["Google Groups"](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
 
 
 

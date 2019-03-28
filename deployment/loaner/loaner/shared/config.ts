@@ -82,7 +82,7 @@ export const CHROME_ENDPOINTS: EnvironmentsVariable = {
  * NOTE: Each key must be on a single-line!
  */
 export const CHROME_PUBLIC_KEYS: EnvironmentsVariable = {
-  prod: '{PROD_CHROME_KEY}',
+  prod: '{PROD_CHROME_KEY_PASTE}',
   qa: '{QA_CHROME_KEY}',
   dev: '{DEV_CHROME_KEY}',
 };

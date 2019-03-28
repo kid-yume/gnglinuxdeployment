@@ -239,11 +239,11 @@ export const HEARTBEAT: HeartbeatConfiguration = {
 export const TROUBLESHOOTING_INFORMATION =
 'Contact your IT department for assistance.';
 /** Phone number of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_PHONE = ['555 55 555'];
+export const IT_CONTACT_PHONE = ['{ITPHONENUMBER}'];
 /** Website of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_WEBSITE = 'https://support.google.com';
+export const IT_CONTACT_WEBSITE = '{ITWEBSITE}';
 /** Email of IT; Placed on Manage/troubleshoot page. */
-export const IT_CONTACT_EMAIL = '';
+export const IT_CONTACT_EMAIL = '{ITEMAIL}';
 /** Failure message after 3 failure prompts occur. */
 export const FAILURE_MESSAGE = `Since this has failed a couple of times the
 application will now quit. If the issue persists contact your

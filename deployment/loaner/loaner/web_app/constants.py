@@ -99,7 +99,7 @@ SUPERADMINS_GROUP = '{SUPERADMINS_GROUP}'
 # The PROD server specific configurations.
 if ON_PROD:
   # The OAuth2 Client ID for the Chrome Application.
-  CHROME_CLIENT_ID = ''
+  CHROME_CLIENT_ID = '{CHROMEOAUTH2ID}'
   # The OAuth2 Client ID for the Web Application Frontend.
   WEB_CLIENT_ID = '{OAUTH2ID}'
   # The location of the Client Secrets file relative to the Bazel WORKSPACE for

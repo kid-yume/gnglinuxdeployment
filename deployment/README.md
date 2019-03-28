@@ -443,7 +443,7 @@ case "$gitAnswer" in
 		using_git_first_time $gitUrl "$gitEmail"
 		gitNumber=1
 		exit 1
-        ;;
+        ;
 esac
 done
 
@@ -452,29 +452,13 @@ read -p 'Have you followed the directions and ready to submit the OAUTHKEY? Subm
 read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/maifest.json
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 
 
-read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer
 
-case "$ContactAnswer" in 
-    [yY][eE][sS]|[yY]) 
-        read -p 'Enter IT Department Phone Number ' phoneNumber
-        sed -i "s/{ITPHONENUMBER}/$phoneNumber/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        read -p 'Enter IT Department Email Address ' emailaddress
-        sed -i "s/{ITEMAIL}/$emailaddress/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        read -p 'Enter IT Department Website' websiteInfo
-        sed -i "s/{ITWEBSITE}/$websiteInfo/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        ;;
-    *)
-		sed -i "s/{ITPHONENUMBER}/555-555-5555/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-		sed -i "s/{ITEMAIL}/support@$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-		sed -i "s/{ITWEBSITE}/$domainName.com/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        ;;
-esac
 
-cd ~/
-#git clone $
+
+
+
 
 
 

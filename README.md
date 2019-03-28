@@ -45,10 +45,12 @@ With the usage of the Virtual Machine created when completing your prerequisites
 the following process needed to complete the deployment of GnG:
 
 *	[Web Application Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux)
-*	[Chrome Application Deployment]()
+*	[Chrome Application Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/mac-linux#deploying-the-chrome-app)
 
 ## Life After Deployment
-Congratulations! You have completed setting up your profile with the basic unedited version of 
+Congratulations! You have completed setting up your profile with the basic unedited version of Grab N Go. If your 
+interested in learning how you can take your editing and development skills to the next level there will be more to 
+come around making customizations to this project and best practices to do so. Stay tuned! 
 
 ## Stand-Alone Deployment
 Version 1.0 will launch with a stand-alone deployment set-up. This example is a comprehensive walkthrough

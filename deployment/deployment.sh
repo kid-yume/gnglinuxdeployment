@@ -650,7 +650,7 @@ bootstrapT="BOOTSTRAP_ENABLED = True"
 case "$responded" in 
     [yY][eE][sS]|[yY]) 
         sed -i "s/$bootstrapV/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-        DEPLOY_SCRIPT2 web prod $projectID
+        #DEPLOY_SCRIPT2 web prod $projectID
         ;;
     *)
 		sed -i "s/$bootstrapV/$bootstrapT/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
@@ -688,6 +688,7 @@ read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/maifest.json
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+DEPLOY_SCRIPT2 web prod $projectID
 
 
 read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer

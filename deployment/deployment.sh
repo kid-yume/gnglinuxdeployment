@@ -605,7 +605,7 @@ echo ""
 read -p 'Enter the recorded Billing Account ID  ' billingID
 gcloud beta billing projects link $projectID --billing-account $billingID
 #Giving initial BootStrap value true
-sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 
 #starting the Git Repository upload option
 #read -p 'Do you have a git Repository you are using? *Highly Recommended (Y/N)' response
@@ -666,7 +666,7 @@ using_git_first_time $gitUrl "$gitEmail"
 echo ""
 echo ""
 gitNumber=1
-while [ $gitNumber == 1]
+while [ $gitNumber == 1]:
 do
 read -p 'Was Upload Succesful? (Y)/(N)  ' gitAnswer
 case "$gitAnswer" in 

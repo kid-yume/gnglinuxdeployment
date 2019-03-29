@@ -663,8 +663,10 @@ printf "\033c"
 read -p 'Enter the recorded Github URL:  ' gitUrl
 read -p 'Enter the recorded Github Email:  ' gitEmail
 using_git_first_time $gitUrl "$gitEmail"
+echo ""
+echo ""
 gitNumber=1
-while [ $gitNumber != 0]
+while [ $gitNumber == 1]
 do
 read -p 'Was Upload Succesful? (Y)/(N)  ' gitAnswer
 case "$gitAnswer" in 

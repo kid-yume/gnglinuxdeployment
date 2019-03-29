@@ -122,7 +122,7 @@ The hardest part is over. Your Grab n Go app has been deployed! In the next step
 *	Editing Support Page(Optional)
 *	Celebrating Completion
 
-Lets continue. Moving forward, i will be moving away from using incgnito mode and a regular Chrome browser. If you were not using chrome, You will have to switch over to complete this deployment. 
+Lets continue. Moving forward, i will be moving away from using incgnito mode and a regular Chrome browser. If you were not using chrome, You will have to switch over to complete this deployment. Be wary that you will see me going back to Icognito mode in some future steps but be sure to do this is in a regular chrome browser. You will have less issues if you do it this way. 
 
 
 
@@ -149,42 +149,60 @@ Lets continue. Moving forward, i will be moving away from using incgnito mode an
 begin by uploading our grabngo to the github repository we created.
 
 
-**35.** Once completed lets shoot back over to our linux VM before getting started!  |**36.** BootStrapping has completed: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd>
+**35.** Once completed lets shoot back over to our linux VM. Were ready to continue <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> |**36.** BootStrapping has completed: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd>
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic25%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic26.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic26%4050%25.jpg" style="width:100%"/></a> 
 
 
-**31.**	**STOP** Here before you type anything and proceed to the next step    |**32.**  Go to your Google [keep]() or your text editor; copy the **GITHUB REPOSITORY URL** entry from there
+**37.**	**STOP** Here before you type anything and proceed to the next step    |**38.**  Go to your Google [keep]() or your text editor; copy the **GITHUB REPOSITORY URL** entry from there
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic13%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic14.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic14%4050%25.jpg" style="width:100%"/></a>
 
-**33.**	Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd>  |**34.**  **STOP** before typing anything again move to the next step and copy the proper answer from your Keep or Text Document. 
+**39.**	Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd>  |**40.**  **STOP** before typing anything again move to the next step and copy the proper answer from your Keep or Text Document. 
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic21.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic21%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic22.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic22%4050%25.jpg" style="width:100%"/></a> 
 
-**35.**	Go to your Google [keep]() or your text editor; copy the **GITHUB EMAIL** entry from there   |**36.** Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd> 
+**41.**	Go to your Google [keep]() or your text editor; copy the **GITHUB EMAIL** entry from there   |**42.** Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd> 
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
 
-**31.**	**STOP** Here before you type anything and proceed to the next step    |**32.**  Go to your Google [keep]() or your text editor; copy the **GITHUB USERNAME** entry from there
+**43.**	**STOP** Here before you type anything and proceed to the next step    |**44.**  Go to your Google [keep]() or your text editor; copy the **GITHUB Email** again entry from there.(This is the Github Username)
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic13%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic14.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic14%4050%25.jpg" style="width:100%"/></a>
 
 
-**33.**	Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd>  |**34.**  **STOP** before typing anything again move to the next step and copy the proper answer from your Keep or Text Document. 
+**45.**	Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd>  |**46.**  **STOP** before typing anything again move to the next step and copy the proper answer from your Keep or Text Document. 
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic21.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic21%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic22.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic22%4050%25.jpg" style="width:100%"/></a> 
 
-**35.**	Go to your Google [keep]() or your text editor; copy the **GITHUB PASSWORD** entry from there   |**36.** Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd> 
+**47.**	Go to your Google [keep]() or your text editor; copy the **GITHUB PASSWORD** entry from there   |**48.** Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd> <br> You will not see any letters appear as if you were typing. The letters will be invisible. IF you paste the words are there you just cannot see them!
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
 
 
 
-**37.**	If it successfully uploaded without any issues, and your screen is similiar to the one below: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> |**38.** We will now switch over to a chrome web browser and paste your repository url into the browser
+**49.**	**STOP** before typing anything lets open a new tab and verify that the upload was successful|**50.**  Open a tab and paste your GITHUB URL into the address bar and you should now see files and folders like the example below.
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
 
+**51.**	Go back to your VM: If your upload was successfull go ahead and press <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> if not, you probably put an incorrect password and username. <br> Press <kbd>N</kbd> <br> Then Press <kbd>Enter</kbd>  to try again. |**52.**  Lets go back to our regular chrome window(IF not already using it) and type in "[chrome://extensions/](chrome://extensions/)" into the address bar
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic21.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic21%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic22.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic22%4050%25.jpg" style="width:100%"/></a> 
+
+
+**53.**	Click the switch in the upper-right hand corner to turn on "Developer Mode"|**54.**  Lets open a new tab and go to our github repository
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
+
+
+**53.**	Click the switch in the upper-right hand corner to turn on "Developer Mode"|**54.**  Lets open a new tab and go to our github repository
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
+
+
+**55.**	Click the "Clone or Download" |**56.**  Click "Download ZIP" and name the folder "loaner"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
 
 
 

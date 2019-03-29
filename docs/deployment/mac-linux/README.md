@@ -204,6 +204,11 @@ begin by uploading our grabngo to the github repository we created.
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
 
+**55.**	Unzip this folder <br>[Windows Unzip]() <br> [MAC Unzip]() |**56.**  Click "Download ZIP" and name the folder "loaner"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
+
+
 
 
 ### Next Steps

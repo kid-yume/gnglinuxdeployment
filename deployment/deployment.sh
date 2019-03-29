@@ -659,6 +659,8 @@ case "$responded" in
 		exit 1
         ;;
 esac
+#rename github distrubution folder for chrome. 
+mv ~/loaner/loaner/chrome_app/dist ~loaner/loaner/chrome_app/chromedist
 printf "\033c"
 read -p 'Enter the recorded Github URL:  ' gitUrl
 read -p 'Enter the recorded Github Email:  ' gitEmail
@@ -688,6 +690,7 @@ read -p 'Have you followed the directions and ready to submit the OAUTHKEY? Subm
 
 read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/maifest.json
+
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py
 cd ~/loaner/loaner

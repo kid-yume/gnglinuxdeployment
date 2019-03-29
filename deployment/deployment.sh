@@ -4,7 +4,7 @@
 
 using_git_first_time()
 {
-	
+	cd ~/loaner
 	gbUrl=$1
 	email=$2
 	git config --global user.name "GNG Deployment"
@@ -605,7 +605,7 @@ echo ""
 read -p 'Enter the recorded Billing Account ID  ' billingID
 gcloud beta billing projects link $projectID --billing-account $billingID
 #Giving initial BootStrap value true
-sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
 
 #starting the Git Repository upload option
 #read -p 'Do you have a git Repository you are using? *Highly Recommended (Y/N)' response
@@ -649,11 +649,11 @@ bootstrapF="BOOTSTRAP_ENABLED = False"
 bootstrapT="BOOTSTRAP_ENABLED = True"
 case "$responded" in 
     [yY][eE][sS]|[yY]) 
-        sed -i "s/$bootstrapV/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+        sed -i "s/$bootstrapV/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
         #DEPLOY_SCRIPT2 web prod $projectID
         ;;
     *)
-		sed -i "s/$bootstrapV/$bootstrapT/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+		sed -i "s/$bootstrapV/$bootstrapT/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
         echo "Please refer to the Example Guid for further assitance!"
 		sleep 5
 		exit 1
@@ -688,6 +688,7 @@ read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/maifest.json
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+cd ~/loaner/loaner
 DEPLOY_SCRIPT2 web prod $projectID
 
 

@@ -649,7 +649,7 @@ bootstrapF="BOOTSTRAP_ENABLED = False"
 bootstrapT="BOOTSTRAP_ENABLED = True"
 case "$responded" in 
     [yY][eE][sS]|[yY]) 
-        sed -i "s/$bootstrapV/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+        sed -i "s/BOOTSTRAP_ENABLED = True/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
         #DEPLOY_SCRIPT2 web prod $projectID
         ;;
     *)
@@ -666,7 +666,7 @@ using_git_first_time $gitUrl "$gitEmail"
 echo ""
 echo ""
 gitNumber=1
-while [ $gitNumber == 1]:
+while [ $gitNumber == 1 ]
 do
 read -p 'Was Upload Succesful? (Y)/(N)  ' gitAnswer
 case "$gitAnswer" in 

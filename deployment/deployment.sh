@@ -649,11 +649,11 @@ bootstrapF="BOOTSTRAP_ENABLED = False"
 bootstrapT="BOOTSTRAP_ENABLED = True"
 case "$responded" in 
     [yY][eE][sS]|[yY]) 
-        sed -i "s/$bootstrapV/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+        sed -i "s/$bootstrapV/$bootstrapF/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
         #DEPLOY_SCRIPT2 web prod $projectID
         ;;
     *)
-		sed -i "s/$bootstrapV/$bootstrapT/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/constants.py
+		sed -i "s/$bootstrapV/$bootstrapT/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
         echo "Please refer to the Example Guid for further assitance!"
 		sleep 5
 		exit 1

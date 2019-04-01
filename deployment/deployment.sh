@@ -407,15 +407,15 @@ gcloud app browse --launch-browser
 read -p 'Did the bootstrap complete? Press (Y)/(N) to continue ' responded
 #copying and deleting client-secret before upload to cloud!
 cp -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ~/
-sudo rm -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json
+sudo rm -r ~/loaner/loaner/web_app/client-secret.json
 
 case "$responded" in 
     [yY][eE][sS]|[yY]) 
-        sed -i "s/{BOOTSTRAP}/False/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+        sed -i "s/{BOOTSTRAP}/False/g" ~/loaner/loaner/shared/config.ts
         DEPLOY_SCRIPT web prod $projectID
         ;;
     *)
-		sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+		sed -i "s/{BOOTSTRAP}/True/g" ~/loaner/loaner/shared/config.ts
         echo "Please refer to the Example Guid for further assitance!"
 		sleep 5
 		exit 1

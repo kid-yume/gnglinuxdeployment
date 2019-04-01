@@ -685,7 +685,7 @@ case "$gitAnswer" in
         ;;
 esac
 done
-
+printf "\033c"
 read -p 'Have you followed the directions and ready to submit the OAUTHKEY? Submit "Y" when ready to move on to next step' ready
 
 read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId

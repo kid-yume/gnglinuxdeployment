@@ -689,7 +689,7 @@ printf "\033c"
 read -p 'Have you followed the directions and ready to submit the OAUTHKEY? Submit "Y" when ready to move on to next step' ready
 
 read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
-sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/maifest.json
+sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
 
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py

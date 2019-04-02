@@ -24,7 +24,7 @@
     "128": "assets/icons/gng128.png"
   },
   "oauth2": {
-    "client_id": "PUT_YOUR_CLIENT_ID_HERE",
+    "client_id": "{CHROMEOAUTH2ID}",
     "scopes": [
       "https://www.googleapis.com/auth/userinfo.email"
     ]

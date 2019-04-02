@@ -113,7 +113,7 @@ or your text editor handy with the information that has been recorded throughout
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real%4050%25.jpg" style="width:100%"/></a> 
 
-#### Web Applicaiton has been deployed!
+#### App has been deployed!
 The hardest part is over. Your Grab n Go app has been deployed! In the next steps we will be completing the following:
 
 *	**Bootstrapping** your Grab n Go App(Fancy way of doing a one-time configuration during the intial launch)
@@ -291,10 +291,6 @@ Now that the chrome app has been deployed to the stores. We need to properly key
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
 
-**86.** Go back to the "More Info" window and Copy "Public Key" (Make "Public Key" One Line and delete all spaces line breaks )	|**87.**  Open your Google Keep or Textpad where you have stored previous information and paste in there
-:-------------------------:|:-------------------------:
-<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
-
 
 ### Creating the OAuth Client ID for Chrome App
 When creating an Oauth ID for our Chrome App lets go ahead and open up our cloud console in a chrome tab. 
@@ -329,7 +325,32 @@ When creating an Oauth ID for our Chrome App lets go ahead and open up our cloud
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
-**100.** Click "Create"	|**101.**  Your OAuth client ID has been succesfully created. Hightlight the "client ID" and copy it.
+**100.** Go to your Google Keep or text editor and paste your Oauth Client ID there. |**101.** Go To [Google Admin](https://admin.google.com)
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+
+**102.** Click Menu in the upper-right hand corner |**103.** Click "Secuirty"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+**104.** Scroll Down and click "Advanced Settings" |**105.** Click "Manage API client access"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+
+**106.** STOP before going to type in "Client Name" go on to the next step and copy entry from Google Keep or your Text Document.|**107.** In your Google Keep or Text Document copy the "Chrome OAuth client ID" entry
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+
+
+**108.** Go back to the "Manage API client access" screen and paste into "Client Name".|**109.** Copy `https://www.googleapis.com/auth/userinfo.email` na paste into the "One or More API Scopes field"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+
+**110.** Click "Authorize"|**109.** Copy `https://www.googleapis.com/auth/userinfo.email` na paste into the "One or More API Scopes field"
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 

@@ -23,8 +23,9 @@
     "48": "assets/icons/gng48.png",
     "128": "assets/icons/gng128.png"
   },
+  "key":"{KEYTOREPLACE}",
   "oauth2": {
-    "client_id": "{CHROMEOAUTH2ID}",
+    "client_id": "{OAUTH2ID}",
     "scopes": [
       "https://www.googleapis.com/auth/userinfo.email"
     ]

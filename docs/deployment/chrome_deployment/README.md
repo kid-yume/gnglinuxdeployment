@@ -28,7 +28,7 @@ The Prequisites are as follows that need to be completed before beginning the De
 *	Text Document or [Google Keep Notes]() used to record information that will be used in this step
 
 
-##Chrome Deployment is made up of the following steps: 
+## Chrome Deployment is made up of the following steps: 
 1.	[Uploading the GnG Chrome App to Chrome Webstore](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/uploading_to_chromestore)
 2.	[Generating and Recording Public Key](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_publickey)
 3.	[Generating and Recording Chrome OauthID client ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_oauthid)

@@ -51,7 +51,7 @@ returning, and monitoring these devices.
 
 **110.** Click "Authorize"  |
 :-------------------------:|
-<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic110.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic110%4050%25.jpg" style="width:100%"/></a>| 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic110.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic110.jpg" style="width:100%"/></a>| 
 
 
 ## Next Steps

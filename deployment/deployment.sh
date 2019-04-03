@@ -698,20 +698,26 @@ case "$gitAnswer" in
         ;;
 esac
 done
+printf "\033c"
+read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? Submit "Y" when ready to move on to next step' ready
+#{KEYTOREPLACE}
+read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
+read -p 'Please Paste in the Public KeY for Chrome App: ' chromePubKey
+sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
+sed -i "s/{KEYTOREPLACE}/$chromePubKey/g" ~/gnglinuxdeployment/deployment/manifest.json
+rm -r ~/loaner/loaner/chrome_app/manifest.json
+cp -r ~/gnglinuxdeployment/deployment/manifest.json ~/loaner/loaner/chrome_app/manifest.json
 
-read -p 'Have you followed the directions and ready to submit the OAUTHKEY? Submit "Y" when ready to move on to next step' ready
-
-read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
-sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/maifest.json
 
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py
 cd ~/loaner/loaner
+mv ~/loaner/loaner/chrome_app/chromedist ~/loaner/loaner/chrome_app/dist
 DEPLOY_SCRIPT2 web prod $projectID
 
-
+printf "\033c"
 read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer
-
+cd ~/loaner/loaner
 case "$ContactAnswer" in 
     [yY][eE][sS]|[yY]) 
         read -p 'Enter IT Department Phone Number ' phoneNumber
@@ -720,13 +726,20 @@ case "$ContactAnswer" in
         sed -i "s/{ITEMAIL}/$emailaddress/g" ~loaner/loaner/shared/config.ts
         read -p 'Enter IT Department Website' websiteInfo
         sed -i "s/{ITWEBSITE}/$websiteInfo/g" ~/loaner/loaner/shared/config.ts
+        DEPLOY_SCRIPT2 chrome prod $projectID
+
         ;;
     *)
 		sed -i "s/{ITPHONENUMBER}/555-555-5555/g" ~/loaner/loaner/shared/config.ts
 		sed -i "s/{ITEMAIL}/support@$domainName/g" ~/loaner/loaner/shared/config.ts
 		sed -i "s/{ITWEBSITE}/$domainName.com/g" ~/loaner/loaner/shared/config.ts
+		DEPLOY_SCRIPT2 chrome prod $projectID
+
         ;;
 esac
+printf "\033c"
+using_git_second_time $gitUrl "$gitEmail"
+read -p 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
 
 
 cd ~/

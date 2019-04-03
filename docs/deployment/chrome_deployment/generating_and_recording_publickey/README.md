@@ -28,19 +28,26 @@ The Prequisites are as follows that need to be completed before beginning the De
 *	Text Document or [Google Keep Notes]() used to record information that will be used in this step
 
 
-Chrome Deployment is made up of the following steps: 
-1.	[Uploading the GnG Chrome App to Chrome Webstore]()
-2.	[Generating and Recording Public Key]()
-3.	[Generating and Recording Chrome OauthID client ID]()
-4.	[Adding Chrome OAuth client ID to whitelist]()
-5.	[Completing Linux Deoployment]()
-6.	[Uploading Final Chrome App Build to webstore]()
+##Chrome Deployment Steps completed so far:
+1.	[Uploading the GnG Chrome App to Chrome Webstore](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/uploading_to_chromestore)
 
 
 
+#### Generating and Recording the Public Key
 
-#### Deploying the Chrome Application
 
+**82.**	Lets go back to the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard) and now you should see your GnG Loaner App|**83.**  Click More Info 
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+
+**84.** Copy "Item ID"	|**85.**  Open your Google Keep or Textpad where you have stored previous information and paste in there
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
+
+**86.** Go back to the "More Info" window and Copy "Public Key" (Make "Public Key" One Line and delete all spaces line breaks )	|**87.**  Open your Google Keep or Textpad where you have stored previous information and paste in there
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
 
 #### Reference Documentation

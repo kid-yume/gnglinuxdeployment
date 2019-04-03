@@ -146,7 +146,7 @@ Lets continue. Moving forward, i will be moving away from using incgnito mode an
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic33RReal.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic33RReal%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic34RReal.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic34RReal%4050%25.jpg" style="width:100%"/></a> 
 
 
-### Next Steps
+## Next Steps
 *	Our next steps will be to deploy the GnG Chrome App to the Chrome Webstore. 
 *	You are reminded to **NOT CLOSE** the Linux VM and it will continue into the 
 next steps. Follow the prompts and follow the guide

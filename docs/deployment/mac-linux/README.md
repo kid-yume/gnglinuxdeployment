@@ -112,7 +112,7 @@ or your text editor handy with the information that has been recorded throughout
 **27.** The script will now deply your web application and build your Chrome app for you! Type the letter <kbd>Y</kbd> for yes and hit  <kbd>Enter</kbd> when prompted.  |**28.**  Once Completed the screen will tell you to come back here. Please read the writing following this step before continuing
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real%4050%25.jpg" style="width:100%"/></a> 
-
+<br>
 ### Web Application has been deployed!
 The hardest part is over. Your Grab n Go app has been deployed! In the next steps we will be completing the following:
 
@@ -124,7 +124,7 @@ The hardest part is over. Your Grab n Go app has been deployed! In the next step
 
 Lets continue. Moving forward, i will be moving away from using incgnito mode and a regular Chrome browser. If you were not using chrome, You will have to switch over to complete this deployment. Be wary that you will see me going back to Icognito mode in some future steps but be sure to do this is in a regular chrome browser. You will have less issues if you do it this way. 
 
-
+<br>
 
 
 **29.** You are now ready for the next steps: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> <br> Copy the URL the presents itself(DO NOT CLOSE VM) |**30.** Paste URL in a NON-INCOGNITO Chrome Web Broswer

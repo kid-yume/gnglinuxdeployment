@@ -15,7 +15,7 @@ returning, and monitoring these devices.
 
 
 
-#### Uploading the GnG Chrome App to Chrome Webstore
+## Uploading the GnG Chrome App to Chrome Webstore
 *	Lets start off where we left off during the Web Application Deployment
 and head back into our Linux VM
 
@@ -147,7 +147,7 @@ and head back into our Linux VM
 
 
 ## Next Steps
-* We will now begin the portion of the deployment that will consist of [Generating and Recording Chrome OauthID client ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_oauthid)
+* We will now begin the portion of the deployment that will consist of [Generating and Recording the Public Key](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_publickey)
 for your chrome app. This will also be important to completing the deployment from our Linux VM.
 
 #### Reference Documentation

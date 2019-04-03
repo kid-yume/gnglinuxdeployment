@@ -146,7 +146,7 @@ and head back into our Linux VM
 
 
 
-#### Next Steps
+## Next Steps
 * We will now begin the portion of the deployment that will consist of [Generating and Recording Chrome OauthID client ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_oauthid)
 for your chrome app. This will also be important to completing the deployment from our Linux VM.
 

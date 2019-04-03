@@ -38,7 +38,7 @@ taken throughout the process handy for input during this process.  This will con
 
 
 
-### Deploying the Web Application
+## Deploying the Web Application
 * Lets begin by logging into our Linux VM if you have been following the guide. The Linux Virtual Machine Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/virtualmachinecreation)
 will show you how to create and access the Linux VM. Be sure to also have your Google Keep open in another tab 
 or your text editor handy with the information that has been recorded throughout the Example. 
@@ -113,7 +113,7 @@ or your text editor handy with the information that has been recorded throughout
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real%4050%25.jpg" style="width:100%"/></a> 
 
-#### Web Application has been deployed!
+### Web Application has been deployed!
 The hardest part is over. Your Grab n Go app has been deployed! In the next steps we will be completing the following:
 
 *	**Bootstrapping** your Grab n Go App(Fancy way of doing a one-time configuration during the intial launch)

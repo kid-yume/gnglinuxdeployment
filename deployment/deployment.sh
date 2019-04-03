@@ -701,7 +701,9 @@ done
 printf "\033c"
 read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? ' ready
 #{KEYTOREPLACE}
+printf "\033c"
 read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
+printf "\033c"
 read -p 'Please Paste in the Public KeY for Chrome App: ' chromePubKey
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
 sed -i "s/{KEYTOREPLACE}/$chromePubKey/g" ~/gnglinuxdeployment/deployment/manifest.json
@@ -739,6 +741,8 @@ case "$ContactAnswer" in
 esac
 printf "\033c"
 using_git_second_time $gitUrl "$gitEmail"
+echo ""
+echo ""
 read -p 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
 
 

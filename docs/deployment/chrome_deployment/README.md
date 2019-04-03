@@ -29,13 +29,12 @@ The Prequisites are as follows that need to be completed before beginning the De
 
 
 ##Chrome Deployment is made up of the following steps: 
-*	Uploading the GnG Chrome App to Chrome Webstore[]() 
-*	Generating and Recording Public Key[]() 
-*	Generating and Recording Chrome OauthID client ID[]() 
-*	Adding Chrome OAuth client ID to whitelist[]() 
-*	Completing Linux Deoployment[]() 
-*	Uploading Final Chrome App Build to webstore[]() 
-
+1.	[Uploading the GnG Chrome App to Chrome Webstore](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/uploading_to_chromestore)
+2.	[Generating and Recording Public Key](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_publickey)
+3.	[Generating and Recording Chrome OauthID client ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_oauthid)
+4.	[Adding Chrome OAuth client ID to whitelist](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/adding_chrome_oauth_clientid_to_whitelist)
+5.	[Completing Linux Deoployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/completing_linux_deployment)
+6.	[Uploading Final Chrome App Build to webstore](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/uploading_final_build)
 
 
 #### Reference Documentation

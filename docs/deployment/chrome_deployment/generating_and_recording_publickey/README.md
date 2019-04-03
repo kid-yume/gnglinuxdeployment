@@ -29,12 +29,12 @@ The Prequisites are as follows that need to be completed before beginning the De
 
 
 Chrome Deployment is made up of the following steps: 
-*	Uploading the GnG Chrome App to Chrome Webstore 
-*	Generating and Recording Public Key
-*	Generating and Recording Chrome OauthID client ID
-*	Adding Chrome OAuth client ID to whitelist
-*	Completing Linux Deoployment
-*	Uploading Final Chrome App Build to webstore
+1.	[Uploading the GnG Chrome App to Chrome Webstore]
+2.	[Generating and Recording Public Key]
+3.	[Generating and Recording Chrome OauthID client ID]
+4.	[Adding Chrome OAuth client ID to whitelist]
+5.	[Completing Linux Deoployment]
+6.	[Uploading Final Chrome App Build to webstore]
 
 
 

@@ -28,18 +28,13 @@ The Prequisites are as follows that need to be completed before beginning the De
 *	Text Document or [Google Keep Notes]() used to record information that will be used in this step
 
 
-Chrome Deployment is made up of the following steps: 
-*	Uploading the GnG Chrome App to Chrome Webstore 
-*	Generating and Recording Public Key
-*	Generating and Recording Chrome OauthID client ID
-*	Adding Chrome OAuth client ID to whitelist
-*	Completing Linux Deoployment
-*	Uploading Final Chrome App Build to webstore
-
-
-
-
-#### Deploying the Chrome Application
+##Chrome Deployment is made up of the following steps: 
+*	Uploading the GnG Chrome App to Chrome Webstore[]() 
+*	Generating and Recording Public Key[]() 
+*	Generating and Recording Chrome OauthID client ID[]() 
+*	Adding Chrome OAuth client ID to whitelist[]() 
+*	Completing Linux Deoployment[]() 
+*	Uploading Final Chrome App Build to webstore[]() 
 
 
 

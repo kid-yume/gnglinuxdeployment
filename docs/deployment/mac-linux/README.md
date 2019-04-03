@@ -148,7 +148,7 @@ Lets continue. Moving forward, i will be moving away from using incgnito mode an
 *	Our next steps will be to deploy the GnG Chrome App to the Chrome Webstore. 
 *	You are reminded to **NOT CLOSE** the Linux VM and it will continue into the 
 next steps. Follow the prompts and follow the guide
-* 	This guide continues into the [Chrome Deployment]()
+* 	This guide continues into the [Chrome Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment)
 
 
 

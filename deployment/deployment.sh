@@ -686,19 +686,26 @@ case "$gitAnswer" in
 esac
 done
 printf "\033c"
-read -p 'Have you followed the directions and ready to submit the OAUTHKEY? Submit "Y" when ready to move on to next step' ready
+read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? Submit "Y" when ready to move on to next step' ready
 
 read -p 'Please Paste in the OAUTH KEY for Chrome App: ' cOauthId
+
+read -p 'Please Paste in the Public KEY for Chrome App: ' chromePublicKey
+#{KEYTOREPLACE} replacing keys and placing new MAnifest into the loaner folder.
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
+sed -i "s/{KEYTOREPLACE}/$chromePublicKey/g" ~/gnglinuxdeployment/deployment/manifest.json
+sudo rm -r ~/loaner/loaner/chrome_app/manifest.json
+cp -r ~/gnglinuxdeployment/deployment/manifest.json ~/loaner/loaner/chrome_app/
 
 sed -i "s/{PROD_CHROME_KEY_PASTE}/$cOauthId/g" ~/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py
+sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/chrome_app/manifest.json
 cd ~/loaner/loaner
 DEPLOY_SCRIPT2 web prod $projectID
 
 
 read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer
-
+cd ~/loaner/loaner
 case "$ContactAnswer" in 
     [yY][eE][sS]|[yY]) 
         read -p 'Enter IT Department Phone Number ' phoneNumber
@@ -707,13 +714,19 @@ case "$ContactAnswer" in
         sed -i "s/{ITEMAIL}/$emailaddress/g" ~loaner/loaner/shared/config.ts
         read -p 'Enter IT Department Website' websiteInfo
         sed -i "s/{ITWEBSITE}/$websiteInfo/g" ~/loaner/loaner/shared/config.ts
+        DEPLOY_SCRIPT2 chrome prod $projectID
         ;;
     *)
 		sed -i "s/{ITPHONENUMBER}/555-555-5555/g" ~/loaner/loaner/shared/config.ts
 		sed -i "s/{ITEMAIL}/support@$domainName/g" ~/loaner/loaner/shared/config.ts
 		sed -i "s/{ITWEBSITE}/$domainName.com/g" ~/loaner/loaner/shared/config.ts
+		DEPLOY_SCRIPT2 web chrome $projectID
+
         ;;
 esac
+
+
+read -p 'Congratulations! You are complete with this part of the deployment and Grab n Go is ready to Go! You may log out of your Linux VM now. Refer to documentation for next steps!' ContactAnswer
 
 
 cd ~/

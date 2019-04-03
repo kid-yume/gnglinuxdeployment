@@ -35,7 +35,7 @@ The Prequisites are as follows that need to be completed before beginning the De
 
 
 
-#### Adding Chrome OAuth client ID to whtielist 
+#### Whitelisting Chrome OAuth client ID 
 
 
 **100.** Go to your Google Keep or text editor and paste your Oauth Client ID there. |**101.** Go To [Google Admin](https://admin.google.com)
@@ -43,7 +43,7 @@ The Prequisites are as follows that need to be completed before beginning the De
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
 
-**102.** Click Menu in the upper-right hand corner |**103.** Click "Secuirty"
+**102.** Click Menu in the upper-right hand corner |**103.** Click "Security"
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
@@ -68,6 +68,10 @@ The Prequisites are as follows that need to be completed before beginning the De
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
 
+#### Next Steps
+* We will now begin the portion of the deployment that will consist of [Completing the Linux Deoployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/completing_linux_deployment)
+for your chrome app. We will be going back to the Linux VM and completing the deployment from there; with
+the information we have recorded in our [Google Keep]() or text document you have stored the informaiton.  
 
 
 #### Reference Documentation

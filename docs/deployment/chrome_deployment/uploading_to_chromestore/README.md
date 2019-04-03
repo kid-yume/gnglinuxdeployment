@@ -19,9 +19,6 @@ returning, and monitoring these devices.
 *	Lets start off where we left off during the Web Application Deployment
 and head back into our Linux VM
 
-#### Deploying the Chrome App
-* We will now begin the portion of the deployment that will consist of uploading our Chrome App. We 
-begin by uploading our grabngo to the github repository we created. 
 
 
 **35.** Once completed lets shoot back over to our linux VM. Were ready to continue <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> |**36.** BootStrapping has completed: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd>
@@ -147,6 +144,11 @@ begin by uploading our grabngo to the github repository we created.
 :-------------------------:|
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10.jpg" style="width:100%"/></a> | 
 
+
+
+#### Next Steps
+* We will now begin the portion of the deployment that will consist of [Generating and Recording Chrome OauthID client ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_oauthid)
+for your chrome app. This will also be important to completing the deployment from our Linux VM.
 
 #### Reference Documentation
 

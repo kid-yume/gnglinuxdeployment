@@ -707,7 +707,7 @@ read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
 printf "\033c"
 echo ""
 read -p 'Please Paste in the Public Key for Chrome App: ' chromePubKey
-sed -i "s/{OAUTH2ID}/$cOauthId/g" nglinuxdeployment/deployment/manifest.json
+sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
 sed -i "s,{KEYTOREPLACE},$chromePubKey,g" ~/gnglinuxdeployment/deployment/manifest.json
 rm -r ~/loaner/loaner/chrome_app/manifest.json
 cp -r ~/gnglinuxdeployment/deployment/manifest.json ~/loaner/loaner/chrome_app/manifest.json

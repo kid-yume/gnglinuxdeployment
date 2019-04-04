@@ -702,11 +702,13 @@ printf "\033c"
 read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? ' ready
 #{KEYTOREPLACE}
 printf "\033c"
+echo ""
 read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
 printf "\033c"
-read -p 'Please Paste in the Public KeY for Chrome App: ' chromePubKey
+echo ""
+read -p 'Please Paste in the Public Key for Chrome App: ' chromePubKey
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
-sed -i "s/{KEYTOREPLACE}/$chromePubKey/g" ~/gnglinuxdeployment/deployment/manifest.json
+sed -i "s,{KEYTOREPLACE},$chromePubKey,g" ~/gnglinuxdeployment/deployment/manifest.json
 rm -r ~/loaner/loaner/chrome_app/manifest.json
 cp -r ~/gnglinuxdeployment/deployment/manifest.json ~/loaner/loaner/chrome_app/manifest.json
 

@@ -530,8 +530,7 @@ DEPLOY_SCRIPT2()
 
 }
 
-cr=`echo $'\n.'`
-cr=${cr%.}
+
 #
 #walk user through set up. 
 gcloud init 
@@ -540,7 +539,7 @@ gcloud init
 #clear
 echo ""
 printf "\033c"
-read -p 'Enter Recorded Project ID: [$cr] > ' projectID
+read -p 'Enter Recorded Project ID: ' projectID
 #Replacing all the Project IDs in file 
 changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
 projectID=''$changed_val''
@@ -549,7 +548,7 @@ sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/s
 sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
 printf "\033c"
 echo ""
-read -p 'Enter Recorded Service Account Email: $cr >' serviceAcct
+read -p 'Enter Recorded Service Account Email: ' serviceAcct
 #Create the Secret File and put it into the correct folder 
 #Create the Secret File and put it into the correct folder 
 changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $serviceAcct)
@@ -573,7 +572,7 @@ fi
 outputR=$?
 while [ $outputR != 0]
 do
-read -p 'Enter Recorded Service Account Email:$cr > ' serviceAcct
+read -p 'Enter Recorded Service Account Email: ' serviceAcct
 if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ]
 then
     echo "JSON key exists Skipping Generating key.... "
@@ -588,14 +587,14 @@ done
 
 printf "\033c"
 echo ""
-read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): $cr > ' domainName
+read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
 sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
 domainName=''$changed_val''
 printf "\033c"
  #THIS WILL REPLACE {ADMIN_EMAIL}
 echo ""
-read -p 'Enter the Super Admin Email: $cr' adminEmail
+read -p 'Enter the Super Admin Email: ' adminEmail
 sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $adminEmail)
 adminEmail="${changed_val}"
@@ -610,13 +609,13 @@ sed -i "s/{SUPERADMINS_GROUP}/$sag/g" ~/gnglinuxdeployment/deployment/loaner/loa
 printf "\033c"
 sleep 1
 echo ""
-read -p 'Enter the recorded Oauth ID: $cr > ' oauthID 
+read -p 'Enter the recorded Oauth ID:  ' oauthID 
 sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 printf "\033c"
 sleep 1
 echo ""
-read -p 'Enter the recorded Billing Account ID: $cr > ' billingID
+read -p 'Enter the recorded Billing Account ID  ' billingID
 gcloud beta billing projects link $projectID --billing-account $billingID
 #Giving initial BootStrap value true
 sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
@@ -700,14 +699,14 @@ case "$gitAnswer" in
 esac
 done
 printf "\033c"
-read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? $cr > ' ready
+read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? ' ready
 #{KEYTOREPLACE}
 printf "\033c"
 echo ""
-read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: $cr > ' cOauthId
+read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
 printf "\033c"
 echo ""
-read -p 'Please Paste in the Public Key for Chrome App: $cr >' chromePubKey
+read -p 'Please Paste in the Public Key for Chrome App: ' chromePubKey
 sed -i "s/{OAUTH2ID}/$cOauthId/g" nglinuxdeployment/deployment/manifest.json
 sed -i "s,{KEYTOREPLACE},$chromePubKey,g" ~/gnglinuxdeployment/deployment/manifest.json
 rm -r ~/loaner/loaner/chrome_app/manifest.json
@@ -721,15 +720,15 @@ mv ~/loaner/loaner/chrome_app/chromedist ~/loaner/loaner/chrome_app/dist
 DEPLOY_SCRIPT2 web prod $projectID
 
 printf "\033c"
-read -p 'Would you like to configure the IT Department contact information now? $cr This will be information that will be displayed in a event users are having issues using the application and need help $cr' ContactAnswer
+read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer
 cd ~/loaner/loaner
 case "$ContactAnswer" in 
     [yY][eE][sS]|[yY]) 
-        read -p 'Enter IT Department Phone Number $cr' phoneNumber
+        read -p 'Enter IT Department Phone Number ' phoneNumber
         sed -i "s/{ITPHONENUMBER}/$phoneNumber/g" ~/loaner/loaner/shared/config.ts
-        read -p 'Enter IT Department Email Address $cr' emailaddress
+        read -p 'Enter IT Department Email Address ' emailaddress
         sed -i "s/{ITEMAIL}/$emailaddress/g" ~loaner/loaner/shared/config.ts
-        read -p 'Enter IT Department Website $cr' websiteInfo
+        read -p 'Enter IT Department Website' websiteInfo
         sed -i "s/{ITWEBSITE}/$websiteInfo/g" ~/loaner/loaner/shared/config.ts
         DEPLOY_SCRIPT2 chrome prod $projectID
 

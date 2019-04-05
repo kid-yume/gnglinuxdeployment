@@ -533,10 +533,9 @@ DEPLOY_SCRIPT2()
 #firstString="I love Suzi and Marry"
 #secondString="Sara"
 #echo "${firstString/Suzi/$secondString}"    
-portionToReplace="-----BEGIN PUBLIC KEY-----"
-portionToBlank=""
-read -p 'Paste Public Key here: ' ready
-echo "${ready//$portionToReplace}"    
+#portionToBlank=""
+#read -p 'Paste Public Key here: ' ready
+#echo "${ready//$portionToReplace}"    
 #walk user through set up. 
 gcloud init 
 #Afterwards lets start collecting the information we need from user input used https://stackoverflow.com/questions/18544359/how-to-read-user-input-into-a-variable-in-bash
@@ -712,6 +711,12 @@ read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
 printf "\033c"
 echo ""
 read -p 'Please Paste in the Public Key for Chrome App: ' chromePubKey
+
+portionToReplace="-----BEGIN PUBLIC KEY-----"
+secondPortionToReplace="-----END PUBLIC KEY-----"
+chromePubKey="${ready//$portionToReplace}"
+chromePubKey="${ready//$secondPortionToReplace}"
+
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
 sed -i "s,{KEYTOREPLACE},$chromePubKey,g" ~/gnglinuxdeployment/deployment/manifest.json
 rm -r ~/loaner/loaner/chrome_app/manifest.json

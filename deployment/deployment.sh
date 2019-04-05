@@ -533,9 +533,10 @@ DEPLOY_SCRIPT2()
 #firstString="I love Suzi and Marry"
 #secondString="Sara"
 #echo "${firstString/Suzi/$secondString}"    
-
+portionToReplace="-----BEGIN PUBLIC KEY-----"
+portionToBlank=""
 read -p 'Paste Public Key here: ' ready
-#
+echo "${ready/portionToBlank/portionToReplace}"    
 #walk user through set up. 
 gcloud init 
 #Afterwards lets start collecting the information we need from user input used https://stackoverflow.com/questions/18544359/how-to-read-user-input-into-a-variable-in-bash

@@ -529,8 +529,12 @@ DEPLOY_SCRIPT2()
 
 
 }
+#Replacing Strings within a string
+#firstString="I love Suzi and Marry"
+#secondString="Sara"
+#echo "${firstString/Suzi/$secondString}"    
 
-
+read -p 'Paste Public Key here: ' ready
 #
 #walk user through set up. 
 gcloud init 
@@ -745,7 +749,9 @@ printf "\033c"
 using_git_second_time $gitUrl "$gitEmail"
 echo ""
 echo ""
-read -p 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
+echo 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
+echo 'Open $gitUrl in another tab to finish your deployment'
+
 
 
 cd ~/

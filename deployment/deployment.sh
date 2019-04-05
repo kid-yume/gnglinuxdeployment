@@ -714,8 +714,8 @@ read -p 'Please Paste in the Public Key for Chrome App: ' chromePubKey
 
 portionToReplace="-----BEGIN PUBLIC KEY-----"
 secondPortionToReplace="-----END PUBLIC KEY-----"
-chromePubKey="${ready//$portionToReplace}"
-chromePubKey="${ready//$secondPortionToReplace}"
+chromePubKey="${chromePubKey//$portionToReplace}"
+chromePubKey="${chromePubKey//$secondPortionToReplace}"
 
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
 sed -i "s,{KEYTOREPLACE},$chromePubKey,g" ~/gnglinuxdeployment/deployment/manifest.json
@@ -756,7 +756,7 @@ using_git_second_time $gitUrl "$gitEmail"
 echo ""
 echo ""
 echo 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
-echo 'Open $gitUrl in another tab to finish your deployment'
+echo "Open $gitUrl in another tab to finish your deployment"
 
 
 

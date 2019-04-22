@@ -65,7 +65,7 @@ returning, and monitoring these devices.
 
 
 ## Next Steps
-* We will now begin the final part of the deployment, that will consist of [Uploading the final build](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/completing_linux_deployment)
+* We will now begin the final part of the deployment, that will consist of [Uploading the final build](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/uploading_final_build)
 for your chrome app. Here we will begin the process of updating the Web Applicaiton and Chrome application to the most recently deployed build. Keep your chrome open and proceed to the final step. 
 
 

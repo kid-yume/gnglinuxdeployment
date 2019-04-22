@@ -54,13 +54,13 @@ returning, and monitoring these devices.
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic123.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic123%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic124.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic124%4050%25.jpg" style="width:100%"/></a> 
 
 
-**125.** In your Google Keep or Text Document copy the "Github Password" entry|**124.**  Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd> (Remeber it will remain blank for security reasons. Once you paste do not expect to see characters)
+**125.** In your Google Keep or Text Document copy the "Github Password" entry|**126.**  Go back to your VM:<br>MAC machines press <kbd>&#x2318;</kbd> &  <kbd>v</kbd> <br> Windows press <kbd>Ctrl</kbd> & <kbd>v</kbd>  <br> Then Press <kbd>Enter</kbd> (Remeber it will remain blank for security reasons. Once you paste do not expect to see characters)
 :-------------------------:|:-------------------------:
-<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic13%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic125.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic125%4050%25.jpg" style="width:100%"/></a> 
+ <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic125.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic125%4050%25.jpg" style="width:100%"/></a> 
+ | <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic13%4050%25.jpg" style="width:100%"/></a> 
 
 
-
-**126.** Congratulations. You have completed deployment and will no longer need to come back to the VM for the remainder of the process  |
+**127.** Congratulations. You have completed deployment and will no longer need to come back to the VM for the remainder of the process  |
 :-------------------------:|
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic126.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic126.jpg" style="width:100%"/></a>| 
 

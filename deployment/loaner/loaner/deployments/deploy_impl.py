@@ -481,8 +481,8 @@ class ChromeAppConfig(LoanerConfig):
     logging.debug('Building the Chrome Application...')
     self._ManifestCheck()
     os.chdir(self.npm_path)
-    _ExecuteCommand(['npm', 'install'])
-    _ExecuteCommand(['npm', 'run', 'build:chromeapp:once'])
+    _ExecuteCommand(['sudo','npm', 'install'])
+    _ExecuteCommand(['sudo','npm', 'run', 'build:chromeapp:once'])
     os.chdir(self.chrome_app_src_dir)
     if self.on_local:
       print('Local bundling coming soon...')

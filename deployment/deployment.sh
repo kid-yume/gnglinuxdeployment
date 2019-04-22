@@ -529,9 +529,13 @@ DEPLOY_SCRIPT2()
 
 
 }
-
-git clone https://github.com/kid-yume/gnglinuxdeployment.git --branch master --single-branch
-#
+#Replacing Strings within a string
+#firstString="I love Suzi and Marry"
+#secondString="Sara"
+#echo "${firstString/Suzi/$secondString}"    
+#portionToBlank=""
+#read -p 'Paste Public Key here: ' ready
+#echo "${ready//$portionToReplace}"    
 #walk user through set up. 
 gcloud init 
 #Afterwards lets start collecting the information we need from user input used https://stackoverflow.com/questions/18544359/how-to-read-user-input-into-a-variable-in-bash
@@ -699,12 +703,22 @@ case "$gitAnswer" in
 esac
 done
 printf "\033c"
-read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? Submit "Y" when ready to move on to next step' ready
+read -p 'Have you followed the directions and ready to submit the OAUTHKEY and Public Key? ' ready
 #{KEYTOREPLACE}
+printf "\033c"
+echo ""
 read -p 'Please Paste in the OAUTH client ID KEY for Chrome App: ' cOauthId
-read -p 'Please Paste in the Public KeY for Chrome App: ' chromePubKey
+printf "\033c"
+echo ""
+read -p 'Please Paste in the Public Key for Chrome App: ' chromePubKey
+
+portionToReplace="-----BEGIN PUBLIC KEY-----"
+secondPortionToReplace="-----END PUBLIC KEY-----"
+chromePubKey="${chromePubKey//$portionToReplace}"
+chromePubKey="${chromePubKey//$secondPortionToReplace}"
+
 sed -i "s/{OAUTH2ID}/$cOauthId/g" ~/gnglinuxdeployment/deployment/manifest.json
-sed -i "s/{KEYTOREPLACE}/$chromePubKey/g" ~/gnglinuxdeployment/deployment/manifest.json
+sed -i "s,{KEYTOREPLACE},$chromePubKey,g" ~/gnglinuxdeployment/deployment/manifest.json
 rm -r ~/loaner/loaner/chrome_app/manifest.json
 cp -r ~/gnglinuxdeployment/deployment/manifest.json ~/loaner/loaner/chrome_app/manifest.json
 
@@ -739,7 +753,11 @@ case "$ContactAnswer" in
 esac
 printf "\033c"
 using_git_second_time $gitUrl "$gitEmail"
-read -p 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
+echo ""
+echo ""
+echo 'Congratualations! If your seeing this, your last step will be to redeploy your chrome app in the Chromes Store. '
+echo "Open $gitUrl in another tab to finish your deployment"
+
 
 
 cd ~/

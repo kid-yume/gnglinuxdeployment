@@ -127,7 +127,7 @@ Lets continue. Moving forward, i will be moving away from using incgnito mode an
 
 
 
-**29.** You are now ready for the next steps: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> <br> Copy the URL the presents itslf |**30.** Paste URL in a NON-INCOGNITO Chrome Web Broswer
+**29.** You are now ready for the next steps: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> <br> Copy the URL that presents itself(Do not close this tab. You will come back to this tab eventually) |**30.** Paste URL in a NON-INCOGNITO Chrome Web Broswer
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic29Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic29Real%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic30Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic30Real%4050%25.jpg" style="width:100%"/></a> 
 
@@ -146,7 +146,7 @@ Lets continue. Moving forward, i will be moving away from using incgnito mode an
 
 #### Deploying the Chrome App
 * We will now begin the portion of the deployment that will consist of uploading our Chrome App. We 
-begin by uploading our grabngo to the github repository we created.
+begin by uploading our grabngo to the github repository we created. 
 
 
 **35.** Once completed lets shoot back over to our linux VM. Were ready to continue <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> |**36.** BootStrapping has completed: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd>
@@ -202,7 +202,7 @@ begin by uploading our grabngo to the github repository we created.
 
 **55.**	Click the "Clone or Download" |**56.**  Click "Download ZIP"
 :-------------------------:|:-------------------------:
-<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a>
 
 **55.**	Unzip this folder <br>[Windows Unzip](https://support.microsoft.com/en-us/help/4028088/windows-zip-and-unzip-files) <br> [MAC Unzip](http://osxdaily.com/2012/01/10/how-to-zip-files-in-mac-os-x/) |**56.**  Go back to Chrome Extensions tab and click "Pack extension"
 :-------------------------:|:-------------------------:
@@ -345,12 +345,12 @@ When creating an Oauth ID for our Chrome App lets go ahead and open up our cloud
 
 
 
-**108.** Go back to the "Manage API client access" screen and paste into "Client Name".|**109.** Copy `https://www.googleapis.com/auth/userinfo.email` na paste into the "One or More API Scopes field"
+**108.** Go back to the "Manage API client access" screen and paste into "Client Name".|**109.** Copy `https://www.googleapis.com/auth/userinfo.email` and paste into the "One or More API Scopes field"
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 
 
-**110.** Click "Authorize"|**109.** Copy `https://www.googleapis.com/auth/userinfo.email` na paste into the "One or More API Scopes field"
+**110.** Click "Authorize"|**111.** Copy `https://www.googleapis.com/auth/userinfo.email` and paste into the "One or More API Scopes field"
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic23%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/deployment/pic24%4050%25.jpg" style="width:100%"/></a>
 

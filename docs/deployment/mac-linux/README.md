@@ -34,11 +34,12 @@ taken throughout the process handy for input during this process.  This will con
 
 *	Deploying the Web Application 
 *	Deploying the Chrome Application
+*	Verifying App Engine is on the latest version
 
 
 
 
-#### Deploying the Web Application
+## Deploying the Web Application
 * Lets begin by logging into our Linux VM if you have been following the guide. The Linux Virtual Machine Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/virtualmachinecreation)
 will show you how to create and access the Linux VM. Be sure to also have your Google Keep open in another tab 
 or your text editor handy with the information that has been recorded throughout the Example. 
@@ -113,7 +114,9 @@ or your text editor handy with the information that has been recorded throughout
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic27Real%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic28Real%4050%25.jpg" style="width:100%"/></a> 
 
-#### Web Application has been deployed!
+<br></br>
+
+### Web Application has been deployed!
 The hardest part is over. Your Grab n Go app has been deployed! In the next steps we will be completing the following:
 
 *	**Bootstrapping** your Grab n Go App(Fancy way of doing a one-time configuration during the intial launch)
@@ -124,7 +127,7 @@ The hardest part is over. Your Grab n Go app has been deployed! In the next step
 
 Lets continue. Moving forward, i will be moving away from using incgnito mode and a regular Chrome browser. If you were not using chrome, You will have to switch over to complete this deployment. Be wary that you will see me going back to Icognito mode in some future steps but be sure to do this is in a regular chrome browser. You will have less issues if you do it this way. 
 
-
+<br></br>
 
 
 **29.** You are now ready for the next steps: <br> Press <kbd>Y</kbd> <br> Then Press <kbd>Enter</kbd> <br> Copy the URL the presents itself(DO NOT CLOSE VM) |**30.** Paste URL in a NON-INCOGNITO Chrome Web Broswer
@@ -144,11 +147,11 @@ Lets continue. Moving forward, i will be moving away from using incgnito mode an
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic33RReal.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic33RReal%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic34RReal.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Web%20Application%20Deployment/pic34RReal%4050%25.jpg" style="width:100%"/></a> 
 
 
-### Next Steps
+## Next Steps
 *	Our next steps will be to deploy the GnG Chrome App to the Chrome Webstore. 
 *	You are reminded to **NOT CLOSE** the Linux VM and it will continue into the 
 next steps. Follow the prompts and follow the guide
-* 	This guide continues into the [Chrome Deployment]()
+* 	This guide continues into the [Chrome Deployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment)
 
 
 

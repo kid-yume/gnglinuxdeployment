@@ -9,37 +9,82 @@ Grab n Go Loaners Comprehensive Example Guide
   </a>
 </p>
 
-The Grab n Go (GnG) Loaner project is a fully automated loaner management suite
+TThe Grab n Go (GnG) Loaner project is a fully automated loaner management suite
 that manages enterprise enrolled Chrome OS devices by automatically assigning,
 returning, and monitoring these devices.
 
 
-## Prequisites
+## Chrome Deployment Steps completed so far:
+1.	[Uploading the GnG Chrome App to Chrome Webstore](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/uploading_to_chromestore) 
+2.	[Generating and Recording Public Key](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_publickey)
+3.	[Generating and Recording Chrome OauthID client ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/generating_and_recording_oauthid)
+4.	[Adding Chrome OAuth client ID to whitelist](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/adding_chrome_oauth_clientid_to_whitelist)
+5.	[Completing Linux Deoployment](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/chrome_deployment/completing_linux_deployment)
 
-The Prequisites are as follows that need to be completed before beginning the Deployment: 
-*	[Verify Super Admin Access](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/verifysuperadminaccess)
-*	[Create GnG Organizational Units](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/organizationalunits)
-*	[Enabling Google Cloud Billing](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/billingaccountid)
-*	[OAuth2.0 ID Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/oauthid)
-*	[Service Account Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
-*	[Google Groups Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/googlegroupcreation)
-*	[Linux Virtual Machine Creation](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/virtualmachinecreation)
-*	[Git Repository Created](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/gitrepositorycreated)
-*	Text Document or [Google Keep Notes]() used to record information that will be used in this step
+### Uploading Final Chrome App Build to Webstore and updating Web Application
+We will begin the final step by first opening the github URL you have saved in your [Google Keep]() or text document in a new tab. if it is already open be sure you have refreshed the page. 
 
-
-Chrome Deployment is made up of the following steps: 
-*	Uploading the GnG Chrome App to Chrome Webstore 
-*	Generating and Recording Public Key
-*	Generating and Recording Chrome OauthID client ID
-*	Adding Chrome OAuth client ID to whitelist
-*	Completing Linux Deoployment
-*	Uploading Final Chrome App Build to webstore
+**1** Go to your Github URl in a new tab within your Chrome Browser  |**2.** Click "Clone or Download Button"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic1%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic2%4050%25.jpg" style="width:100%"/></a>
 
 
 
+**3** Click "Download Zip" |**4.** 	Unzip this folder <br>[Windows Unzip](https://support.microsoft.com/en-us/help/4028088/windows-zip-and-unzip-files) <br> [MAC Unzip](http://osxdaily.com/2012/01/10/how-to-zip-files-in-mac-os-x/) This time around you should see a file called "loaner_chrome_app.zip" in the root.
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic3%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic4%4050%25.jpg" style="width:100%"/></a>
 
-#### Deploying the Chrome Application
+**5** After Unzipping your folder open the [Chrome Web Store Developer Dashboard](https://chrome.google.com/webstore/developer/dashboard) in a chrome tab |**6.** Click "edit" on your Grab N Go App
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic5%4050%25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic5.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic6.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic6%4050%25.jpg" style="width:100%"/></a>
+
+**7.** Click "Upload Updated Package"  |**8.** Click "Choose File"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic7%4050%25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic7.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic8%4050%25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic8.jpg" style="width:100%"/></a> 
+
+
+**9.** Select the Zip downloaded in step 1 |**10.** Click "Upload"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic9%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic10%4050%25.jpg" style="width:100%"/></a>
+
+**11.** You should now see your updated version in the Details of the "Upload Section" |**12.** Scroll down and Click "Publish changes"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic11.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic11%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic12.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic12%4050%25.jpg" style="width:100%"/></a>
+
+
+### Force installing Grab N Go to a group of devices
+
+**13.** Lets head over to [Google Admin Console](https://admin.google.com) in our tab |**14.** Click "Device Management"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic13%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic14.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic14%4050%25.jpg" style="width:100%"/></a>
+
+**15.** Click "Chrome Management" |**16.** Scroll-down and Click "App Management" Setting
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic15.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic15%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic16.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic16%4050%25.jpg" style="width:100%"/></a>
+
+
+
+**17.** Click The Drop-Down under the type column |**18.** Select Domain Apps
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic17.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic17%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic18.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic18%4050%25.jpg" style="width:100%"/></a>
+
+
+
+**19.** Your Grab n Go App should appear. You can now Click the App|**20.** Click "User Setting"
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic19.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic19%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic20.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic20%4050%25.jpg" style="width:100%"/></a>
+
+
+
+**21.** Click The Desired OU. I just clicked the Parent OU for this |**22.** Select all the settings that you would like to see happen with the app. 
+:-------------------------:|:-------------------------:
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic21.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic21%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic22.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic22%4050%25.jpg" style="width:100%"/></a>
+
+
+
+
+## Next Steps
+Chrome Deployment is now complete! The Last step is to make sure all your App Engine application are running on the latest versions. To this go to the final step : [Verifying App Engine is running on the Current Version]((https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/app_engine_verification))
 
 
 

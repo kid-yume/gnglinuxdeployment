@@ -34,6 +34,7 @@ taken throughout the process handy for input during this process.  This will con
 
 *	Deploying the Web Application 
 *	Deploying the Chrome Application
+*	Verifying App Engine is on the latest version
 
 
 

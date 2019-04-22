@@ -24,13 +24,13 @@ returning, and monitoring these devices.
 ### Uploading Final Chrome App Build to Webstore and updating Web Application
 We will begin the final step by first opening the github URL you have saved in your [Google Keep]() or text document in a new tab. if it is already open be sure you have refreshed the page. 
 
-**1** Go to your Github URl in a new tab within your Chrome Browser  |**2.** Click "Clone or Download Button"
+**1.** Go to your Github URl in a new tab within your Chrome Browser  |**2.** Click "Clone or Download Button"
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic1.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic1%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic2.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic2%4050%25.jpg" style="width:100%"/></a>
 
 
 
-**3** Click "Download Zip" |**4.** 	Unzip this folder <br>[Windows Unzip](https://support.microsoft.com/en-us/help/4028088/windows-zip-and-unzip-files) <br> [MAC Unzip](http://osxdaily.com/2012/01/10/how-to-zip-files-in-mac-os-x/) This time around you should see a file called "loaner_chrome_app.zip" in the root.
+**3.** Click "Download Zip" |**4.** Unzip this folder <br>[Windows Unzip](https://support.microsoft.com/en-us/help/4028088/windows-zip-and-unzip-files) <br> [MAC Unzip](http://osxdaily.com/2012/01/10/how-to-zip-files-in-mac-os-x/) This time around you should see a file called "loaner_chrome_app.zip" in the root.
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic3%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic4.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic4%4050%25.jpg" style="width:100%"/></a>
 
@@ -43,7 +43,7 @@ We will begin the final step by first opening the github URL you have saved in y
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic7%4050%25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic7.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic8%4050%25.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic8.jpg" style="width:100%"/></a> 
 
 
-**9.** Select the Zip downloaded in step 1 |**10.** Click "Upload"
+**9.** Select the "loaner_chrome_app' Zip located in the root of your unzipped folder from step 1. |**10.** Click "Upload"
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic9%4050%25.jpg"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Chrome%20Deployment/pic10%4050%25.jpg" style="width:100%"/></a>
 

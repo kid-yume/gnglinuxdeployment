@@ -48,12 +48,12 @@ Follow the below steps(click on the picture for a larger image):
  
  
  
- **7.**	Under "Members" Setion. Click "Add  Memebers"        |**8.**  Should now have the member added like below
+ **7.**	Under "Members" Setion. Click "Add Members". Select and add the Super Admin        |**8.**  Should now have the member added like below
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic7%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic8.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic8%4050%25.jpg" style="width:100%"/></a> 
 
 
-**9.**	Click "Add Members". Select and add the Super Admin        |**10.**  Click "Groups" to go back to main page. 
+**9.**	Click "Groups" to go back to main page.       |**10.**  You should be back to the home page now.
 :-------------------------:|:-------------------------:
 <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic9.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic9%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/group%20creation/JPG/pic10%4050%25.jpg" style="width:100%"/></a> 
 

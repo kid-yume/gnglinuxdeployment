@@ -50,7 +50,7 @@ We will need to first type in the following URL in our address bar [https://cons
 <br></br>
 
 ### Next Steps
-You have successfully activated billing and ready to move on to [Creating a Service Account.](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/serviceaccountcreation)
+You have successfully activated billing and ready to move on to [Creating an OAuth ID](https://github.com/kid-yume/gnglinuxdeployment/tree/dev/docs/deployment/prerequisites/oauthid)
 in the prerequisites process. Remember the information of the Super Admin and if you do not have access contact your 
 network administrator for further instruction. 
 

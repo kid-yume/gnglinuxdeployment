@@ -53,7 +53,7 @@ Follow the below steps(click on the picture for a larger image):
 
 **11.**	Name this OU "Default"      |**12.**  Click "Add OU" on the "Prod" OU again to add another child
 :-------------------------:|:-------------------------:
-<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic12.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic12%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic13.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic13%4050%25.jpg" style="width:100%"/></a> 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic12.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic12%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic15.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/OU%20Creation/Re-do/jpg/pic15%4050%25.jpg" style="width:100%"/></a> 
 
 
 **13.**	Name this OU "Guest Enabled"         |**14.**  Your "Grab n Go" Structure should look like this once completed

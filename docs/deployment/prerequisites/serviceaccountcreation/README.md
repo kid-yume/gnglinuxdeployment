@@ -39,7 +39,7 @@ steps below(click on the picture for a larger image):
  
 **3.**	Click "Service Accounts"        |**4.**  Click "Create Service Account"
 :-------------------------:|:-------------------------:
-<a href=https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/createAccount.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/createAccount%4050%25.jpg" style="width:100%"/></a>
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/vmcreation/Installation/JPG/pic3.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/pic3%4050%25.jpg" style="width:100%"/></a> |  <a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/createAccount.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/createAccount%4050%25.jpg" style="width:100%"/></a>
 
 
 **5.**	Be sure to name the account and record this ID as well. You will need this later in deployment.        |**6.**  Default values are fine here. No change necessary. Click "Continue"

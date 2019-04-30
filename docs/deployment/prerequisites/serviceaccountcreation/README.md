@@ -59,9 +59,9 @@ steps below(click on the picture for a larger image):
 
 
 
-**10-5**	**BEFORE YOU CLICK SAVE!** Record the Email Address you see on this page in your [Google Keep](https://keep.google.com/u/0/)(or text document of choice). Should have the following information so far:   |
+**10-5**	**BEFORE YOU CLICK SAVE!** Record the Email Address and Service Account ID you see on this page in your [Google Keep](https://keep.google.com/u/0/)(or text document of choice). Should have the following information so far:   |
 :-------------------------:|
-<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/ServiceAccount.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Keep%20Notes/ServiceAccount.jpg" style="width:100%"/></a> | 
+<a href="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic7.jpg"><img src="https://storage.googleapis.com/gngloaner-compwalkt/Comprehensive%20Walkthrough/Service%20account%20creation/JPG/RolesAddition/pic7.jpg" style="width:100%"/></a> | 
 
 
 

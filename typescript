@@ -1,0 +1,28 @@
+Script started on Wed May  1 10:13:48 2019
+[?1034hbash-3.2$ read -p 'Enter IT Department Phone Number ' phoneNumber
+Enter IT Department Phone Number 651500      651-500-1152
+bash-3.2$ read -p 'Enter IT Department Email Address ' emailaddress
+Enter IT Department Email Address gng-admin      admin@gng-demo.com
+bash-3.2$ sed -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config.ts
+sed: 1: "/Users/Yume/loaner/loan ...": invalid command code Y
+bash-3.2$ sudo sed -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config. ts
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+bash-3.2$ sudo sed -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config.tts[A[C[C[C[C[C[C[C[C[C[3Ped -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config.ts
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+sed: 1: "/Users/Yume/loaner/loan ...": invalid command code Y
+bash-3.2$ sed -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config.ts[C[C[C[C[C[C[C[C[C[C[Cudo sed -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config.tts
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+sudo: 3 incorrect password attempts
+bash-3.2$ exit
+exit
+
+Script done on Wed May  1 10:17:29 2019

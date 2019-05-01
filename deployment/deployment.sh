@@ -737,7 +737,7 @@ case "$ContactAnswer" in
         read -p 'Enter IT Department Phone Number ' phoneNumber
         sed -i "s/{ITPHONENUMBER}/$phoneNumber/g" ~/loaner/loaner/shared/config.ts
         read -p 'Enter IT Department Email Address ' emailaddress
-        sed -i "s/{ITEMAIL}/$emailaddress/g" ~loaner/loaner/shared/config.ts
+        sed -i "s/{ITEMAIL}/$emailaddress/g" ~/loaner/loaner/shared/config.ts
         read -p 'Enter IT Department Website' websiteInfo
         sed -i "s/{ITWEBSITE}/$websiteInfo/g" ~/loaner/loaner/shared/config.ts
         DEPLOY_SCRIPT2 chrome prod $projectID

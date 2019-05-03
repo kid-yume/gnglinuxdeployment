@@ -723,7 +723,7 @@ rm -r ~/loaner/loaner/chrome_app/manifest.json
 cp -r ~/gnglinuxdeployment/deployment/manifest.json ~/loaner/loaner/chrome_app/manifest.json
 
 
-sed -i "s/{PROD_CHROME_KEY_PASTE}/$chromePubKey/g" ~/loaner/loaner/shared/config.ts
+sed -i "s,{PROD_CHROME_KEY_PASTE},$chromePubKey,g" ~/loaner/loaner/shared/config.ts
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py
 cd ~/loaner/loaner
 mv ~/loaner/loaner/chrome_app/chromedist ~/loaner/loaner/chrome_app/dist

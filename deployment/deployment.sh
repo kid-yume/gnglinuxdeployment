@@ -517,7 +517,7 @@ DEPLOY_SCRIPT2()
 	info_message "Initiating the build of the python deployment script..."
 	bazel build //loaner/deployments:deploy_impl --incompatible_disallow_filetype=false
 
-	../bazel-out/k8-py3-fastbuild/bin/loaner/deployments/deploy_impl \
+	../bazel-out/k8-fastbuild/bin/loaner/deployments/deploy_impl \
 	--loaner_path "$(pwd -P)" \
 	--app_servers "${APP_SERVERS}" \
 	--build_target "${BUILD_TARGET}" \
@@ -577,7 +577,7 @@ outputR=$?
 while [ $outputR != 0]
 do
 read -p 'Enter Recorded Service Account Email: ' serviceAcct
-if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ]
+if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
 then
     echo "JSON key exists Skipping Generating key.... "
     outputR=0;

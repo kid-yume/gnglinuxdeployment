@@ -110,6 +110,7 @@ loaner_appengine_library(
 py_appengine_binary(
     name = "runfiles",
     srcs = ["main.py"],
+    srcs_version = "PY2AND3",
     configs = [
         "action_system.yaml",
         "app.yaml",

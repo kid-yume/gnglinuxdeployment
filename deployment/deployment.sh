@@ -543,20 +543,36 @@ gcloud init
 #clear
 echo ""
 printf "\033c"
-read -p 'Enter Recorded Project ID: ' projectID
-#Replacing all the Project IDs in file 
-changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
-projectID=''$changed_val''
-sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
+if["$1" == ""]
+then
+	projectID=''$1''
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
+
+else
+	read -p 'Enter Recorded Project ID: ' projectID
+	#Replacing all the Project IDs in file 
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
+	projectID=''$changed_val''
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
+fi
 printf "\033c"
 echo ""
-read -p 'Enter Recorded Service Account Email: ' serviceAcct
-#Create the Secret File and put it into the correct folder 
-#Create the Secret File and put it into the correct folder 
-changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $serviceAcct)
-serviceAcct=''$changed_val''
+if["$2" == ""]
+then
+	read -p 'Enter Recorded Service Account Email: ' serviceAcct
+	#Create the Secret File and put it into the correct folder 
+	#Create the Secret File and put it into the correct folder 
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $serviceAcct)
+	serviceAcct=''$changed_val''
+else
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $2)
+	serviceAcct=''$changed_val''
+fi
+
 if [ -e ~/client-secret.json ]
 then
 	echo "Coppying over to prevent. Further creation of this files. Limiit does exists"
@@ -576,32 +592,65 @@ fi
 outputR=$?
 while [ $outputR != 0]
 do
-read -p 'Enter Recorded Service Account Email: ' serviceAcct
-if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
+if["$3" == ""]
 then
-    echo "JSON key exists Skipping Generating key.... "
-    outputR=0;
+	read -p 'Enter Recorded Service Account Email: ' serviceAcct
+	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
+	then
+	    echo "JSON key exists Skipping Generating key.... "
+	    outputR=0;
+	else
+	    echo "JSON key does not exists Attempting to Generate key again...."
+	    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
+	    outputR=$?
+	fi
 else
-    echo "JSON key does not exists Attempting to Generate key again...."
-    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
-    outputR=$?
-fi
+	serviceAcct="$3"
+	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
+	then
+	    echo "JSON key exists Skipping Generating key.... "
+	    outputR=0;
+	else
+	    echo "JSON key does not exists Attempting to Generate key again...."
+	    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
+	    outputR=$?
+	fi
 done
 #Will replace {APP Domain in}
 
+
+
+
+
+
 printf "\033c"
 echo ""
-read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
-sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
-domainName=''$changed_val''
+if["$4" == ""]
+then
+	read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
+	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
+	domainName=''$changed_val''
+else
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
+	domainName=''$changed_val''
+fi
+
 printf "\033c"
  #THIS WILL REPLACE {ADMIN_EMAIL}
 echo ""
-read -p 'Enter the Super Admin Email: ' adminEmail
-sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $adminEmail)
-adminEmail="${changed_val}"
+
+if["$5" == ""]
+then
+	read -p 'Enter the Super Admin Email: ' adminEmail
+	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $adminEmail)
+	adminEmail="${changed_val}"
+else
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
+	adminEmail="${changed_val}"
+fi
+
 #read -p "Does this value contain leading or trailing space$adminEmail" tester
 #This will repalce {SEA} (send emails as )
 sea="no-reply@$domainName"

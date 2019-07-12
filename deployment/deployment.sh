@@ -711,7 +711,13 @@ gcloud services enable admin.googleapis.com
 #gcloud services enable console
 gcloud services enable cloudbuild.googleapis.com
 ## COULD NOT CALL A SCRIPT WITHIN A SCRIPT AND SEND THE PERMISSIONS OVER. HAD TO CONVERT TO FUNCTIION
-DEPLOY_SCRIPT web prod $projectID
+if [ $projectID != "" ]
+then
+	DEPLOY_SCRIPT web prod $projectID
+else
+	DEPLOY_SCRIPT web prod $1
+	
+
 #sudo bash deployments/deploy.sh web prod
 cd ~/loaner/loaner
 sudo npm install

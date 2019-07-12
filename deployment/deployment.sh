@@ -616,6 +616,7 @@ else
 	    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
 	    outputR=$?
 	fi
+fi
 done
 #Will replace {APP Domain in}
 

@@ -545,7 +545,8 @@ echo ""
 printf "\033c"
 if [''$1'' == ""]
 then
-	projectID=''$1''
+	echo "worked"
+	projectID= "$1"
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh

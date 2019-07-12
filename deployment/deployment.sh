@@ -543,7 +543,7 @@ gcloud init
 #clear
 echo ""
 printf "\033c"
-if["$1" == ""]
+if ["$1" == ""]
 then
 	projectID=''$1''
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
@@ -561,7 +561,7 @@ else
 fi
 printf "\033c"
 echo ""
-if["$2" == ""]
+if ["$2" == ""]
 then
 	read -p 'Enter Recorded Service Account Email: ' serviceAcct
 	#Create the Secret File and put it into the correct folder 
@@ -592,7 +592,7 @@ fi
 outputR=$?
 while [ $outputR != 0]
 do
-if["$3" == ""]
+if ["$3" == ""]
 then
 	read -p 'Enter Recorded Service Account Email: ' serviceAcct
 	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
@@ -625,7 +625,7 @@ done
 
 printf "\033c"
 echo ""
-if["$4" == ""]
+if ["$4" == ""]
 then
 	read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
 	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
@@ -640,7 +640,7 @@ printf "\033c"
  #THIS WILL REPLACE {ADMIN_EMAIL}
 echo ""
 
-if["$5" == ""]
+if ["$5" == ""]
 then
 	read -p 'Enter the Super Admin Email: ' adminEmail
 	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py

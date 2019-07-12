@@ -664,14 +664,30 @@ sed -i "s/{SUPERADMINS_GROUP}/$sag/g" ~/gnglinuxdeployment/deployment/loaner/loa
 printf "\033c"
 sleep 1
 echo ""
-read -p 'Enter the recorded Oauth ID:  ' oauthID 
-sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+if [ "$6" == "" ]
+then
+	read -p 'Enter the recorded Oauth ID:  ' oauthID 
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+else
+	oauthID="$6"
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+fi
+
 printf "\033c"
 sleep 1
 echo ""
-read -p 'Enter the recorded Billing Account ID  ' billingID
-gcloud beta billing projects link $projectID --billing-account $billingID
+if [ "$7" == "" ]
+then
+	read -p 'Enter the recorded Billing Account ID  ' billingID
+	gcloud beta billing projects link $projectID --billing-account $billingID
+else
+	billingID="$6"
+	gcloud beta billing projects link $projectID --billing-account $billingID
+fi
+
+
 #Giving initial BootStrap value true
 sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 

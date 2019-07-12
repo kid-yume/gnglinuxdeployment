@@ -716,6 +716,7 @@ then
 	DEPLOY_SCRIPT web prod $projectID
 else
 	DEPLOY_SCRIPT web prod $1
+fi
 	
 
 #sudo bash deployments/deploy.sh web prod
@@ -800,7 +801,13 @@ sed -i "s,{PROD_CHROME_KEY_PASTE},$chromePubKey,g" ~/loaner/loaner/shared/config
 sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py
 cd ~/loaner/loaner
 mv ~/loaner/loaner/chrome_app/chromedist ~/loaner/loaner/chrome_app/dist
-DEPLOY_SCRIPT2 web prod $projectID
+
+if [ $projectID != "" ]
+then
+	DEPLOY_SCRIPT2 web prod $projectID
+else
+	DEPLOY_SCRIPT2 web prod $1
+fi
 
 printf "\033c"
 read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer

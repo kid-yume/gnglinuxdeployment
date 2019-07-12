@@ -541,6 +541,13 @@ gcloud init
 #Afterwards lets start collecting the information we need from user input used https://stackoverflow.com/questions/18544359/how-to-read-user-input-into-a-variable-in-bash
 #Will redplace {PRODID}
 #clear
+if [ "$1" == "" ]
+then
+	echo "workd"
+else
+	echo "nah"
+fi
+
 echo ""
 printf "\033c"
 read -p 'Enter Recorded Project ID: ' projectID

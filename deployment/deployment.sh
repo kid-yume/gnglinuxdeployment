@@ -542,8 +542,8 @@ gcloud init
 #Will redplace {PRODID}
 #clear
 
-echo ""
-printf "\033c"
+#echo ""
+#printf "\033c"
 if [ $1 -eq "" ]
 then
 	echo "workd"

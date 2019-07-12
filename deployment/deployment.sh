@@ -544,7 +544,7 @@ gcloud init
 
 echo ""
 printf "\033c"
-if [ "$1" == "" ]
+if [ $1 == "" ]
 then
 	echo "workd"
 else

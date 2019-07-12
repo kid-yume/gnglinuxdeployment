@@ -548,6 +548,7 @@ then
 	echo "gogo"
 else
 	echo "$1"
+fi
 
 read -p 'Enter Recorded Project ID: ' projectID
 #Replacing all the Project IDs in file 

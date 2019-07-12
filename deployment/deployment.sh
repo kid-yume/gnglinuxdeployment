@@ -543,6 +543,7 @@ gcloud init
 #clear
 echo ""
 printf "\033c"
+if [ "$1" == "" ]
 read -p 'Enter Recorded Project ID: ' projectID
 #Replacing all the Project IDs in file 
 changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)

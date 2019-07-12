@@ -547,6 +547,7 @@ if [ $1 != "" ]
 then
 	echo "worked"
 	projectID= "$1"
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
@@ -630,12 +631,13 @@ echo ""
 if [ "$4" == "" ]
 then
 	read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
-	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
 	domainName=''$changed_val''
+	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 else
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
 	domainName=''$changed_val''
+	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 fi
 
 printf "\033c"
@@ -645,12 +647,13 @@ echo ""
 if [ "$5" == "" ]
 then
 	read -p 'Enter the Super Admin Email: ' adminEmail
-	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $adminEmail)
 	adminEmail="${changed_val}"
+	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 else
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
 	adminEmail="${changed_val}"
+	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 fi
 
 #read -p "Does this value contain leading or trailing space$adminEmail" tester

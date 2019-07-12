@@ -543,7 +543,7 @@ gcloud init
 #clear
 echo ""
 printf "\033c"
-if [["$1" == ""]];
+if [$1 -eq ""]
 then
 	echo "worked"
 	projectID= "$1"

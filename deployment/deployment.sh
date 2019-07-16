@@ -597,7 +597,7 @@ do
 if [ "$3" == "" ]
 then
 	read -p 'Enter Recorded Service Account Email: ' serviceAcct
-	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
+	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ] || [ -e ~/client-secret.json ]
 	then
 	    echo "JSON key exists Skipping Generating key.... "
 	    outputR=0;
@@ -608,7 +608,7 @@ then
 	fi
 else
 	serviceAcct="$3"
-	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json] || [ -e ~/client-secret.json]
+	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ] || [ -e ~/client-secret.json ]
 	then
 	    echo "JSON key exists Skipping Generating key.... "
 	    outputR=0;

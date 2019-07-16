@@ -546,7 +546,7 @@ printf "\033c"
 if [ $1 != "" ] 
 then
 	echo "worked"
-	projectID="${changed_val}"
+	projectID= "$1"
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
@@ -556,7 +556,7 @@ else
 	read -p 'Enter Recorded Project ID: ' projectID
 	#Replacing all the Project IDs in file 
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
-	projectID="${changed_val}"
+	projectID=''$changed_val''
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
@@ -636,7 +636,7 @@ then
 	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 else
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
-	domainName="${changed_val}"
+	domainName=''$changed_val''
 	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 fi
 

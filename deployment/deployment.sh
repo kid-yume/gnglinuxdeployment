@@ -1,7 +1,7 @@
 
 #!/bin/bash
-# Google Automator 
-# 
+# Google Automator
+#
 
 using_git_first_time()
 {
@@ -10,7 +10,7 @@ using_git_first_time()
 	email=$2
 	git config --global user.name "GNG Deployment"
 	git config --global user.email email
-	git init 
+	git init
 	git add .
 	git commit -m "Checking if flip worked"
 	git remote add origin "$gbUrl"
@@ -334,7 +334,7 @@ DEPLOY_SCRIPT2()
 	# The app server definitions in a comma separated list.
 	# NOTE: All of the deployment environments defined above need to be in this
 	# list, should you remove one from above so should you remove it from here.
-	
+
 
 	# Displays an error message and exits.
 	# @param {string} the error message to display before exit.
@@ -532,18 +532,26 @@ DEPLOY_SCRIPT2()
 #Replacing Strings within a string
 #firstString="I love Suzi and Marry"
 #secondString="Sara"
-#echo "${firstString/Suzi/$secondString}"    
+#echo "${firstString/Suzi/$secondString}"
 #portionToBlank=""
 #read -p 'Paste Public Key here: ' ready
-#echo "${ready//$portionToReplace}"    
-#walk user through set up. 
-gcloud init 
+#echo "${ready//$portionToReplace}"
+#walk user through set up.
+gcloud init
+arr=()
+join()
+{
+  local IFS="$1";
+  shift;
+  echo "$*";
+
+}
 #Afterwards lets start collecting the information we need from user input used https://stackoverflow.com/questions/18544359/how-to-read-user-input-into-a-variable-in-bash
 #Will redplace {PRODID}
 #clear
 echo ""
 printf "\033c"
-if [ $1 != "" ] 
+if [ $1 != "" ]
 then
 	echo "worked"
 	projectID= "$1"
@@ -554,7 +562,7 @@ then
 
 else
 	read -p 'Enter Recorded Project ID: ' projectID
-	#Replacing all the Project IDs in file 
+	#Replacing all the Project IDs in file
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
 	projectID=''$changed_val''
 	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
@@ -566,8 +574,8 @@ echo ""
 if [ "$2" == "" ]
 then
 	read -p 'Enter Recorded Service Account Email: ' serviceAcct
-	#Create the Secret File and put it into the correct folder 
-	#Create the Secret File and put it into the correct folder 
+	#Create the Secret File and put it into the correct folder
+	#Create the Secret File and put it into the correct folder
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $serviceAcct)
 	serviceAcct=''$changed_val''
 else
@@ -581,7 +589,7 @@ then
 	cp -r ~/client-secret.json gnglinuxdeployment/deployment/loaner/loaner/web_app/
 else
 	echo "no file."
-fi 
+fi
 
 if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ]
 then
@@ -628,11 +636,27 @@ done
 
 printf "\033c"
 echo ""
-if [ "$4" == "" ]
+if [[ "$4" == "" ]]
 then
 	read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
 	domainName=''$changed_val''
+	read -p 'Do you have another Domain?(Y/N) :' mAnswer
+  case "$mAnswer" in
+      [yY][eE][sS]|[yY])
+          arr+=("$domainName")
+          while [[ "$mAnswer" == "Y" ||  "$mAnswer" == "y" ||  "$mAnswer" == "yes" ||  "$mAnswer" == "YES" ]]
+          do
+          read -p 'Enter Domain: ' domainName
+          arr+=("$domainName")
+          read -p 'Do you have another Domain?(Y/N) :' mAnswer
+          done
+					domainName=$(join , ${arr[@]})
+          ;;
+      *)
+
+          ;;
+  esac
 	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 else
 	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
@@ -669,7 +693,7 @@ sleep 1
 echo ""
 if [ "$6" == "" ]
 then
-	read -p 'Enter the recorded Oauth ID:  ' oauthID 
+	read -p 'Enter the recorded Oauth ID:  ' oauthID
 	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 else
@@ -698,7 +722,7 @@ sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_
 #read -p 'Do you have a git Repository you are using? *Highly Recommended (Y/N)' response
 #cp -r gnglinuxdeployment/deployment/loaner ~/
 #cd ~/loaner
-#bash deployments/deploy.sh web prod doing the Github Stuff 
+#bash deployments/deploy.sh web prod doing the Github Stuff
 #Github
 printf "\033c"
 sleep 1
@@ -720,7 +744,7 @@ then
 else
 	DEPLOY_SCRIPT web prod $1
 fi
-	
+
 
 #sudo bash deployments/deploy.sh web prod
 cd ~/loaner/loaner
@@ -741,8 +765,8 @@ sudo rm -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.j
 bootstrapV="BOOTSTRAP_ENABLED = True"
 bootstrapF="BOOTSTRAP_ENABLED = False"
 bootstrapT="BOOTSTRAP_ENABLED = True"
-case "$responded" in 
-    [yY][eE][sS]|[yY]) 
+case "$responded" in
+    [yY][eE][sS]|[yY])
         sed -i "s/$bootstrapV/$bootstrapF/g" ~/loaner/loaner/web_app/constants.py
         #DEPLOY_SCRIPT2 web prod $projectID
         ;;
@@ -753,7 +777,7 @@ case "$responded" in
 		exit 1
         ;;
 esac
-#rename github distrubution folder for chrome. 
+#rename github distrubution folder for chrome.
 mv ~/loaner/loaner/chrome_app/dist ~/loaner/loaner/chrome_app/chromedist
 printf "\033c"
 read -p 'Enter the recorded Github URL:  ' gitUrl
@@ -765,8 +789,8 @@ gitNumber=1
 while [ $gitNumber == 1 ]
 do
 read -p 'Was Upload Succesful? (Y)/(N)  ' gitAnswer
-case "$gitAnswer" in 
-    [yY][eE][sS]|[yY]) 
+case "$gitAnswer" in
+    [yY][eE][sS]|[yY])
         gitNumber=0
         ;;
     *)
@@ -815,8 +839,8 @@ fi
 printf "\033c"
 read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer
 cd ~/loaner/loaner
-case "$ContactAnswer" in 
-    [yY][eE][sS]|[yY]) 
+case "$ContactAnswer" in
+    [yY][eE][sS]|[yY])
         read -p 'Enter IT Department Phone Number ' phoneNumber
         sed -i "s/{ITPHONENUMBER}/$phoneNumber/g" ~/loaner/loaner/shared/config.ts
         read -p 'Enter IT Department Email Address ' emailaddress

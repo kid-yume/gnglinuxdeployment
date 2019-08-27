@@ -648,8 +648,8 @@ sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/lo
 #Project ID insert
 sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-#Admin Account With privleges insert
 sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
+#Admin Account With privleges insert
 sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
 #Send Email As Insert
 sed -i "s/{SEA}/$sea/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
@@ -805,5 +805,7 @@ echo "Open $gitUrl in another tab to finish your deployment"
 
 
 
-cd ~/
+cd ~/ gnglinuxdeployment/deployment/deployment.sh "grab-n-go-239222" "114430981548311974318" "updatedgrabngo@grab-n-go-239222.iam.gserviceaccount.com" "gng-demo.com" "gngadmin@gng-demo.com" "407651661683-vj2v2gqil041at2hnobm48tmu2mbu66o.apps.googleusercontent.com" "014847-8B82D2-11EF27"
 #
+
+ gnglinuxdeployment/deployment/deployment.sh --adminEmail "gngadmin@gng-demo.com" --projectID "grab-n-go-239222" --serviceAcct "updatedgrabngo@grab-n-go-239222.iam.gserviceaccount.com" "gng-demo.com" --domainName "gngadmin@gng-demo.com" --oauthID "407651661683-vj2v2gqil041at2hnobm48tmu2mbu66o.apps.googleusercontent.com" 

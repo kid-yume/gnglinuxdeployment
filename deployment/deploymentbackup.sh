@@ -3,9 +3,6 @@
 # Google Automator
 #
 
-
-
-
 using_git_first_time()
 {
 	cd ~/loaner
@@ -532,66 +529,6 @@ DEPLOY_SCRIPT2()
 
 
 }
-
-
-POSITIONAL=()
-projectID=""; serviceAcct=""; domainName=""; adminEmail=""; oauthID="";
-
-while [[ $# -gt 0 ]]
-do
-key="$1"
-
-case $key in
-    -p|--projectID)
-    projectID="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -s|--serviceAccount)
-    serviceAcct="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -d|--domainName)
-    domainName="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -sa|--superAdmin)
-    adminEmail="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -o|--oAuth)
-    oauthID="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -se|--sendAsEmail)
-    sea="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    -sg|--adminGroup)
-    sag="$2"
-    shift # past argument
-    shift # past value
-    ;;
-    *)    # unknown option
-    POSITIONAL+=("$1") # save it in an array for later
-    shift # past argument
-    ;;
-esac
-done
-set -- "${POSITIONAL[@]}" # restore positional parameters
-
-if [[ "$projectID" == "" || "$serviceAcct" == "" || "$domainName" == "" || "$adminEmail" == "" || "$oauthID" == "" ]]; then
-  echo "Please go back and make sure you have the following switches: --projectID --serviceAcct --domainName --adminEmail --oauthID --sendAsEmail, and --adminGroup"
-  exit 1
-fi
-
-sea="no-reply@$domainName"
-sag="technical-admins@$domainName"
 #Replacing Strings within a string
 #firstString="I love Suzi and Marry"
 #secondString="Sara"
@@ -614,53 +551,37 @@ join()
 #clear
 echo ""
 printf "\033c"
+if [ $1 != "" ]
+then
+	echo "worked"
+	projectID= "$1"
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
 
-
-projectID=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
-serviceAcct=$(Remove_LEAVE_AND_TRAIL_SPACE $serviceAcct)
-domainName=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
-adminEmail=$(Remove_LEAVE_AND_TRAIL_SPACE $adminEmail)
-oauthID=$(Remove_LEAVE_AND_TRAIL_SPACE $oauthID)
-sea=$(Remove_LEAVE_AND_TRAIL_SPACE $sea)
-sag=$(Remove_LEAVE_AND_TRAIL_SPACE $sag)
-
-
-
-read -p 'Do you have additional Domains?(Y/N) :' mAnswer
-case "$mAnswer" in
-    [yY][eE][sS]|[yY])
-        arr+=("$domainName")
-        while [[ "$mAnswer" == "Y" ||  "$mAnswer" == "y" ||  "$mAnswer" == "yes" ||  "$mAnswer" == "YES" ]]
-        do
-        read -p 'Enter Domain: ' domainName
-        arr+=("$domainName")
-        read -p 'Do you have another Domain?(Y/N) :' mAnswer
-        done
-        domainName=$(join , ${arr[@]})
-        ;;
-    *)
-
-        ;;
-esac
-
-#Doman Name inserts
-sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-#Project ID insert
-sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-#Admin Account With privleges insert
-sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
-sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-#Send Email As Insert
-sed -i "s/{SEA}/$sea/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-#Super Admin Group Email Insert
-sed -i "s/{SUPERADMINS_GROUP}/$sag/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-#OAuth ID Inse
-sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.pyrts
-sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
-#Giving initial BootStrap value true
-sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
-
+else
+	read -p 'Enter Recorded Project ID: ' projectID
+	#Replacing all the Project IDs in file
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $projectID)
+	projectID=''$changed_val''
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+	sed -i "s/{PRODID}/$projectID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/deployments/deploy.sh
+fi
+printf "\033c"
+echo ""
+if [ "$2" == "" ]
+then
+	read -p 'Enter Recorded Service Account Email: ' serviceAcct
+	#Create the Secret File and put it into the correct folder
+	#Create the Secret File and put it into the correct folder
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $serviceAcct)
+	serviceAcct=''$changed_val''
+else
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $2)
+	serviceAcct=''$changed_val''
+fi
 
 if [ -e ~/client-secret.json ]
 then
@@ -668,14 +589,145 @@ then
 	cp -r ~/client-secret.json gnglinuxdeployment/deployment/loaner/loaner/web_app/
 else
 	echo "no file."
-  echo "JSON key does not exists Generating key...."
-  gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
-  outputR=$?
+fi
+
+if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ]
+then
+    echo "JSON key exists Skipping Generating key.... "
+    sleep 2
+else
+    echo "JSON key does not exists Generating key...."
+    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
+fi
+outputR=$?
+while [ $outputR != 0]
+do
+if [ "$3" == "" ]
+then
+	read -p 'Enter Recorded Service Account Email: ' serviceAcct
+	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ] || [ -e ~/client-secret.json ]
+	then
+	    echo "JSON key exists Skipping Generating key.... "
+	    outputR=0;
+	else
+	    echo "JSON key does not exists Attempting to Generate key again...."
+	    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
+	    outputR=$?
+	fi
+else
+	serviceAcct="$3"
+	if [ -e ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ] || [ -e ~/client-secret.json ]
+	then
+	    echo "JSON key exists Skipping Generating key.... "
+	    outputR=0;
+	else
+	    echo "JSON key does not exists Attempting to Generate key again...."
+	    gcloud iam service-accounts keys create ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json --iam-account $serviceAcct
+	    outputR=$?
+	fi
+fi
+done
+#Will replace {APP Domain in}
+
+
+
+
+
+
+printf "\033c"
+echo ""
+if [[ "$4" == "" ]]
+then
+	read -p 'Enter Domain with Chrome Enterprised Enabled(example.com): ' domainName
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $domainName)
+	domainName=''$changed_val''
+	read -p 'Do you have another Domain?(Y/N) :' mAnswer
+  case "$mAnswer" in
+      [yY][eE][sS]|[yY])
+          arr+=("$domainName")
+          while [[ "$mAnswer" == "Y" ||  "$mAnswer" == "y" ||  "$mAnswer" == "yes" ||  "$mAnswer" == "YES" ]]
+          do
+          read -p 'Enter Domain: ' domainName
+          arr+=("$domainName")
+          read -p 'Do you have another Domain?(Y/N) :' mAnswer
+          done
+					domainName=$(join , ${arr[@]})
+          ;;
+      *)
+
+          ;;
+  esac
+	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+else
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
+	domainName=''$changed_val''
+	sed -i "s/{APP_DOMAINS}/$domainName/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+fi
+
+printf "\033c"
+ #THIS WILL REPLACE {ADMIN_EMAIL}
+echo ""
+
+if [ "$5" == "" ]
+then
+	read -p 'Enter the Super Admin Email: ' adminEmail
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $adminEmail)
+	adminEmail="${changed_val}"
+	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+else
+	changed_val=$(Remove_LEAVE_AND_TRAIL_SPACE $4)
+	adminEmail="${changed_val}"
+	sed -i "s/{ADMIN_EMAIL}/$adminEmail/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+fi
+
+#read -p "Does this value contain leading or trailing space$adminEmail" tester
+#This will repalce {SEA} (send emails as )
+sea="no-reply@$domainName"
+sed -i "s/{SEA}/$sea/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+#this will replace {SUPERADMINS_GROUP}technical-admins@example.com
+sag="technical-admins@$domainName"
+sed -i "s/{SUPERADMINS_GROUP}/$sag/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+#THIS WILL REPLACE {OAUTH2ID}
+printf "\033c"
+sleep 1
+echo ""
+if [ "$6" == "" ]
+then
+	read -p 'Enter the recorded Oauth ID:  ' oauthID
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
+else
+	oauthID="$6"
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+	sed -i "s/{OAUTH2ID}/$oauthID/g" ~/gnglinuxdeployment/deployment/loaner/loaner/shared/config.ts
 fi
 
 printf "\033c"
 sleep 1
+echo ""
+if [ "$7" == "" ]
+then
+	read -p 'Enter the recorded Billing Account ID  ' billingID
+	gcloud beta billing projects link $projectID --billing-account $billingID
+else
+	billingID="$6"
+	gcloud beta billing projects link $projectID --billing-account $billingID
+fi
+
+
+#Giving initial BootStrap value true
+sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/constants.py
+
+#starting the Git Repository upload option
+#read -p 'Do you have a git Repository you are using? *Highly Recommended (Y/N)' response
+#cp -r gnglinuxdeployment/deployment/loaner ~/
+#cd ~/loaner
+#bash deployments/deploy.sh web prod doing the Github Stuff
+#Github
+printf "\033c"
+sleep 1
 echo "Upload Completed. Now preparring to deploy Grab n Go!...Please wait."
+sleep 5
 printf "\033c"
 cp -r gnglinuxdeployment/deployment/loaner ~/
 cd ~/loaner
@@ -686,7 +738,13 @@ gcloud services enable admin.googleapis.com
 #gcloud services enable console
 gcloud services enable cloudbuild.googleapis.com
 ## COULD NOT CALL A SCRIPT WITHIN A SCRIPT AND SEND THE PERMISSIONS OVER. HAD TO CONVERT TO FUNCTIION
-DEPLOY_SCRIPT web prod $projectID
+if [ $projectID != "" ]
+then
+	DEPLOY_SCRIPT web prod $projectID
+else
+	DEPLOY_SCRIPT web prod $1
+fi
+
 
 #sudo bash deployments/deploy.sh web prod
 cd ~/loaner/loaner
@@ -771,8 +829,12 @@ sed -i "s/{CHROMEOAUTH2ID}/$cOauthId/g" ~/loaner/loaner/web_app/constants.py
 cd ~/loaner/loaner
 mv ~/loaner/loaner/chrome_app/chromedist ~/loaner/loaner/chrome_app/dist
 
-DEPLOY_SCRIPT2 web prod $projectID
-
+if [ $projectID != "" ]
+then
+	DEPLOY_SCRIPT2 web prod $projectID
+else
+	DEPLOY_SCRIPT2 web prod $1
+fi
 
 printf "\033c"
 read -p 'Would you like to configure the IT Department contact information now? This will be information that will be displayed in a event users are having issues using the application and need help' ContactAnswer
@@ -806,4 +868,6 @@ echo "Open $gitUrl in another tab to finish your deployment"
 
 
 cd ~/
-#
+
+
+#git clone $

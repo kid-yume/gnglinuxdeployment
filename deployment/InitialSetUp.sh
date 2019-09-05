@@ -20,7 +20,7 @@ sudo apt-get remove bazel
 sudo apt-get install -y --no-install-recommends \
 bash-completion \
 g++ \
-zliblg-dev
+zlib1g-dev
 sudo curl -LO "https://github.com/bazelbuild/bazel/releases/download/0.19.0/bazel_0.19.0-linux-x86_64.deb"
 sudo dpkg -i bazel_*.deb
 echo "Bazel Installed"

@@ -677,7 +677,11 @@ printf "\033c"
 sleep 1
 echo "Upload Completed. Now preparring to deploy Grab n Go!...Please wait."
 printf "\033c"
-cp -r gnglinuxdeployment/deployment/loaner ~/
+if [ -e ~/loaner ]
+then
+	cp -r gnglinuxdeployment/deployment/loaner ~/
+fi
+
 cd ~/loaner
 cd ~/loaner/loaner
 sudo npm install --unsafe-perm node-sass@latest

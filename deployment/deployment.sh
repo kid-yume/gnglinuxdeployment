@@ -679,6 +679,8 @@ echo "Upload Completed. Now preparring to deploy Grab n Go!...Please wait."
 printf "\033c"
 if [ -e ~/loaner ]
 then
+	echo "not copying loaner"
+else 
 	cp -r gnglinuxdeployment/deployment/loaner ~/
 fi
 

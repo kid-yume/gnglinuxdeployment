@@ -731,7 +731,13 @@ case "$responded" in
         ;;
 esac
 #rename github distrubution folder for chrome.
-mv ~/loaner/loaner/chrome_app/dist ~/loaner/loaner/chrome_app/chromedist
+if [ -e ~/loaner/loaner/chrome_app/chromedist ]
+then
+	echo "no need to move over "
+else
+	mv ~/loaner/loaner/chrome_app/dist ~/loaner/loaner/chrome_app/chromedist
+fi
+
 printf "\033c"
 read -p 'Enter the recorded Github URL:  ' gitUrl
 read -p 'Enter the recorded Github Email:  ' gitEmail

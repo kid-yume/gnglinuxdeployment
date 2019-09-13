@@ -665,7 +665,7 @@ sed -i "s/{BOOTSTRAP}/True/g" ~/gnglinuxdeployment/deployment/loaner/loaner/web_
 if [ -e ~/client-secret.json ]
 then
 	echo "Coppying over to prevent. Further creation of this files. Limiit does exists"
-	cp -r ~/client-secret.json gnglinuxdeployment/deployment/loaner/loaner/web_app/
+	cp -r ~/client-secret.json ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/
 else
 	echo "no file."
   echo "JSON key does not exists Generating key...."
@@ -680,8 +680,8 @@ printf "\033c"
 if [ -e ~/loaner ]
 then
 	echo "not copying loaner"
-else 
-	cp -r gnglinuxdeployment/deployment/loaner ~/
+else
+	cp -r ~/gnglinuxdeployment/deployment/loaner ~/
 fi
 
 cd ~/loaner
@@ -708,8 +708,13 @@ gcloud app browse --launch-browser
 
 read -p 'Did the bootstrap complete? Press (Y)/(N) to continue ' responded
 #copying and deleting client-secret before upload to cloud!
-cp -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ~/
-sudo rm -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json
+if [ -e ~/client-secret.json ]
+then
+	echo "no need to copy over "
+else
+	cp -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json ~/
+	sudo rm -r ~/gnglinuxdeployment/deployment/loaner/loaner/web_app/client-secret.json
+fi
 bootstrapV="BOOTSTRAP_ENABLED = True"
 bootstrapF="BOOTSTRAP_ENABLED = False"
 bootstrapT="BOOTSTRAP_ENABLED = True"

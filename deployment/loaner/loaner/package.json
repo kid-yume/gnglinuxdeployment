@@ -88,7 +88,7 @@
     "uglifyjs-webpack-plugin": "1.1.5",
     "vrsource-tslint-rules": "5.1.0",
     "webpack": "3.11.0",
-    "webpack-dev-server": "3.1.10",
+    "webpack-dev-server": "3.9.0",
     "webpack-merge": "4.1.0"
   }
 }

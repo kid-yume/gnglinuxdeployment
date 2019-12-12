@@ -130,8 +130,12 @@ class BaseModel(ndb.Model):
         result = err.results[0]
         if result.code == search.OperationResult.TRANSIENT_ERROR:
           index.put(doc)
+      except (search.Error, apiproxy_errors.DeadlineExceededError):
+        logging.info("Found Error")
+        logging.error(_PUT_DOC_ERR_MSG, doc, index)
       except (search.Error, apiproxy_errors.OverQuotaError):
         logging.error(_PUT_DOC_ERR_MSG, doc, index)
+        
 
   @classmethod
   def get_doc_by_id(cls, doc_id):

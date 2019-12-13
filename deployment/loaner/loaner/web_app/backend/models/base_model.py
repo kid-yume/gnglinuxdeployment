@@ -31,6 +31,7 @@ from google.appengine.api import search
 from google.appengine.api import taskqueue
 from google.appengine.ext import ndb
 from google.appengine.runtime import apiproxy_errors
+from google.appengine.runtime import DeadlineExceededError
 
 from loaner.web_app.backend.lib import utils
 
@@ -130,6 +131,15 @@ class BaseModel(ndb.Model):
         result = err.results[0]
         if result.code == search.OperationResult.TRANSIENT_ERROR:
           index.put(doc)
+      except (search.Error, DeadlineExceededError):
+        logging.info("Found Error - DE")
+        logging.error(_PUT_DOC_ERR_MSG, doc, index)
+      except DeadlineExceededError:
+        logging.info("Found Error - DE")
+        logging.error(_PUT_DOC_ERR_MSG, doc, index)
+      except apiproxy_errors.DeadlineExceededError
+        logging.info("Found Error")
+        logging.error(_PUT_DOC_ERR_MSG, doc, index)
       except (search.Error, apiproxy_errors.DeadlineExceededError):
         logging.info("Found Error")
         logging.error(_PUT_DOC_ERR_MSG, doc, index)

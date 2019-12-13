@@ -132,13 +132,13 @@ class BaseModel(ndb.Model):
         if result.code == search.OperationResult.TRANSIENT_ERROR:
           index.put(doc)
       except (search.Error, DeadlineExceededError):
-        logging.info("Found Error - DE")
+        logging.info("Found Error - DE/SE")
         logging.error(_PUT_DOC_ERR_MSG, doc, index)
       except DeadlineExceededError:
         logging.info("Found Error - DE")
         logging.error(_PUT_DOC_ERR_MSG, doc, index)
       except apiproxy_errors.DeadlineExceededError
-        logging.info("Found Error")
+        logging.info("Found Error BY")
         logging.error(_PUT_DOC_ERR_MSG, doc, index)
       except (search.Error, apiproxy_errors.DeadlineExceededError):
         logging.info("Found Error")

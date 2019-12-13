@@ -148,6 +148,8 @@ class BaseModel(ndb.Model):
         logging.error(_PUT_DOC_ERR_MSG, doc, index)
       except (search.Error, apiproxy_errors.OverQuotaError):
         logging.error(_PUT_DOC_ERR_MSG, doc, index)
+      finally:
+        pass
         
 
   @classmethod

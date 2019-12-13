@@ -36,6 +36,11 @@ from google.appengine.api import urlfetch
 
 urlfetch.set_default_fetch_deadline(60)
 
+from google.appengine.api import logservice
+logservice.AUTOFLUSH_EVERY_SECONDS = None
+logservice.AUTOFLUSH_EVERY_BYTES = None
+logservice.AUTOFLUSH_EVERY_LINES = 1
+
 from loaner.web_app.backend.lib import utils
 
 _PUT_DOC_ERR_MSG = 'Error putting a document (%s) into the index (%s).'

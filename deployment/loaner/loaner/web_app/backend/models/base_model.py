@@ -32,6 +32,9 @@ from google.appengine.api import taskqueue
 from google.appengine.ext import ndb
 from google.appengine.runtime import apiproxy_errors
 from google.appengine.runtime import DeadlineExceededError
+from google.appengine.api import urlfetch
+
+urlfetch.set_default_fetch_deadline(60)
 
 from loaner.web_app.backend.lib import utils
 
@@ -101,6 +104,12 @@ class BaseModel(ndb.Model):
       for entity in entities:
         try:
           search_documents.append(entity.to_document())
+        except DeadlineExceededError:
+          logging.info("de")
+          logging.error(_CREATE_DOC_ERR_MSG, entity.key)
+        except apiproxy_errors.DeadlineExceededError
+          logging.info("deapi")
+          logging.error(_CREATE_DOC_ERR_MSG, entity.key)
         except DocumentCreationError:
           logging.error(_CREATE_DOC_ERR_MSG, entity.key)
       cls.add_docs_to_index(search_documents)

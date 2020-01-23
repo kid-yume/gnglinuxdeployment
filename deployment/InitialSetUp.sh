@@ -1,9 +1,3 @@
-#!/bin/bash
-# Google Automator 
-#  Update Portion to test for? 
-
-#he path: /home/rbrown/loaner/loaner/web_app/frontend
-#system updates, installed package updates, and secuirty fixes
 clear
 sudo apt-get update
 sudo apt-get upgrade
